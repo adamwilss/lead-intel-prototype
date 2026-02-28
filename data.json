@@ -3,24 +3,24 @@
     "id": 1,
     "company": "Ford",
     "industry": "Automotive",
-    "trigger": "Enterprise transformation for electrification",
-    "score": 8.5,
+    "trigger": "Enterprise transformation and AI solutions",
+    "score": 9,
     "tier": "high",
-    "employees": "20000+",
-    "description": "Ford is focusing on electrification and AI solutions, indicating a need for integrated systems to manage complex operations. Transforming their global operations requires robust ERP systems to streamline processes and enhance efficiency.",
-    "email": "Hi Ford Team,\n\nSubject: Streamlining Operations for Your Electrification Journey\n\nI noticed that Ford is prioritizing enterprise transformation to support its electrification plans. Our ERP solutions can help streamline your operations and enhance efficiency during this pivotal change. Can we schedule a call to discuss how we can support your journey?\n\nBest regards,\n[Your Name]\n[Your Company]\n[Your Contact Information]",
-    "phone": "How is your team managing the complexities of enterprise transformation for electrification?"
+    "employees": "10,000+",
+    "description": "Ford is investing heavily in enterprise transformation and AI solutions, which indicates a growing need for integrated systems to manage operations efficiently. As they expand their capabilities in electrification and vehicle software, an ERP system will help streamline processes across their global operations.",
+    "email": "Subject: Transform Your Operations with ERP Solutions\n\nHi Ford Team,\n\nAs you continue your journey towards electrification and AI-driven transformations, implementing a robust ERP system can significantly enhance your operational efficiency and data management. I’d love to discuss how our solutions can support your ambitious goals. \n\nBest,\n[Your Name]\n[Your Company]\n[Your Contact Information]",
+    "phone": "How is Ford managing its operational complexities as it transitions to electrification?"
   },
   {
     "id": 2,
     "company": "Qualtrics",
     "industry": "Software",
-    "trigger": "CEO change with AI focus",
-    "score": 7.5,
-    "tier": "mid",
-    "employees": "1000-5000",
-    "description": "With a new CEO focusing on scaling AI investments, Qualtrics may need an ERP system to manage increased operational complexity. This transformation requires efficient resource management to support their growth strategy.",
-    "email": "Hi Qualtrics Team,\n\nSubject: Supporting Your AI Growth Strategy with ERP\n\nCongratulations on your recent leadership change! As you scale AI investments, our ERP solutions can help streamline operations and support your growth strategy effectively. Would you be open to discussing this further?\n\nBest regards,\n[Your Name]\n[Your Company]\n[Your Contact Information]",
-    "phone": "How are you planning to manage the operational complexities that come with scaling your AI investments?"
+    "trigger": "AI investments and leadership change",
+    "score": 8.5,
+    "tier": "high",
+    "employees": "1,000-5,000",
+    "description": "With a new CEO focusing on scaling AI investments, Qualtrics is poised for growth and may require an ERP system to support its expanding operational needs. The shift towards AI-driven solutions will necessitate better integration of various business functions.",
+    "email": "Subject: Enhance Your Scalability with Our ERP Solutions\n\nHi Qualtrics Team,\n\nAs you scale your AI investments under new leadership, an ERP system could provide the necessary infrastructure to streamline operations and drive efficiency. I’d love to explore how we can assist in your growth journey. \n\nBest,\n[Your Name]\n[Your Company]\n[Your Contact Information]",
+    "phone": "What challenges are you facing with operational integration as you expand your AI capabilities?"
   }
 ]
