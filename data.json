@@ -1,50 +1,14 @@
 [
-    {
-        "id": 1,
-        "company": "Nebula Dynamics",
-        "industry": "Advanced Logistics",
-        "trigger": "Series C Funding ($120M)",
-        "score": 9.4,
-        "tier": "high",
-        "employees": "500-1,000",
-        "description": "Nebula is scaling their global supply chain operations. Their current tech stack is fragmented, making them a prime candidate for an enterprise ERP overhaul.",
-        "email": "Subject: Streamlining Nebula's Global Operations\n\nHi Sarah,\n\nI noticed Nebula recently closed its Series C round—congratulations! As you scale into 12 new regions, your logistics complexity will double. We specialize in ERP implementations for fast-growing logistics firms like yours to ensure your data stays as fluid as your operations...",
-        "phone": "I saw the recent growth announcement for Nebula Dynamics. With your expansion plans, how are you currently managing the data silos between your European and North American hubs?"
-    },
-    {
-        "id": 2,
-        "company": "Stellar Fabrication",
-        "industry": "Precision Manufacturing",
-        "trigger": "Rapid Hiring (40% Personnel Growth)",
-        "score": 8.2,
-        "tier": "high",
-        "employees": "200-500",
-        "description": "Stellar is outgrowing their legacy systems. Internal news suggests they are struggling with inventory management during this hiring spree.",
-        "email": "Subject: Supporting Stellar's Rapid Growth\n\nHi Mark,\n\nGrowing your headcount by 40% in six months is an incredible feat. However, legacy inventory systems often buckle under that strain. We've helped manufacturers like Stellar move to unified ERP platforms that scale with their people...",
-        "phone": "Congrats on the recent hiring push at Stellar. Many firms at your current stage find their inventory systems can't keep up with the new volume—does that sound like a challenge you're facing?"
-    },
-    {
-        "id": 3,
-        "company": "Quantum Fintech",
-        "industry": "Financial Services",
-        "trigger": "Acquisition of CoreBanking Solutions",
-        "score": 7.1,
-        "tier": "mid",
-        "employees": "1,000+",
-        "description": "The recent acquisition creates a massive integration challenge. They need a unified financial backbone to merge the two entities' books.",
-        "email": "Subject: Post-Acquisition Integration for Quantum\n\nHi Team,\n\nMerging with CoreBanking is a bold move. The biggest hurdle now is likely reconciling two different financial reporting structures into one source of truth. We specialize in post-merger ERP consolidation...",
-        "phone": "I'm calling regarding the CoreBanking acquisition. How is your team planning to unify the financial reporting systems between the two companies this quarter?"
-    },
-    {
-        "id": 4,
-        "company": "BioPhase Labs",
-        "industry": "Biotech",
-        "trigger": "New R&D Facility Opening",
-        "score": 6.5,
-        "tier": "mid",
-        "employees": "50-200",
-        "description": "They are expanding physical footprint, which usually signals a need for better asset tracking and resource planning.",
-        "email": "Subject: Managing BioPhase's New R&D Assets\n\nHi there,\n\nExciting news about the new facility. With more square footage comes more complex asset tracking needs. Our ERP solutions are designed specifically for the compliance-heavy biotech space...",
-        "phone": "I saw you're opening a new lab. As you expand your footprint, how are you managing the tracking of high-value R&D equipment across locations?"
-    }
+  {
+    "id": 1,
+    "company": "StackBlitz",
+    "industry": "Web Development",
+    "trigger": "Rapid hiring and AI integration",
+    "score": 8.5,
+    "tier": "high",
+    "employees": "51-200",
+    "description": "StackBlitz is focusing on integrating AI agents to significantly enhance their web development capabilities. This rapid shift towards AI suggests a need for a robust ERP system to manage resources and processes efficiently.",
+    "email": "Subject: Unlock Your Team's Potential with ERP Solutions\n\nHi Eric,\n\nI hope this message finds you well. With StackBlitz's ambitious plans to integrate AI agents into its operations, implementing an ERP system could streamline your processes and enhance productivity. I'd love to discuss how our ERP solutions can support your growth and innovation.\n\nBest regards,\n[Your Name]\n[Your Company]\n[Your Contact Information]",
+    "phone": "How is StackBlitz planning to manage the integration of AI agents into your workflows?"
+  }
 ]
