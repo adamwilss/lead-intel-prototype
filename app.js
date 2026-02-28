@@ -8,7 +8,7 @@ const modalBody = document.getElementById('modalBody');
 // Fetch data from data.json
 async function loadData() {
     try {
-        const response = await fetch('data.json');
+        const response = await fetch('data.json?t=' + Date.now());
         leads = await response.json();
         renderLeads();
     } catch (error) {
