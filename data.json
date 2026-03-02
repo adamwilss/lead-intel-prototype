@@ -1,28 +1,14 @@
 [
-  {
-    "id": 1,
-    "company": "UCLA",
-    "industry": "Education",
-    "trigger": "paused a costly ERP project",
-    "score": 7.5,
-    "tier": "mid",
-    "employees": "10,000+",
-    "description": "UCLA is experiencing financial challenges and has halted an ERP project due to rising costs. They need an efficient ERP solution to manage their finances and streamline operations amidst budget constraints.",
-    "email": "Subject: Streamline UCLA's Finances with ERP Solutions\n\nDear UCLA Team,\n\nI hope this message finds you well. I understand that UCLA is currently facing financial challenges and has paused its ERP project; I would love to discuss how our ERP solutions can help optimize your financial management and operations during these times. Looking forward to the opportunity to connect.\n\nBest regards,\n[Your Name]\n[Your Company]\n[Your Contact Information]",
-    "phone": "Hi, is this UCLA's finance department? I wanted to ask how you're currently managing financial reporting amidst the recent changes."
-  },
-  [
     {
-      "id": 1,
-      "company": "UCLA",
-      "industry": "Education",
-      "trigger": "paused a costly ERP project",
-      "score": 9,
-      "tier": "high",
-      "employees": "10000+",
-      "description": "UCLA is facing financial challenges and has halted its ERP project, indicating a need for a more efficient financial management system. With rising compensation and spending, a robust ERP system could help streamline operations and improve financial reporting.",
-      "email": "Subject: Transforming UCLA's Financial Management with ERP\n\nDear UCLA Financial Team,\n\nI understand that recent financial pressures have led to a pause in your ERP project. I would love to discuss how our ERP solutions can help streamline your operations and provide the financial oversight you need during this pivotal time. Looking forward to connecting!\n\nBest regards,\n[Your Name]\n[Your Company]\n[Your Contact Information]",
-      "phone": "Hi, is this the finance department at UCLA? I wanted to ask how you're currently managing financial reporting amidst the recent budget challenges."
+        "id": 1,
+        "company": "UCLA",
+        "industry": "Education",
+        "trigger": "paused a costly ERP project",
+        "score": 9,
+        "tier": "high",
+        "employees": "10,000+",
+        "description": "UCLA is facing financial challenges and has halted its ERP project, indicating a need for a more efficient financial management system. With rising compensation and spending, a robust ERP system could help streamline operations and improve financial reporting.",
+        "email": "Subject: Transforming UCLA's Financial Management with ERP\n\nDear UCLA Financial Team,\n\nI understand that recent financial pressures have led to a pause in your ERP project. I would love to discuss how our ERP solutions can help streamline your operations and provide the financial oversight you need during this pivotal time. Looking forward to connecting!\n\nBest regards,\n[Your Name]\n[Your Company]\n[Your Contact Information]",
+        "phone": "Hi, is this the finance department at UCLA? I wanted to ask how you're currently managing financial reporting amidst the recent budget challenges."
     }
-  ]
 ]
