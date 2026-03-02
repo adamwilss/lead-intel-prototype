@@ -16,6 +16,54 @@
     "id": 1
   },
   {
+    "company": "Ukrainian Drone Factory",
+    "industry": null,
+    "trigger": "A new factory dedicated to the production of Unmanned Aerial Systems for the Ukrainian Armed Forces has opened in the UK.",
+    "score": 8,
+    "tier": "high",
+    "employees": null,
+    "description": "A new factory was unveiled in the UK dedicated to the production of Unmanned Aerial Systems for the Ukrainian Armed Forces. As the fourth anniversary of the Russian invasion of Ukraine took place, a new factory was unveiled in the UK dedicated to the producti…",
+    "outreach_email": "Subject: New Opportunities in ERP Implementation\n\nWith the recent opening of a factory dedicated to Unmanned Aerial Systems for the Ukrainian Armed Forces in the UK, there may be significant ERP implementation needs arising. I would love to discuss how we can support your operations with a tailored ERP solution.\n\nERP Experts Team",
+    "call_opener": "What ERP challenges are you currently facing with the new factory setup?",
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T16:32:33.451Z",
+    "id": 2
+  },
+  {
+    "company": "Jewish Content Streamer ChaiFlicks",
+    "industry": null,
+    "trigger": "ChaiFlicks has acquired a trio of shows from Yes Studios, including 'On The Spectrum'.",
+    "score": 8,
+    "tier": "high",
+    "employees": null,
+    "description": "ChaiFlicks has struck a deal for a trio of shows from Israel-based distributor Yes Studios, including the comedy-drama 'On the Spectrum'.",
+    "outreach_email": "Subject: Exploring ERP Solutions for ChaiFlicks\n\nWith your recent acquisition of shows from Yes Studios, it seems like a pivotal moment for ChaiFlicks. We would love to discuss how our ERP solutions can support your growth and operational efficiency.\n\nLooking forward to a 15-minute call.\n\nERP Experts Team",
+    "call_opener": "What challenges are you facing with your current operational processes?",
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T16:32:33.451Z",
+    "id": 3
+  },
+  {
+    "company": "The Tofoo Co",
+    "industry": null,
+    "trigger": "The Tofoo Co has acquired the German seitan firm Topas.",
+    "score": 8,
+    "tier": "high",
+    "employees": null,
+    "description": "The Tofoo Co is expanding its product range by acquiring Topas, a German firm specializing in seitan products.",
+    "outreach_email": "Subject: Exploring ERP Solutions for Your Expansion\n\nWith The Tofoo Co's recent acquisition of Topas, it’s a pivotal time to consider how ERP solutions can support your expanded product range and streamline operations. I’d love to discuss this further in a quick 15-minute call.\n\nSign off exactly: \"ERP Experts Team\"",
+    "call_opener": "How is the acquisition of Topas impacting your operational needs?",
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T16:32:33.451Z",
+    "id": 4
+  },
+  {
     "company": "Alief",
     "industry": "Entertainment",
     "trigger": "Alief has secured distribution deals for the LGBTQIA+ dark comedy 'Lunar Sway' in the U.S., UK, and French-speaking territories.",
@@ -29,7 +77,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 2
+    "id": 5
   },
   {
     "company": "Warner Bros. Discovery",
@@ -45,7 +93,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 3
+    "id": 6
   },
   {
     "company": "Pharma",
@@ -61,7 +109,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 4
+    "id": 7
   },
   {
     "company": "Cerealto",
@@ -77,7 +125,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 5
+    "id": 8
   },
   {
     "company": "Bleecker Street",
@@ -93,7 +141,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 6
+    "id": 9
   },
   {
     "company": "RZC Investments",
@@ -109,7 +157,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 7
+    "id": 10
   },
   {
     "company": "Bell",
@@ -125,7 +173,135 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 8
+    "id": 11
+  },
+  {
+    "company": "Palestine Film Institute",
+    "industry": "Film",
+    "trigger": "The Palestine Film Institute announces the first recipients of its new Palestine Film Fund.",
+    "score": 5,
+    "tier": "low",
+    "employees": null,
+    "description": "The Palestine Film Institute has announced the first recipients of its new Palestine Film Fund following its launch at the Cannes Film Festival last year. The inaugural funding round has supported six feature-length films and three short films.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T16:32:33.451Z",
+    "id": 12
+  },
+  {
+    "company": "Halwara airport",
+    "industry": "Aviation",
+    "trigger": "The PM inaugurated the civil terminal of Halwara airport and announced its naming after Kartar Singh Sarabha.",
+    "score": 5,
+    "tier": "low",
+    "employees": null,
+    "description": "PM inaugurates civil terminal of Halwara airport and announces its name after Kartar Singh Sarabha. The PM also unveiled the new name of the Adampur airport in Jalandhar as Sri Guru Ravidass Maharaj Ji Airport.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T16:32:33.451Z",
+    "id": 13
+  },
+  {
+    "company": "Locarno Supported LGBTQIA+ Dark Comedy ‘Lunar Sway’",
+    "industry": null,
+    "trigger": "Locarno Supported LGBTQIA+ Dark Comedy ‘Lunar Sway’ has secured distribution deals in the U.S., UK, and French-speaking territories.",
+    "score": 5,
+    "tier": "low",
+    "employees": null,
+    "description": "Alief has announced the first deals for the LGBTQIA+ dark comedy Lunar Sway, which was launched at the EFM. TLA Releasing and Optimale Distribution have acquired rights for the U.S. and UK, as well as French-speaking Europe.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T16:32:33.451Z",
+    "id": 14
+  },
+  {
+    "company": "Warner Bros. Discovery",
+    "industry": null,
+    "trigger": "Heated Rivalry has become HBO Max’s top acquired scripted series ever, surpassing 10.6M U.S. viewers.",
+    "score": 5,
+    "tier": "low",
+    "employees": null,
+    "description": "Heated Rivalry has doubled its viewership to become HBO Max’s top acquired scripted series ever, according to Warner Bros. Discovery.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T16:32:33.451Z",
+    "id": 15
+  },
+  {
+    "company": "UK",
+    "industry": "Pharmaceuticals",
+    "trigger": "Pharma companies are offshoring R&D, indicating a shift in the industry's operational strategy.",
+    "score": 5,
+    "tier": "low",
+    "employees": null,
+    "description": "The UK was the highest ranked country for those offshoring pharma R&D, raising questions about its pharma industry’s attractiveness.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T16:32:33.451Z",
+    "id": 16
+  },
+  {
+    "company": "Cerealto",
+    "industry": null,
+    "trigger": "Cerealto sells pasta assets to Cerealis as part of its strategy to focus on core snacking and breakfast categories.",
+    "score": 5,
+    "tier": "low",
+    "employees": null,
+    "description": "Cerealto sells pasta assets to Cerealis, aligning with its decision to concentrate on its core snacking and breakfast categories.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T16:32:33.451Z",
+    "id": 17
+  },
+  {
+    "company": "Bleecker Street",
+    "industry": "Entertainment",
+    "trigger": "Bleecker Street set milestones at the box office during an unusual theatrical weekend.",
+    "score": 5,
+    "tier": "low",
+    "employees": null,
+    "description": "Bleecker Street and Vertical set milestones on an unusual theatrical weekend against the Super Bowl, with A24’s new limited debut Pillion and Focus Features' Hamnet performing well.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T16:32:33.451Z",
+    "id": 18
+  },
+  {
+    "company": "China",
+    "industry": "Manufacturing",
+    "trigger": "China's factory activity expanded at a faster pace in January as export orders rebounded and output growth accelerated.",
+    "score": 5,
+    "tier": "low",
+    "employees": null,
+    "description": "China's factory activity expanded at a faster pace in January as export orders rebounded and output growth accelerated, lifting hiring to the highest level in three months.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T16:32:33.451Z",
+    "id": 19
   },
   {
     "company": "Jewish Content Streamer ChaiFlicks",
@@ -141,7 +317,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T15:33:58.240Z",
-    "id": 9
+    "id": 20
   },
   {
     "company": "Jewish Content Streamer ChaiFlicks",
@@ -157,7 +333,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:23:15.760Z",
-    "id": 10
+    "id": 21
   },
   {
     "company": "Britain",
@@ -173,7 +349,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 11
+    "id": 22
   },
   {
     "company": "London bakery",
@@ -189,7 +365,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 12
+    "id": 23
   },
   {
     "company": "Aston Martin Lagonda, Inc.",
@@ -205,7 +381,71 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 13
+    "id": 24
+  },
+  {
+    "company": "India",
+    "industry": null,
+    "trigger": "Modi mentioned multilateral projects on which India and Israel collaborate during his Knesset speech.",
+    "score": 2,
+    "tier": "low",
+    "employees": null,
+    "description": "During his Knesset speech in Jerusalem, Modi mentioned multilateral projects on which India and Israel collaborate.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T16:32:33.451Z",
+    "id": 25
+  },
+  {
+    "company": "Britain",
+    "industry": null,
+    "trigger": "A critical examination of the negative impact of the finance sector on British society.",
+    "score": 2,
+    "tier": "low",
+    "employees": null,
+    "description": "A well-warranted harsh look at the high cost an overly-large and ever-more-extractive finance sector imposes on society as a whole.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T16:32:33.451Z",
+    "id": 26
+  },
+  {
+    "company": "London bakery",
+    "industry": null,
+    "trigger": "A London bakery with Jewish roots was vandalized in a pro-Palestinian act.",
+    "score": 2,
+    "tier": "low",
+    "employees": null,
+    "description": "Pro-Palestinian vandalism of London bakery with Jewish roots draws outcry from British Jewish groups.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T16:32:33.451Z",
+    "id": 27
+  },
+  {
+    "company": "Aston Martin Lagonda, Inc.",
+    "industry": null,
+    "trigger": "A 1975 Aston Martin V8 Series III has been listed for sale after being imported to the US.",
+    "score": 2,
+    "tier": "low",
+    "employees": null,
+    "description": "This 1975 Aston Martin V8 is a Series 3 example that is believed to have been imported to the US by Aston Martin Lagonda, Inc. before being sold through Hollywood Sports Cars.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T16:32:33.451Z",
+    "id": 28
   },
   {
     "company": null,
@@ -221,7 +461,7 @@
     "publishedAt": "2026-02-27T19:37:59Z",
     "source": "Theaviationist.com",
     "createdAt": "2026-03-02T15:14:07.115Z",
-    "id": 14
+    "id": 29
   },
   {
     "company": null,
@@ -237,7 +477,7 @@
     "publishedAt": "2026-02-26T13:48:20Z",
     "source": "Al Jazeera English",
     "createdAt": "2026-03-02T15:14:07.126Z",
-    "id": 15
+    "id": 30
   },
   {
     "company": null,
@@ -253,7 +493,7 @@
     "publishedAt": "2026-02-21T19:37:57Z",
     "source": "Israelnationalnews.com",
     "createdAt": "2026-03-02T15:14:07.120Z",
-    "id": 16
+    "id": 31
   },
   {
     "company": null,
@@ -269,7 +509,7 @@
     "publishedAt": "2026-02-21T16:26:02Z",
     "source": "101 Great Goals",
     "createdAt": "2026-03-02T15:14:07.125Z",
-    "id": 17
+    "id": 32
   },
   {
     "company": null,
@@ -285,7 +525,7 @@
     "publishedAt": "2026-02-18T19:45:41Z",
     "source": "RT",
     "createdAt": "2026-03-02T15:14:07.121Z",
-    "id": 18
+    "id": 33
   },
   {
     "company": null,
@@ -301,7 +541,7 @@
     "publishedAt": "2026-02-17T16:33:07Z",
     "source": "Pharmaceutical Technology",
     "createdAt": "2026-03-02T15:14:07.117Z",
-    "id": 19
+    "id": 34
   },
   {
     "company": null,
@@ -317,7 +557,7 @@
     "publishedAt": "2026-02-17T15:36:37Z",
     "source": "Deadline",
     "createdAt": "2026-03-02T15:14:07.114Z",
-    "id": 20
+    "id": 35
   },
   {
     "company": null,
@@ -333,7 +573,7 @@
     "publishedAt": "2026-02-16T16:28:41Z",
     "source": "Digital Camera World",
     "createdAt": "2026-03-02T15:14:07.125Z",
-    "id": 21
+    "id": 36
   },
   {
     "company": null,
@@ -349,7 +589,7 @@
     "publishedAt": "2026-02-16T15:43:50Z",
     "source": "Just-food.com",
     "createdAt": "2026-03-02T15:14:07.120Z",
-    "id": 22
+    "id": 37
   },
   {
     "company": null,
@@ -365,7 +605,7 @@
     "publishedAt": "2026-02-13T18:40:54Z",
     "source": "Fortune",
     "createdAt": "2026-03-02T15:14:07.123Z",
-    "id": 23
+    "id": 38
   },
   {
     "company": null,
@@ -381,7 +621,7 @@
     "publishedAt": "2026-02-13T13:15:02Z",
     "source": "Bringatrailer.com",
     "createdAt": "2026-03-02T15:14:07.123Z",
-    "id": 24
+    "id": 39
   },
   {
     "company": null,
@@ -397,7 +637,7 @@
     "publishedAt": "2026-02-13T13:00:00Z",
     "source": "Deadline",
     "createdAt": "2026-03-02T15:14:07.116Z",
-    "id": 25
+    "id": 40
   },
   {
     "company": null,
@@ -413,7 +653,7 @@
     "publishedAt": "2026-02-12T19:01:12Z",
     "source": "MobileSyrup",
     "createdAt": "2026-03-02T15:14:07.124Z",
-    "id": 26
+    "id": 41
   },
   {
     "company": null,
@@ -429,7 +669,7 @@
     "publishedAt": "2026-02-11T09:16:22Z",
     "source": "Nakedcapitalism.com",
     "createdAt": "2026-03-02T15:14:07.114Z",
-    "id": 27
+    "id": 42
   },
   {
     "company": null,
@@ -445,7 +685,7 @@
     "publishedAt": "2026-02-10T15:19:10Z",
     "source": "Al Jazeera English",
     "createdAt": "2026-03-02T15:14:07.126Z",
-    "id": 28
+    "id": 43
   },
   {
     "company": null,
@@ -461,7 +701,7 @@
     "publishedAt": "2026-02-09T21:00:35Z",
     "source": "Deadline",
     "createdAt": "2026-03-02T15:14:07.117Z",
-    "id": 29
+    "id": 44
   },
   {
     "company": null,
@@ -477,7 +717,7 @@
     "publishedAt": "2026-02-09T11:45:38Z",
     "source": "Salon",
     "createdAt": "2026-03-02T15:14:07.118Z",
-    "id": 30
+    "id": 45
   },
   {
     "company": null,
@@ -493,7 +733,7 @@
     "publishedAt": "2026-02-08T18:35:37Z",
     "source": "Deadline",
     "createdAt": "2026-03-02T15:14:07.121Z",
-    "id": 31
+    "id": 46
   },
   {
     "company": null,
@@ -509,7 +749,7 @@
     "publishedAt": "2026-02-06T18:22:01Z",
     "source": "Themarginalian.org",
     "createdAt": "2026-03-02T15:14:07.115Z",
-    "id": 32
+    "id": 47
   },
   {
     "company": null,
@@ -525,7 +765,7 @@
     "publishedAt": "2026-02-05T11:20:35Z",
     "source": "Deadline",
     "createdAt": "2026-03-02T15:14:07.116Z",
-    "id": 33
+    "id": 48
   },
   {
     "company": null,
@@ -541,7 +781,7 @@
     "publishedAt": "2026-02-04T07:00:00Z",
     "source": "Deadline",
     "createdAt": "2026-03-02T15:14:07.123Z",
-    "id": 34
+    "id": 49
   },
   {
     "company": null,
@@ -557,7 +797,7 @@
     "publishedAt": "2026-02-02T11:56:31Z",
     "source": "Just-food.com",
     "createdAt": "2026-03-02T15:14:07.118Z",
-    "id": 35
+    "id": 50
   },
   {
     "company": null,
@@ -573,7 +813,7 @@
     "publishedAt": "2026-02-02T02:31:33Z",
     "source": "CNA",
     "createdAt": "2026-03-02T15:14:07.122Z",
-    "id": 36
+    "id": 51
   },
   {
     "company": null,
@@ -589,7 +829,7 @@
     "publishedAt": "2026-02-02T00:42:57Z",
     "source": "The Indian Express",
     "createdAt": "2026-03-02T15:14:07.127Z",
-    "id": 37
+    "id": 52
   },
   {
     "company": null,
@@ -605,7 +845,7 @@
     "publishedAt": "2026-02-01T19:32:41Z",
     "source": "Harpers.org",
     "createdAt": "2026-03-02T15:14:07.120Z",
-    "id": 38
+    "id": 53
   },
   {
     "company": "Ukrainian Drone Factory",
@@ -621,7 +861,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T15:33:58.240Z",
-    "id": 39
+    "id": 54
   },
   {
     "company": null,
@@ -637,7 +877,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 40
+    "id": 55
   },
   {
     "company": "Ukrainian Drone Factory",
@@ -653,7 +893,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 41
+    "id": 56
   },
   {
     "company": "Jewish Content Streamer ChaiFlicks",
@@ -669,7 +909,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 42
+    "id": 57
   },
   {
     "company": "Netflix",
@@ -685,7 +925,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 43
+    "id": 58
   },
   {
     "company": null,
@@ -701,7 +941,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 44
+    "id": 59
   },
   {
     "company": null,
@@ -717,7 +957,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 45
+    "id": 60
   },
   {
     "company": null,
@@ -733,7 +973,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 46
+    "id": 61
   },
   {
     "company": null,
@@ -749,23 +989,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 47
-  },
-  {
-    "company": "Palestine Film Institute",
-    "industry": "Film",
-    "trigger": "The Palestine Film Institute announces the first recipients of its new Palestine Film Fund.",
-    "score": 0,
-    "tier": "low",
-    "employees": null,
-    "description": "The Palestine Film Institute has announced the first recipients of its new Palestine Film Fund following its launch at the Cannes Film Festival last year.",
-    "email": null,
-    "phone": null,
-    "url": null,
-    "publishedAt": null,
-    "source": null,
-    "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 48
+    "id": 62
   },
   {
     "company": null,
@@ -781,23 +1005,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 49
-  },
-  {
-    "company": "India",
-    "industry": "Government",
-    "trigger": "Modi mentioned multilateral projects on which India and Israel collaborate during his Knesset speech.",
-    "score": 0,
-    "tier": "low",
-    "employees": null,
-    "description": "During his Knesset speech in Jerusalem, Modi mentioned multilateral projects on which India and Israel collaborate.",
-    "email": null,
-    "phone": null,
-    "url": null,
-    "publishedAt": null,
-    "source": null,
-    "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 50
+    "id": 63
   },
   {
     "company": null,
@@ -813,22 +1021,102 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 51
+    "id": 64
   },
   {
-    "company": "Halwara airport",
-    "industry": "Aviation",
-    "trigger": "The PM inaugurated the civil terminal of Halwara airport and announced its naming after Kartar Singh Sarabha.",
+    "company": "Frankenstein",
+    "industry": null,
+    "trigger": "An essay discusses the philosophical novel by Mary Wollstonecraft and its historical context.",
     "score": 0,
     "tier": "low",
     "employees": null,
-    "description": "PM inaugurates the civil terminal of Halwara airport and suggests naming it after Kartar Singh Sarabha. The PM also unveiled the new name of Adampur airport as Sri Guru Ravidass Maharaj Ji Airport.",
-    "email": null,
-    "phone": null,
+    "description": "This essay is adapted from Traversal, exploring themes from Mary Wollstonecraft's unfinished philosophical novel and its implications.",
+    "outreach_email": null,
+    "call_opener": null,
     "url": null,
     "publishedAt": null,
     "source": null,
-    "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 52
+    "createdAt": "2026-03-02T16:32:33.451Z",
+    "id": 65
+  },
+  {
+    "company": "Netflix",
+    "industry": null,
+    "trigger": "Netflix has acquired the U.S. rights to Jack Thorne’s Lord of the Flies TV adaptation.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "Netflix has bagged the U.S. rights to Jack Thorne’s Lord of the Flies TV adaptation. It’s a major acquisition for Netflix, as several potential buyers were thought to be keen on the buzzy drama series.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T16:32:33.451Z",
+    "id": 66
+  },
+  {
+    "company": "USAID",
+    "industry": null,
+    "trigger": "The effects of slashing U.S. foreign aid are now being felt on the ground.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "One year later, the impact of Trump’s cuts to USAID is being felt globally, affecting areas from health care to food security.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T16:32:33.451Z",
+    "id": 67
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": "No specific business event or company mentioned.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "Excavating the disenchanted city",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T16:32:33.451Z",
+    "id": 68
+  },
+  {
+    "company": "West Ham",
+    "industry": "Sports",
+    "trigger": "West Ham and Bournemouth confirmed their teams for the match at London Stadium.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "West Ham v Bournemouth: Teams confirmed as two in-form sides meet at London Stadium. Get all the team news for the clash at the London Stadium.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T16:32:33.451Z",
+    "id": 69
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": "There are numerous rumors about upcoming camera releases.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "The camera rumors are flying thick and fast! Here are the most credible rumblings and reports about what's coming next.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T16:32:33.451Z",
+    "id": 70
   }
 ]
