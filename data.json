@@ -80,6 +80,22 @@
     "id": 5
   },
   {
+    "company": "Naboo",
+    "industry": null,
+    "trigger": "Naboo has raised $70M in Series B funding to enhance its corporate event planning platform.",
+    "score": 8,
+    "tier": "high",
+    "employees": null,
+    "description": "Naboo has raised a $70m in Series B as it accelerates its ambition to become the operating layer for how large companies plan, book, and control corporate events.",
+    "outreach_email": "Subject: Enhancing Your Corporate Event Planning Operations\n\nI noticed that Naboo has raised $70M in Series B funding to enhance its corporate event planning platform. This significant investment could indicate a need for more robust ERP solutions to manage your growing operations effectively.\n\nI would love to schedule a 15-minute call to discuss how ERP Experts Team can support your expansion and operational needs.\n\nBest regards,\nERP Experts Team",
+    "call_opener": "How are you planning to scale your operations after your recent funding round?",
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:51:27.025Z",
+    "id": 6
+  },
+  {
     "company": "Locarno Supported LGBTQIA+ Dark Comedy ‘Lunar Sway’",
     "industry": null,
     "trigger": "Locarno Supported LGBTQIA+ dark comedy 'Lunar Sway' has secured distribution deals in the U.S., UK, and French-speaking territories.",
@@ -93,7 +109,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.407Z",
-    "id": 6
+    "id": 7
   },
   {
     "company": "Warner Bros. Discovery",
@@ -109,7 +125,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 7
+    "id": 8
   },
   {
     "company": "UK",
@@ -125,7 +141,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 8
+    "id": 9
   },
   {
     "company": "Cerealto",
@@ -141,7 +157,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 9
+    "id": 10
   },
   {
     "company": "Bleecker Street",
@@ -157,7 +173,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 10
+    "id": 11
   },
   {
     "company": null,
@@ -173,7 +189,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 11
+    "id": 12
   },
   {
     "company": "Palestine Film Institute",
@@ -189,7 +205,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 12
+    "id": 13
   },
   {
     "company": "RZC Investments",
@@ -205,7 +221,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 13
+    "id": 14
   },
   {
     "company": "Bell",
@@ -221,7 +237,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 14
+    "id": 15
   },
   {
     "company": null,
@@ -237,7 +253,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 15
+    "id": 16
   },
   {
     "company": "London bakery",
@@ -253,7 +269,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 16
+    "id": 17
   },
   {
     "company": "Aston Martin Lagonda, Inc.",
@@ -269,7 +285,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 17
+    "id": 18
   },
   {
     "company": null,
@@ -285,7 +301,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.409Z",
-    "id": 18
+    "id": 19
   },
   {
     "company": "Halwara airport",
@@ -301,7 +317,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.409Z",
-    "id": 19
+    "id": 20
   },
   {
     "company": null,
@@ -317,7 +333,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.407Z",
-    "id": 20
+    "id": 21
   },
   {
     "company": "Frankenstein",
@@ -333,7 +349,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 21
+    "id": 22
   },
   {
     "company": "Netflix",
@@ -349,7 +365,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 22
+    "id": 23
   },
   {
     "company": "USAID",
@@ -365,7 +381,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 23
+    "id": 24
   },
   {
     "company": null,
@@ -381,7 +397,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 24
+    "id": 25
   },
   {
     "company": "West Ham",
@@ -397,7 +413,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 25
+    "id": 26
   },
   {
     "company": null,
@@ -413,7 +429,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.409Z",
-    "id": 26
+    "id": 27
   },
   {
     "company": null,
@@ -429,7 +445,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.409Z",
-    "id": 27
+    "id": 28
   },
   {
     "company": null,
@@ -445,7 +461,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 28
+    "id": 29
   },
   {
     "company": null,
@@ -461,7 +477,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 29
+    "id": 30
   },
   {
     "company": "Traversal",
@@ -477,7 +493,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 30
+    "id": 31
   },
   {
     "company": null,
@@ -493,7 +509,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 31
+    "id": 32
   },
   {
     "company": null,
@@ -509,7 +525,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 32
+    "id": 33
   },
   {
     "company": "Warner Bros. Discovery",
@@ -525,7 +541,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 33
+    "id": 34
   },
   {
     "company": "Pharma",
@@ -541,7 +557,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 34
+    "id": 35
   },
   {
     "company": null,
@@ -557,7 +573,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 35
+    "id": 36
   },
   {
     "company": "Cerealto",
@@ -573,7 +589,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 36
+    "id": 37
   },
   {
     "company": null,
@@ -589,7 +605,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 37
+    "id": 38
   },
   {
     "company": null,
@@ -605,7 +621,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 38
+    "id": 39
   },
   {
     "company": "Aston Martin Lagonda, Inc.",
@@ -621,7 +637,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 39
+    "id": 40
   },
   {
     "company": "West Ham",
@@ -637,7 +653,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 40
+    "id": 41
   },
   {
     "company": null,
@@ -653,7 +669,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 41
+    "id": 42
   },
   {
     "company": null,
@@ -669,7 +685,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 42
+    "id": 43
   },
   {
     "company": null,
@@ -685,7 +701,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 43
+    "id": 44
   },
   {
     "company": "Wells Fargo",
@@ -701,7 +717,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:27:11.019Z",
-    "id": 44
+    "id": 45
   },
   {
     "company": null,
@@ -717,7 +733,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:27:11.019Z",
-    "id": 45
+    "id": 46
   },
   {
     "company": "Naboo",
@@ -733,7 +749,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:27:11.019Z",
-    "id": 46
+    "id": 47
   },
   {
     "company": null,
@@ -749,7 +765,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:27:11.020Z",
-    "id": 47
+    "id": 48
   },
   {
     "company": "Focus Features",
@@ -765,7 +781,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:27:11.020Z",
-    "id": 48
+    "id": 49
   },
   {
     "company": null,
@@ -781,7 +797,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:27:11.020Z",
-    "id": 49
+    "id": 50
   },
   {
     "company": null,
@@ -797,7 +813,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:27:11.020Z",
-    "id": 50
+    "id": 51
   },
   {
     "company": "Trinity CineAsia",
@@ -813,7 +829,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:27:11.020Z",
-    "id": 51
+    "id": 52
   },
   {
     "company": null,
@@ -829,7 +845,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:27:11.020Z",
-    "id": 52
+    "id": 53
   },
   {
     "company": "Walmart",
@@ -845,7 +861,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:27:11.020Z",
-    "id": 53
+    "id": 54
   },
   {
     "company": null,
@@ -861,7 +877,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:27:11.020Z",
-    "id": 54
+    "id": 55
   },
   {
     "company": "Netflix",
@@ -877,7 +893,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:27:11.020Z",
-    "id": 55
+    "id": 56
   },
   {
     "company": null,
@@ -893,7 +909,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:27:11.020Z",
-    "id": 56
+    "id": 57
   },
   {
     "company": "Rezolve Ai",
@@ -909,7 +925,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:27:11.020Z",
-    "id": 57
+    "id": 58
   },
   {
     "company": "IG",
@@ -925,7 +941,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:27:11.020Z",
-    "id": 58
+    "id": 59
   },
   {
     "company": null,
@@ -941,7 +957,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:27:11.020Z",
-    "id": 59
+    "id": 60
   },
   {
     "company": "SatVu",
@@ -957,7 +973,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:27:11.021Z",
-    "id": 60
+    "id": 61
   },
   {
     "company": "Gravita",
@@ -973,7 +989,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:27:11.021Z",
-    "id": 61
+    "id": 62
   },
   {
     "company": "Electricity Grid",
@@ -989,7 +1005,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:27:11.021Z",
-    "id": 62
+    "id": 63
   },
   {
     "company": "Blue Owl Capital",
@@ -1005,7 +1021,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:27:11.021Z",
-    "id": 63
+    "id": 64
   },
   {
     "company": "FCA",
@@ -1021,7 +1037,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:27:11.021Z",
-    "id": 64
+    "id": 65
   },
   {
     "company": "BrewDog",
@@ -1037,7 +1053,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:27:11.021Z",
-    "id": 65
+    "id": 66
   },
   {
     "company": null,
@@ -1053,7 +1069,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:27:11.021Z",
-    "id": 66
+    "id": 67
   },
   {
     "company": "Wayve",
@@ -1069,6 +1085,214 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:27:11.021Z",
-    "id": 67
+    "id": 68
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": "Wells Fargo's top merger banker played a significant role in shaping the $4.6 trillion M&A comeback.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "The article highlights the top US merger banker from Wells Fargo and 19 other dealmakers who influenced major M&A activities.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:51:27.025Z",
+    "id": 69
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": "Discussion on the potential impact of LLMs like ChatGPT on the finance sector.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "An article discussing the implications of LLMs on white-collar jobs and whether ChatGPT can replace money managers.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:51:27.025Z",
+    "id": 70
+  },
+  {
+    "company": "Focus Features",
+    "industry": "Entertainment",
+    "trigger": "Focus Features has successfully achieved $70 million in worldwide box office revenue for the film 'Hamnet'.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "Focus Features has found success with its film 'Hamnet', which has made $70 million worldwide in a slow burn rollout. This analysis highlights the company's strategy for international box office hits for grownups.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:51:27.025Z",
+    "id": 71
+  },
+  {
+    "company": "SAP",
+    "industry": "Software",
+    "trigger": "Half of German-speaking SAP users are set to ignore the 2027 support deadline for the ECC ERP system.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "A survey indicates that most DSAG members are willing to pay a premium to stay on the legacy ECC ERP platform until 2030.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:51:27.025Z",
+    "id": 72
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": "Hitler pursued resources and national security in Greenland after creating economic turmoil with tariffs.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "Hitler’s Greenland Obsession discusses his pursuit of resources and national security in Greenland following economic issues caused by tariffs.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:51:27.025Z",
+    "id": 73
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": "Netflix has acquired the U.S. rights to the TV adaptation of 'Lord of the Flies'.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "Netflix has bagged the U.S. rights to Jack Thorne’s Lord of the Flies TV adaptation. It’s a major acquisition for Netflix, as several potential buyers were thought to be keen on the buzzy drama series.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:51:27.025Z",
+    "id": 74
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": "Chiplet Summit 2026 is taking place soon, indicating growth in the chiplet industry.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "Chiplet Summit 2026 is approaching, highlighting the ongoing developments in the chiplet space.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:51:27.026Z",
+    "id": 75
+  },
+  {
+    "company": "SatVu",
+    "industry": "Aerospace",
+    "trigger": "SatVu has closed a 30 million pound funding round to accelerate the build-out of its space-based thermal imaging constellation.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "NATO fund backs SatVu thermal intelligence constellation expansion. SatVu has closed a 30 million pound funding round to accelerate the build-out of its space-based thermal imaging constellation.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:51:27.026Z",
+    "id": 76
+  },
+  {
+    "company": "Gravita",
+    "industry": "Accounting",
+    "trigger": "Gravita has appointed Lisa Mayhew as the new CEO, replacing the interim CEO Heather Swanston.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "Accounting practice Gravita has named Lisa Mayhew as the new CEO, effective April, following Heather Swanston's interim leadership since June last year.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:51:27.026Z",
+    "id": 77
+  },
+  {
+    "company": "Electricity",
+    "industry": "Energy",
+    "trigger": "Electricity demand is surging while grid infrastructure struggles to keep up.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "Electricity demand is surging, and while renewables, nuclear, and natural gas are expanding rapidly, grid infrastructure is becoming the key bottleneck.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:51:27.026Z",
+    "id": 78
+  },
+  {
+    "company": "FCA",
+    "industry": "Financial Services",
+    "trigger": "The FCA has released details of its plans to regulate BNPL in line with traditional credit.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "The UK’s FCA has finally released details of its plans to bring BNPL into line with traditional credit.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:51:27.026Z",
+    "id": 79
+  },
+  {
+    "company": "NCSC",
+    "industry": null,
+    "trigger": "The NCSC emphasizes the need for unique, verifiable device identity for Zero Trust security.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "The NCSC requires unique, verifiable device identity for Zero Trust. Most organizations think certificates cover it. Here's why that assumption is a liability.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:51:27.026Z",
+    "id": 80
+  },
+  {
+    "company": "Wayve",
+    "industry": null,
+    "trigger": "Wayve raises $1.2bn in Series D funding to scale its robotaxi plans.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "Wayve raises $1.2bn in Series D funding, with total funds raised in this round reaching $1.5bn including commitments from Uber.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:51:27.026Z",
+    "id": 81
   }
 ]
