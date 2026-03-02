@@ -80,6 +80,22 @@
     "id": 5
   },
   {
+    "company": "Ukrainian Drone Factory",
+    "industry": null,
+    "trigger": "A new factory dedicated to the production of Unmanned Aerial Systems for the Ukrainian Armed Forces was unveiled in the UK.",
+    "score": 8,
+    "tier": "high",
+    "employees": null,
+    "description": "A new factory was unveiled in the UK dedicated to the production of Unmanned Aerial Systems for the Ukrainian Armed Forces. This event coincided with the fourth anniversary of the Russian invasion of Ukraine.",
+    "outreach_email": "Subject: Exploring ERP Solutions for Your New Factory\n\nI noticed that a new factory dedicated to producing Unmanned Aerial Systems for the Ukrainian Armed Forces was recently unveiled in the UK. This significant development could benefit from robust ERP solutions to streamline operations and enhance efficiency.\n\nWould you be open to a 15-minute call to discuss how we can support your ERP needs during this exciting time?\n\nERP Experts Team",
+    "call_opener": "What ERP challenges are you facing with your new factory?",
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T16:49:51.844Z",
+    "id": 6
+  },
+  {
     "company": "Alief",
     "industry": "Entertainment",
     "trigger": "Alief has secured distribution deals for the LGBTQIA+ dark comedy 'Lunar Sway' in the U.S., UK, and French-speaking territories.",
@@ -93,7 +109,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 6
+    "id": 7
   },
   {
     "company": "Warner Bros. Discovery",
@@ -109,7 +125,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 7
+    "id": 8
   },
   {
     "company": "Pharma",
@@ -125,7 +141,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 8
+    "id": 9
   },
   {
     "company": "Cerealto",
@@ -141,7 +157,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 9
+    "id": 10
   },
   {
     "company": "Bleecker Street",
@@ -157,7 +173,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 10
+    "id": 11
   },
   {
     "company": "RZC Investments",
@@ -173,7 +189,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 11
+    "id": 12
   },
   {
     "company": "Bell",
@@ -189,7 +205,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 12
+    "id": 13
   },
   {
     "company": "Palestine Film Institute",
@@ -205,7 +221,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:32:33.451Z",
-    "id": 13
+    "id": 14
   },
   {
     "company": "Halwara airport",
@@ -221,7 +237,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:32:33.451Z",
-    "id": 14
+    "id": 15
   },
   {
     "company": "Locarno Supported LGBTQIA+ Dark Comedy ‘Lunar Sway’",
@@ -237,7 +253,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:32:33.451Z",
-    "id": 15
+    "id": 16
   },
   {
     "company": "Warner Bros. Discovery",
@@ -253,7 +269,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:32:33.451Z",
-    "id": 16
+    "id": 17
   },
   {
     "company": "UK",
@@ -269,7 +285,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:32:33.451Z",
-    "id": 17
+    "id": 18
   },
   {
     "company": "Cerealto",
@@ -285,7 +301,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:32:33.451Z",
-    "id": 18
+    "id": 19
   },
   {
     "company": "Bleecker Street",
@@ -301,7 +317,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:32:33.451Z",
-    "id": 19
+    "id": 20
   },
   {
     "company": "China",
@@ -317,7 +333,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:32:33.451Z",
-    "id": 20
+    "id": 21
   },
   {
     "company": "Warner Bros. Discovery",
@@ -333,7 +349,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:37:54.356Z",
-    "id": 21
+    "id": 22
   },
   {
     "company": "Bleecker Street",
@@ -349,7 +365,23 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:37:54.356Z",
-    "id": 22
+    "id": 23
+  },
+  {
+    "company": "Cerealto",
+    "industry": null,
+    "trigger": "Cerealto sells pasta assets to focus on core snacking and breakfast categories.",
+    "score": 5,
+    "tier": "low",
+    "employees": null,
+    "description": "Cerealto sells pasta assets to Cerealis as part of its strategy to concentrate on its core snacking and breakfast categories.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T16:49:51.844Z",
+    "id": 24
   },
   {
     "company": "Jewish Content Streamer ChaiFlicks",
@@ -365,7 +397,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T15:33:58.240Z",
-    "id": 23
+    "id": 25
   },
   {
     "company": "Jewish Content Streamer ChaiFlicks",
@@ -381,7 +413,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:23:15.760Z",
-    "id": 24
+    "id": 26
   },
   {
     "company": "Britain",
@@ -397,7 +429,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 25
+    "id": 27
   },
   {
     "company": "London bakery",
@@ -413,7 +445,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 26
+    "id": 28
   },
   {
     "company": "Aston Martin Lagonda, Inc.",
@@ -429,7 +461,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 27
+    "id": 29
   },
   {
     "company": "India",
@@ -445,7 +477,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:32:33.451Z",
-    "id": 28
+    "id": 30
   },
   {
     "company": "Britain",
@@ -461,7 +493,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:32:33.451Z",
-    "id": 29
+    "id": 31
   },
   {
     "company": "London bakery",
@@ -477,7 +509,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:32:33.451Z",
-    "id": 30
+    "id": 32
   },
   {
     "company": "Aston Martin Lagonda, Inc.",
@@ -493,7 +525,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:32:33.451Z",
-    "id": 31
+    "id": 33
   },
   {
     "company": "Britain",
@@ -509,7 +541,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:37:54.356Z",
-    "id": 32
+    "id": 34
   },
   {
     "company": "London bakery",
@@ -525,7 +557,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:37:54.356Z",
-    "id": 33
+    "id": 35
   },
   {
     "company": "Aston Martin Lagonda, Inc.",
@@ -541,7 +573,71 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:37:54.356Z",
-    "id": 34
+    "id": 36
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": "A critical examination of the negative impact of the finance sector on British society.",
+    "score": 2,
+    "tier": "low",
+    "employees": null,
+    "description": "A well-warranted harsh look at the high cost an overly-large and ever-more-extractive finance sector imposes on society as a whole.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T16:49:51.844Z",
+    "id": 37
+  },
+  {
+    "company": "Locarno Supported LGBTQIA+ Dark Comedy ‘Lunar Sway’",
+    "industry": null,
+    "trigger": "Locarno supported the sales launch of the LGBTQIA+ dark comedy ‘Lunar Sway’ in multiple territories.",
+    "score": 2,
+    "tier": "low",
+    "employees": null,
+    "description": "Alief has unveiled first deals for Nick Butler’s LGBTQIA+ dark comedy Lunar Sway following the title’s sales launch at the EFM. TLA Releasing and Optimale Distribution have U.S. and acquired UK and French-speaking Europe respectively for a limited ...",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T16:49:51.844Z",
+    "id": 38
+  },
+  {
+    "company": "London bakery",
+    "industry": null,
+    "trigger": "A London bakery with Jewish roots was vandalized in a pro-Palestinian act, prompting outcry from British Jewish groups.",
+    "score": 2,
+    "tier": "low",
+    "employees": null,
+    "description": "Pro-Palestinian vandalism of London bakery with Jewish roots draws outcry from British Jewish groups.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T16:49:51.844Z",
+    "id": 39
+  },
+  {
+    "company": "India",
+    "industry": null,
+    "trigger": "Modi mentioned multilateral projects on which India and Israel collaborate during his Knesset speech in Jerusalem.",
+    "score": 2,
+    "tier": "low",
+    "employees": null,
+    "description": "During his Knesset speech in Jerusalem, Modi mentioned multilateral projects on which India and Israel collaborate.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T16:49:51.845Z",
+    "id": 40
   },
   {
     "company": null,
@@ -557,7 +653,7 @@
     "publishedAt": "2026-02-27T19:37:59Z",
     "source": "Theaviationist.com",
     "createdAt": "2026-03-02T15:14:07.115Z",
-    "id": 35
+    "id": 41
   },
   {
     "company": null,
@@ -573,7 +669,7 @@
     "publishedAt": "2026-02-26T13:48:20Z",
     "source": "Al Jazeera English",
     "createdAt": "2026-03-02T15:14:07.126Z",
-    "id": 36
+    "id": 42
   },
   {
     "company": null,
@@ -589,7 +685,7 @@
     "publishedAt": "2026-02-21T19:37:57Z",
     "source": "Israelnationalnews.com",
     "createdAt": "2026-03-02T15:14:07.120Z",
-    "id": 37
+    "id": 43
   },
   {
     "company": null,
@@ -605,7 +701,7 @@
     "publishedAt": "2026-02-21T16:26:02Z",
     "source": "101 Great Goals",
     "createdAt": "2026-03-02T15:14:07.125Z",
-    "id": 38
+    "id": 44
   },
   {
     "company": null,
@@ -621,7 +717,7 @@
     "publishedAt": "2026-02-18T19:45:41Z",
     "source": "RT",
     "createdAt": "2026-03-02T15:14:07.121Z",
-    "id": 39
+    "id": 45
   },
   {
     "company": null,
@@ -637,7 +733,7 @@
     "publishedAt": "2026-02-17T16:33:07Z",
     "source": "Pharmaceutical Technology",
     "createdAt": "2026-03-02T15:14:07.117Z",
-    "id": 40
+    "id": 46
   },
   {
     "company": null,
@@ -653,7 +749,7 @@
     "publishedAt": "2026-02-17T15:36:37Z",
     "source": "Deadline",
     "createdAt": "2026-03-02T15:14:07.114Z",
-    "id": 41
+    "id": 47
   },
   {
     "company": null,
@@ -669,7 +765,7 @@
     "publishedAt": "2026-02-16T16:28:41Z",
     "source": "Digital Camera World",
     "createdAt": "2026-03-02T15:14:07.125Z",
-    "id": 42
+    "id": 48
   },
   {
     "company": null,
@@ -685,7 +781,7 @@
     "publishedAt": "2026-02-16T15:43:50Z",
     "source": "Just-food.com",
     "createdAt": "2026-03-02T15:14:07.120Z",
-    "id": 43
+    "id": 49
   },
   {
     "company": null,
@@ -701,7 +797,7 @@
     "publishedAt": "2026-02-13T18:40:54Z",
     "source": "Fortune",
     "createdAt": "2026-03-02T15:14:07.123Z",
-    "id": 44
+    "id": 50
   },
   {
     "company": null,
@@ -717,7 +813,7 @@
     "publishedAt": "2026-02-13T13:15:02Z",
     "source": "Bringatrailer.com",
     "createdAt": "2026-03-02T15:14:07.123Z",
-    "id": 45
+    "id": 51
   },
   {
     "company": null,
@@ -733,7 +829,7 @@
     "publishedAt": "2026-02-13T13:00:00Z",
     "source": "Deadline",
     "createdAt": "2026-03-02T15:14:07.116Z",
-    "id": 46
+    "id": 52
   },
   {
     "company": null,
@@ -749,7 +845,7 @@
     "publishedAt": "2026-02-12T19:01:12Z",
     "source": "MobileSyrup",
     "createdAt": "2026-03-02T15:14:07.124Z",
-    "id": 47
+    "id": 53
   },
   {
     "company": null,
@@ -765,7 +861,7 @@
     "publishedAt": "2026-02-11T09:16:22Z",
     "source": "Nakedcapitalism.com",
     "createdAt": "2026-03-02T15:14:07.114Z",
-    "id": 48
+    "id": 54
   },
   {
     "company": null,
@@ -781,7 +877,7 @@
     "publishedAt": "2026-02-10T15:19:10Z",
     "source": "Al Jazeera English",
     "createdAt": "2026-03-02T15:14:07.126Z",
-    "id": 49
+    "id": 55
   },
   {
     "company": null,
@@ -797,7 +893,7 @@
     "publishedAt": "2026-02-09T21:00:35Z",
     "source": "Deadline",
     "createdAt": "2026-03-02T15:14:07.117Z",
-    "id": 50
+    "id": 56
   },
   {
     "company": null,
@@ -813,7 +909,7 @@
     "publishedAt": "2026-02-09T11:45:38Z",
     "source": "Salon",
     "createdAt": "2026-03-02T15:14:07.118Z",
-    "id": 51
+    "id": 57
   },
   {
     "company": null,
@@ -829,7 +925,7 @@
     "publishedAt": "2026-02-08T18:35:37Z",
     "source": "Deadline",
     "createdAt": "2026-03-02T15:14:07.121Z",
-    "id": 52
+    "id": 58
   },
   {
     "company": null,
@@ -845,7 +941,7 @@
     "publishedAt": "2026-02-06T18:22:01Z",
     "source": "Themarginalian.org",
     "createdAt": "2026-03-02T15:14:07.115Z",
-    "id": 53
+    "id": 59
   },
   {
     "company": null,
@@ -861,7 +957,7 @@
     "publishedAt": "2026-02-05T11:20:35Z",
     "source": "Deadline",
     "createdAt": "2026-03-02T15:14:07.116Z",
-    "id": 54
+    "id": 60
   },
   {
     "company": null,
@@ -877,7 +973,7 @@
     "publishedAt": "2026-02-04T07:00:00Z",
     "source": "Deadline",
     "createdAt": "2026-03-02T15:14:07.123Z",
-    "id": 55
+    "id": 61
   },
   {
     "company": null,
@@ -893,7 +989,7 @@
     "publishedAt": "2026-02-02T11:56:31Z",
     "source": "Just-food.com",
     "createdAt": "2026-03-02T15:14:07.118Z",
-    "id": 56
+    "id": 62
   },
   {
     "company": null,
@@ -909,7 +1005,7 @@
     "publishedAt": "2026-02-02T02:31:33Z",
     "source": "CNA",
     "createdAt": "2026-03-02T15:14:07.122Z",
-    "id": 57
+    "id": 63
   },
   {
     "company": null,
@@ -925,7 +1021,7 @@
     "publishedAt": "2026-02-02T00:42:57Z",
     "source": "The Indian Express",
     "createdAt": "2026-03-02T15:14:07.127Z",
-    "id": 58
+    "id": 64
   },
   {
     "company": null,
@@ -941,7 +1037,7 @@
     "publishedAt": "2026-02-01T19:32:41Z",
     "source": "Harpers.org",
     "createdAt": "2026-03-02T15:14:07.120Z",
-    "id": 59
+    "id": 65
   },
   {
     "company": "Ukrainian Drone Factory",
@@ -957,7 +1053,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T15:33:58.240Z",
-    "id": 60
+    "id": 66
   },
   {
     "company": null,
@@ -973,7 +1069,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 61
+    "id": 67
   },
   {
     "company": "Ukrainian Drone Factory",
@@ -989,7 +1085,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 62
+    "id": 68
   },
   {
     "company": "Jewish Content Streamer ChaiFlicks",
@@ -1005,7 +1101,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 63
+    "id": 69
   },
   {
     "company": "Netflix",
@@ -1021,7 +1117,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 64
+    "id": 70
   },
   {
     "company": null,
@@ -1037,7 +1133,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 65
+    "id": 71
   },
   {
     "company": null,
@@ -1053,7 +1149,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 66
+    "id": 72
   },
   {
     "company": null,
@@ -1069,7 +1165,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 67
+    "id": 73
   },
   {
     "company": null,
@@ -1085,7 +1181,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 68
+    "id": 74
   },
   {
     "company": null,
@@ -1101,7 +1197,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 69
+    "id": 75
   },
   {
     "company": null,
@@ -1117,7 +1213,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:26:29.515Z",
-    "id": 70
+    "id": 76
   },
   {
     "company": "Frankenstein",
@@ -1133,7 +1229,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:32:33.451Z",
-    "id": 71
+    "id": 77
   },
   {
     "company": "Netflix",
@@ -1149,7 +1245,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:32:33.451Z",
-    "id": 72
+    "id": 78
   },
   {
     "company": "USAID",
@@ -1165,7 +1261,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:32:33.451Z",
-    "id": 73
+    "id": 79
   },
   {
     "company": null,
@@ -1181,7 +1277,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:32:33.451Z",
-    "id": 74
+    "id": 80
   },
   {
     "company": "West Ham",
@@ -1197,7 +1293,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:32:33.451Z",
-    "id": 75
+    "id": 81
   },
   {
     "company": null,
@@ -1213,7 +1309,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:32:33.451Z",
-    "id": 76
+    "id": 82
   },
   {
     "company": "Frankenstein",
@@ -1229,7 +1325,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:37:54.356Z",
-    "id": 77
+    "id": 83
   },
   {
     "company": null,
@@ -1245,7 +1341,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:37:54.356Z",
-    "id": 78
+    "id": 84
   },
   {
     "company": "London",
@@ -1261,7 +1357,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:37:54.356Z",
-    "id": 79
+    "id": 85
   },
   {
     "company": null,
@@ -1277,7 +1373,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:37:54.356Z",
-    "id": 80
+    "id": 86
   },
   {
     "company": "West Ham",
@@ -1293,7 +1389,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:37:54.356Z",
-    "id": 81
+    "id": 87
   },
   {
     "company": null,
@@ -1309,7 +1405,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:37:54.356Z",
-    "id": 82
+    "id": 88
   },
   {
     "company": null,
@@ -1325,6 +1421,70 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T16:37:54.356Z",
-    "id": 83
+    "id": 89
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": "No business change event identified.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "This essay discusses themes of death, advice, and true love, adapted from Traversal, focusing on Mary Wollstonecraft's philosophical insights.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T16:49:51.844Z",
+    "id": 90
+  },
+  {
+    "company": "Netflix",
+    "industry": null,
+    "trigger": "Netflix has acquired the U.S. rights to the TV adaptation of 'Lord of the Flies'.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "Netflix has secured the U.S. rights to Jack Thorne’s adaptation of 'Lord of the Flies', marking a significant acquisition amid competition from other buyers.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T16:49:51.844Z",
+    "id": 91
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": "parse_failed_stage2",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": null,
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T16:49:51.845Z",
+    "id": 92
+  },
+  {
+    "company": "West Ham",
+    "industry": "Sports",
+    "trigger": "West Ham confirmed their team for the match against Bournemouth at the London Stadium.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "West Ham v Bournemouth: Teams confirmed as two in-form sides meet at London Stadium. Get all the team news for the clash at the London Stadium.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T16:49:51.845Z",
+    "id": 93
   }
 ]
