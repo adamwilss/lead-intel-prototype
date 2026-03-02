@@ -48,6 +48,38 @@
     "id": 3
   },
   {
+    "company": "BrewDog",
+    "industry": "Beverage",
+    "trigger": "BrewDog has hired AlixPartners to explore a potential sale or company restructuring after closing two Columbus taprooms.",
+    "score": 8,
+    "tier": "high",
+    "employees": null,
+    "description": "BrewDog, which recently closed two Columbus taprooms, has hired AlixPartners to explore a potential sale or company restructuring.",
+    "outreach_email": "Subject: Exploring ERP Solutions for BrewDog\n\nWith BrewDog's recent decision to explore a potential sale or restructuring, it may be an opportune time to assess your operational systems. Our team specializes in ERP implementations that can streamline your processes and support your growth.\n\nI would love to schedule a 15-minute call to discuss how we can assist you during this transition.\n\nSign off exactly: \"ERP Experts Team\"",
+    "call_opener": "How are you planning to manage operational changes during your restructuring?",
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:27:11.019Z",
+    "id": 4
+  },
+  {
+    "company": "West Sussex County Council",
+    "industry": null,
+    "trigger": "West Sussex County Council plans to triple the use of property sales to fund its ERP project after budget overruns.",
+    "score": 8,
+    "tier": "high",
+    "employees": null,
+    "description": "West Sussex plans to triple use of property sales as ERP budget blows past original estimates. In a budget-busting leap from SAP to Oracle, West Sussex County Council is trebling its raid on capital assets such as buildings to fund its \"transformational\" ERP project.",
+    "outreach_email": "Subject: Exploring ERP Solutions for West Sussex County Council\n\nI noticed that West Sussex County Council plans to triple the use of property sales to fund its ERP project after experiencing budget overruns. This significant shift could indicate a need for robust ERP solutions to ensure successful implementation and management.\n\nI would love to schedule a 15-minute call to discuss how we can support your ERP needs during this transformation.\n\nSign off exactly: \"ERP Experts Team\"",
+    "call_opener": "How is the transition from SAP to Oracle impacting your ERP strategy?",
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:27:11.019Z",
+    "id": 5
+  },
+  {
     "company": "Locarno Supported LGBTQIA+ Dark Comedy ‘Lunar Sway’",
     "industry": null,
     "trigger": "Locarno Supported LGBTQIA+ dark comedy 'Lunar Sway' has secured distribution deals in the U.S., UK, and French-speaking territories.",
@@ -61,7 +93,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.407Z",
-    "id": 4
+    "id": 6
   },
   {
     "company": "Warner Bros. Discovery",
@@ -77,7 +109,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 5
+    "id": 7
   },
   {
     "company": "UK",
@@ -93,7 +125,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 6
+    "id": 8
   },
   {
     "company": "Cerealto",
@@ -109,7 +141,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 7
+    "id": 9
   },
   {
     "company": "Bleecker Street",
@@ -125,7 +157,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 8
+    "id": 10
   },
   {
     "company": null,
@@ -141,7 +173,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 9
+    "id": 11
   },
   {
     "company": "Palestine Film Institute",
@@ -157,7 +189,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 10
+    "id": 12
   },
   {
     "company": "RZC Investments",
@@ -173,7 +205,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 11
+    "id": 13
   },
   {
     "company": "Bell",
@@ -189,7 +221,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 12
+    "id": 14
   },
   {
     "company": null,
@@ -205,7 +237,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 13
+    "id": 15
   },
   {
     "company": "London bakery",
@@ -221,7 +253,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 14
+    "id": 16
   },
   {
     "company": "Aston Martin Lagonda, Inc.",
@@ -237,7 +269,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 15
+    "id": 17
   },
   {
     "company": null,
@@ -253,7 +285,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.409Z",
-    "id": 16
+    "id": 18
   },
   {
     "company": "Halwara airport",
@@ -269,7 +301,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.409Z",
-    "id": 17
+    "id": 19
   },
   {
     "company": null,
@@ -285,7 +317,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.407Z",
-    "id": 18
+    "id": 20
   },
   {
     "company": "Frankenstein",
@@ -301,7 +333,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 19
+    "id": 21
   },
   {
     "company": "Netflix",
@@ -317,7 +349,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 20
+    "id": 22
   },
   {
     "company": "USAID",
@@ -333,7 +365,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 21
+    "id": 23
   },
   {
     "company": null,
@@ -349,7 +381,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 22
+    "id": 24
   },
   {
     "company": "West Ham",
@@ -365,7 +397,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.408Z",
-    "id": 23
+    "id": 25
   },
   {
     "company": null,
@@ -381,7 +413,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.409Z",
-    "id": 24
+    "id": 26
   },
   {
     "company": null,
@@ -397,7 +429,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:16:47.409Z",
-    "id": 25
+    "id": 27
   },
   {
     "company": null,
@@ -413,7 +445,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 26
+    "id": 28
   },
   {
     "company": null,
@@ -429,7 +461,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 27
+    "id": 29
   },
   {
     "company": "Traversal",
@@ -445,7 +477,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 28
+    "id": 30
   },
   {
     "company": null,
@@ -461,7 +493,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 29
+    "id": 31
   },
   {
     "company": null,
@@ -477,7 +509,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 30
+    "id": 32
   },
   {
     "company": "Warner Bros. Discovery",
@@ -493,7 +525,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 31
+    "id": 33
   },
   {
     "company": "Pharma",
@@ -509,7 +541,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 32
+    "id": 34
   },
   {
     "company": null,
@@ -525,7 +557,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 33
+    "id": 35
   },
   {
     "company": "Cerealto",
@@ -541,7 +573,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 34
+    "id": 36
   },
   {
     "company": null,
@@ -557,7 +589,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 35
+    "id": 37
   },
   {
     "company": null,
@@ -573,7 +605,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 36
+    "id": 38
   },
   {
     "company": "Aston Martin Lagonda, Inc.",
@@ -589,7 +621,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 37
+    "id": 39
   },
   {
     "company": "West Ham",
@@ -605,7 +637,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 38
+    "id": 40
   },
   {
     "company": null,
@@ -621,7 +653,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 39
+    "id": 41
   },
   {
     "company": null,
@@ -637,7 +669,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 40
+    "id": 42
   },
   {
     "company": null,
@@ -653,6 +685,390 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-02T17:22:12.429Z",
-    "id": 41
+    "id": 43
+  },
+  {
+    "company": "Wells Fargo",
+    "industry": null,
+    "trigger": "Wells Fargo's top merger banker played a significant role in shaping the $4.6 trillion M&A comeback.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "The article highlights the top US merger banker from Wells Fargo and 19 other dealmakers who influenced major deals in 2025.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:27:11.019Z",
+    "id": 44
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": "Sam Perry launched a startup using his severance money instead of pursuing an MBA.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "Sam Perry, 40, used his severance money to launch a startup instead of pursuing a costly MBA. He said it helped him stand out in the job market.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:27:11.019Z",
+    "id": 45
+  },
+  {
+    "company": "Naboo",
+    "industry": null,
+    "trigger": "Naboo raises $70M in Series B funding to enhance its corporate event planning platform.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "Naboo has raised a $70m in Series B as it accelerates its ambition to become the operating layer for how large companies plan, book, and control corporate events.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:27:11.019Z",
+    "id": 46
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": "Discussion on the potential impact of LLMs like ChatGPT on the financial sector.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "An article exploring the implications of LLMs on white-collar jobs and their potential to replace money managers.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:27:11.020Z",
+    "id": 47
+  },
+  {
+    "company": "Focus Features",
+    "industry": "Entertainment",
+    "trigger": "Focus Features has achieved significant international box office success with the film 'Hamnet', grossing $70 million worldwide.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "Focus Features has found success in the international box office with its film 'Hamnet', which has made $70 million worldwide in a unique rollout.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:27:11.020Z",
+    "id": 48
+  },
+  {
+    "company": null,
+    "industry": "Software",
+    "trigger": "Half of German-speaking SAP users are set to ignore the 2027 support deadline for the ECC ERP system.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "A survey indicates that most DSAG members are willing to pay a premium to continue using the legacy ECC ERP platform until 2030.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:27:11.020Z",
+    "id": 49
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": "A behind-the-scenes look at the technology used at the Super Bowl Stadium.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "Here's a behind-the-scenes look at the many gadgets and systems powering the big game.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:27:11.020Z",
+    "id": 50
+  },
+  {
+    "company": "Trinity CineAsia",
+    "industry": null,
+    "trigger": "Trinity CineAsia has acquired UK and Ireland distribution rights for the film 'Scare Out'.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "Trinity CineAsia has acquired all UK and Ireland distribution rights for Chinese director Zhang Yimou’s counter-espionage thriller Scare Out from Damai Entertainment.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:27:11.020Z",
+    "id": 51
+  },
+  {
+    "company": null,
+    "industry": "Transportation",
+    "trigger": "The article discusses the challenges surrounding hydrogen fuel cell trucks, including production efficiency and infrastructure economics.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "The Hydrogen Truck Problem Isn't the Truck discusses the existing hydrogen fuel cell trucks and the surrounding issues that affect their adoption.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:27:11.020Z",
+    "id": 52
+  },
+  {
+    "company": "Walmart",
+    "industry": null,
+    "trigger": "Walmart's results will offer clues on consumer spending.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "Markets anticipate a busy week with Walmart's results expected to provide insights into consumer spending.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:27:11.020Z",
+    "id": 53
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": "Discussion of Hitler's strategic interests in Greenland for resources and security.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "An analysis of Hitler's focus on Greenland driven by economic challenges and resource needs.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:27:11.020Z",
+    "id": 54
+  },
+  {
+    "company": "Netflix",
+    "industry": null,
+    "trigger": "Netflix acquires U.S. rights to Jack Thorne’s Lord of the Flies TV adaptation.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "Netflix has secured the U.S. rights to Jack Thorne’s Lord of the Flies TV adaptation, marking a significant acquisition amidst interest from multiple buyers.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:27:11.020Z",
+    "id": 55
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": "Chiplet Summit 2026 is taking place soon, indicating growth in the chiplet space.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "Chiplet Summit 2026 is approaching, highlighting the ongoing developments in the chiplet industry.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:27:11.020Z",
+    "id": 56
+  },
+  {
+    "company": "Rezolve Ai",
+    "industry": null,
+    "trigger": "Rezolve Ai acquires fintech firm Reward in a $230 million deal.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "Rezolve Ai buys fintech firm Reward in a $230m deal. The move will see Reward’s customer engagement operations combined with Rezolve Ai’s conversational commerce and AI technologies.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:27:11.020Z",
+    "id": 57
+  },
+  {
+    "company": "IG",
+    "industry": null,
+    "trigger": "IG has completed its acquisition of Independent Reserve, a cryptocurrency exchange.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "Trading firm IG has completed its acquisition of Independent Reserve, one of Australia’s best-known cryptocurrency exchanges.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:27:11.020Z",
+    "id": 58
+  },
+  {
+    "company": null,
+    "industry": "Pharmaceuticals",
+    "trigger": "Pharma companies are offshoring R&D, indicating a shift in the industry's operational strategy.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "The UK was the highest ranked country for those offshoring pharma R&D, raising questions about its pharma industry’s attractiveness.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:27:11.020Z",
+    "id": 59
+  },
+  {
+    "company": "SatVu",
+    "industry": "Aerospace",
+    "trigger": "SatVu has closed a 30 million pound funding round to expand its thermal imaging constellation.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "SatVu has secured funding to accelerate the development of its space-based thermal imaging constellation, increasing its total equity funding to 60 million pounds.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:27:11.021Z",
+    "id": 60
+  },
+  {
+    "company": "Gravita",
+    "industry": "Accounting",
+    "trigger": "Gravita has appointed Lisa Mayhew as the new CEO, replacing Heather Swanston.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "Accounting practice Gravita has named Lisa Mayhew as the new CEO, effective April, succeeding Heather Swanston who served as interim CEO since June last year.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:27:11.021Z",
+    "id": 61
+  },
+  {
+    "company": "Electricity Grid",
+    "industry": "Energy",
+    "trigger": "Electricity demand is surging while grid infrastructure struggles to keep up.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "Electricity demand is surging as renewables, nuclear, and natural gas expand, but grid infrastructure is becoming a key bottleneck.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:27:11.021Z",
+    "id": 62
+  },
+  {
+    "company": "Blue Owl Capital",
+    "industry": "Private Equity",
+    "trigger": "Blue Owl Capital faced a liquidity crisis, leading to the liquidation of $1.4 billion in assets.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "Blue Owl Capital experienced a nearly 15% drop as it was forced to liquidate $1.4 billion in assets to pay investors looking to exit one of its private credit funds.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:27:11.021Z",
+    "id": 63
+  },
+  {
+    "company": "FCA",
+    "industry": "Financial Services",
+    "trigger": "The UK’s FCA has released details of its plans to regulate BNPL in line with traditional credit.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "The UK’s FCA has finally released details of its plans to bring BNPL into line with traditional credit.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:27:11.021Z",
+    "id": 64
+  },
+  {
+    "company": "BrewDog",
+    "industry": "Beverages",
+    "trigger": "BrewDog is considering offers for a potential sale after hiring AlixPartners to assess interest in the business.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "BrewDog is weighing up offers after hiring AlixPartners to determine the possible interest in the loss-making business.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:27:11.021Z",
+    "id": 65
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": "The NCSC emphasizes the need for unique, verifiable device identity for Zero Trust, highlighting a potential liability in current assumptions.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "The NCSC requires unique, verifiable device identity for Zero Trust. Most organizations think certificates cover it. Here's why that assumption is a liability.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:27:11.021Z",
+    "id": 66
+  },
+  {
+    "company": "Wayve",
+    "industry": null,
+    "trigger": "Wayve raised $1.2bn in Series D funding to scale its robotaxi plans.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "Wayve raises $1.2bn Series D to scale robotaxi plans. Including further “milestone-based capital” commitments from Uber, Wayve said the total funds raised in this round would be $1.5bn.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T17:27:11.021Z",
+    "id": 67
   }
 ]
