@@ -24,5 +24,31 @@
       "email": "info@ucla.edu Subject: Transforming UCLA's Financial Management with ERP Solutions Hi UCLA Team, I understand that financial oversight has become a pressing issue, especially with the recent pause on your ERP project. I would love to discuss how our ERP solutions can help UCLA improve efficiency and manage finances more effectively. Looking forward to your response! Best regards, [Your Name] [Your Company] [Your Contact Information]",
       "phone": "Hi, is this the finance department of UCLA? I wanted to ask how you're currently managing your financial reporting amidst recent challenges."
     }
+  ],
+  [
+    {
+      "id": 1,
+      "company": "T-Mobile",
+      "industry": "Telecommunications",
+      "trigger": "pivotal transformation to retain customers",
+      "score": 9,
+      "tier": "high",
+      "employees": "50,000+",
+      "description": "T-Mobile is undergoing significant changes to address customer retention challenges and prevent losing market share. This transformation may require an integrated ERP system to streamline operations and enhance customer engagement.",
+      "email": "Subject: Streamline Your Transformation at T-Mobile\n\nHi T-Mobile Team,\n\nI noticed your recent efforts to transform operations and retain customers in a competitive market. I believe our ERP solutions could help streamline your processes and improve customer satisfaction. Can we set up a time to discuss how we can support your goals?\n\nBest regards,\n[Your Name]\n[Your Company]\n[Your Contact Information]",
+      "phone": "How are you currently managing the operational changes as part of your customer retention strategy?"
+    },
+    {
+      "id": 2,
+      "company": "DocuSign",
+      "industry": "Technology",
+      "trigger": "rapid growth with 7,000 employees",
+      "score": 8.5,
+      "tier": "high",
+      "employees": "7,000",
+      "description": "With a significant workforce, DocuSign may require a robust ERP system to manage its operations efficiently and support its ongoing growth. Implementing an ERP could help integrate various functions and improve operational efficiency.",
+      "email": "Subject: Enhance Operational Efficiency at DocuSign\n\nHi DocuSign Team,\n\nGiven your impressive growth to 7,000 employees, I wanted to reach out and discuss how our ERP solutions can help enhance operational efficiency and streamline your processes. Would you be open to a conversation about this?\n\nBest regards,\n[Your Name]\n[Your Company]\n[Your Contact Information]",
+      "phone": "How are you currently handling the operational complexities that come with your rapid growth?"
+    }
   ]
 ]
