@@ -44,28 +44,34 @@ async function triggerWorkflow(type) {
     return;
   }
 
-  // Poll for new leads every 10s, up to 2 minutes
-  const snapshot = leads.length;
+  // Poll every 10s for up to 2 minutes
+  const snapshot = JSON.stringify(leads);
+  const snapshotCount = leads.length;
   let attempts = 0;
-  const maxAttempts = 12; // 12 × 10s = 2 min
+  const maxAttempts = 12;
 
   const poll = setInterval(async () => {
     attempts++;
     try {
       const res = await fetch('data.json?t=' + Date.now());
       const fresh = await res.json();
-      if (fresh.length > snapshot) {
+      const changed = JSON.stringify(fresh) !== snapshot;
+
+      if (changed || attempts >= maxAttempts) {
         clearInterval(poll);
         leads = fresh;
         renderLeads();
-        status.textContent = `✓ Done — ${fresh.length - snapshot} new lead${fresh.length - snapshot !== 1 ? 's' : ''} found`;
-        status.style.color = 'var(--success)';
-        resetBtn(btn);
-        setTimeout(() => { status.textContent = ''; }, 5000);
-      } else if (attempts >= maxAttempts) {
-        clearInterval(poll);
-        status.textContent = '✓ Done — no new leads this run';
-        status.style.color = 'var(--text-secondary)';
+        const newCount = fresh.length - snapshotCount;
+        if (changed && newCount > 0) {
+          status.textContent = `✓ Done — ${newCount} new lead${newCount !== 1 ? 's' : ''} found`;
+          status.style.color = 'var(--success)';
+        } else if (changed) {
+          status.textContent = '✓ Done — leads updated';
+          status.style.color = 'var(--success)';
+        } else {
+          status.textContent = '✓ Done — no new leads this run';
+          status.style.color = 'var(--text-secondary)';
+        }
         resetBtn(btn);
         setTimeout(() => { status.textContent = ''; }, 5000);
       }
