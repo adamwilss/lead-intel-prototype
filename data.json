@@ -126,5 +126,17 @@
     "email": "",
     "phone": "",
     "id": 1772453209080
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": "none",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "No relevant information provided to assess any ERP buying signals. The content lacks details about company activities or industry developments.",
+    "email": "Subject: Exploring ERP Solutions for Your Business Needs\nBody: Hi, I noticed there hasn't been any recent updates regarding your company. If you're considering optimizing operations, I'd love to discuss how our ERP solutions can help.",
+    "phone": null,
+    "id": 1772453497074
   }
 ]
