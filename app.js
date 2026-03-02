@@ -7,7 +7,7 @@ const modalBody = document.getElementById('modalBody');
 
 // ── Webhook URLs ────────────────────────────────────────────────
 const WEBHOOKS = {
-  news:      'YOUR_N8N_NEWS_WEBHOOK_URL',
+  news:      'https://vmi2928284.contaboserver.net/webhook/2a4f67a6-2384-4add-bb58-be2b7b43d902',
   companies: 'YOUR_N8N_COMPANIES_WEBHOOK_URL'
 };
 
