@@ -1,0 +1,233 @@
+{
+    "name": "LeadIntel - ERP Lead Gen to GitHub Dashboard",
+    "nodes": [
+        {
+            "parameters": {},
+            "id": "node-manual-trigger",
+            "name": "Manual Trigger",
+            "type": "n8n-nodes-base.manualTrigger",
+            "typeVersion": 1,
+            "position": [
+                200,
+                400
+            ]
+        },
+        {
+            "parameters": {
+                "method": "GET",
+                "url": "https://newsapi.org/v2/everything",
+                "authentication": "none",
+                "sendQuery": true,
+                "queryParameters": {
+                    "parameters": [
+                        {
+                            "name": "q",
+                            "value": "enterprise software funding OR ERP acquisition OR company expansion OR digital transformation"
+                        },
+                        {
+                            "name": "language",
+                            "value": "en"
+                        },
+                        {
+                            "name": "pageSize",
+                            "value": "10"
+                        },
+                        {
+                            "name": "apiKey",
+                            "value": "YOUR_NEWSAPI_KEY_HERE"
+                        }
+                    ]
+                },
+                "options": {}
+            },
+            "id": "node-newsapi",
+            "name": "NewsAPI - Find Growth Signals",
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 4.2,
+            "position": [
+                440,
+                400
+            ]
+        },
+        {
+            "parameters": {
+                "method": "POST",
+                "url": "https://api.openai.com/v1/chat/completions",
+                "authentication": "none",
+                "sendHeaders": true,
+                "headerParameters": {
+                    "parameters": [
+                        {
+                            "name": "Authorization",
+                            "value": "Bearer YOUR_OPENAI_API_KEY_HERE"
+                        },
+                        {
+                            "name": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ]
+                },
+                "sendBody": true,
+                "contentType": "raw",
+                "body": "{\n  \"model\": \"gpt-4o-mini\",\n  \"messages\": [\n    {\n      \"role\": \"system\",\n      \"content\": \"You are a B2B lead generation expert specialising in ERP software sales. Given a list of news articles, identify companies that show buying signals for an ERP system. For each qualifying company, return a JSON array. Each object must have exactly these keys: id (integer starting at 1), company (string), industry (string), trigger (string - the growth signal), score (float 1-10), tier (string - 'high' if score>=8 else 'mid'), employees (string), description (string - 2 sentences why they need ERP), email (string - full email), phone (string - call opener), url (string - article URL), source (string - news publisher), title (string - article title). Return ONLY a valid raw JSON array.\"\n    },\n    {\n      \"role\": \"user\",\n      \"content\": \"{{ $json.articles.map(a => 'TITLE: ' + (a.title || '') + '\\nDESC: ' + (a.description || '') + '\\nURL: ' + (a.url || '') + '\\nSOURCE: ' + ((a.source && a.source.name) || '')).join('\\n\\n') }}\"\n    }\n  ],\n  \"temperature\": 0.7\n}",
+                "options": {}
+            },
+            "id": "node-ai-agent",
+            "name": "AI Agent - Extract & Draft Leads",
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 4.2,
+            "position": [
+                680,
+                400
+            ]
+        },
+        {
+            "parameters": {
+                "jsCode": "// Get the raw AI response text\nconst raw = $input.item.json.choices[0].message.content;\n\n// Strip markdown code fences if present (AI sometimes wraps in ```json ... ```)\nconst cleaned = raw\n  .replace(/^```json\\s*/i, '')\n  .replace(/^```\\s*/i, '')\n  .replace(/```\\s*$/i, '')\n  .trim();\n\n// Validate it's real JSON\nlet parsed;\ntry {\n  parsed = JSON.parse(cleaned);\n} catch(e) {\n  throw new Error('AI did not return valid JSON: ' + cleaned.substring(0, 200));\n}\n\n// Base64 encode for GitHub API\nconst base64Content = Buffer.from(JSON.stringify(parsed, null, 2)).toString('base64');\n\nreturn [{ json: { base64Content, leadsJson: parsed } }];"
+            },
+            "id": "node-prepare-content",
+            "name": "Prepare GitHub Content",
+            "type": "n8n-nodes-base.code",
+            "typeVersion": 2,
+            "position": [
+                920,
+                400
+            ]
+        },
+        {
+            "parameters": {
+                "method": "GET",
+                "url": "https://api.github.com/repos/adamwilss/lead-intel-prototype/contents/data.json",
+                "authentication": "none",
+                "sendHeaders": true,
+                "headerParameters": {
+                    "parameters": [
+                        {
+                            "name": "Authorization",
+                            "value": "Bearer YOUR_GITHUB_TOKEN_HERE"
+                        },
+                        {
+                            "name": "Accept",
+                            "value": "application/vnd.github+json"
+                        },
+                        {
+                            "name": "X-GitHub-Api-Version",
+                            "value": "2022-11-28"
+                        }
+                    ]
+                },
+                "options": {}
+            },
+            "id": "node-github-get-sha",
+            "name": "GitHub - Get Current SHA",
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 4.2,
+            "position": [
+                1160,
+                400
+            ]
+        },
+        {
+            "parameters": {
+                "method": "PUT",
+                "url": "https://api.github.com/repos/adamwilss/lead-intel-prototype/contents/data.json",
+                "authentication": "none",
+                "sendHeaders": true,
+                "headerParameters": {
+                    "parameters": [
+                        {
+                            "name": "Authorization",
+                            "value": "Bearer YOUR_GITHUB_TOKEN_HERE"
+                        },
+                        {
+                            "name": "Accept",
+                            "value": "application/vnd.github+json"
+                        },
+                        {
+                            "name": "X-GitHub-Api-Version",
+                            "value": "2022-11-28"
+                        },
+                        {
+                            "name": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ]
+                },
+                "sendBody": true,
+                "contentType": "raw",
+                "rawContentType": "application/json",
+                "body": "{\n  \"message\": \"Update leads from n8n\",\n  \"content\": \"{{ $('Prepare GitHub Content').item.json.base64Content }}\",\n  \"sha\": \"{{ $json.sha }}\"\n}",
+                "options": {}
+            },
+            "id": "node-github-push",
+            "name": "GitHub - Push data.json",
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 4.2,
+            "position": [
+                1400,
+                400
+            ]
+        }
+    ],
+    "connections": {
+        "Manual Trigger": {
+            "main": [
+                [
+                    {
+                        "node": "NewsAPI - Find Growth Signals",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "NewsAPI - Find Growth Signals": {
+            "main": [
+                [
+                    {
+                        "node": "AI Agent - Extract & Draft Leads",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "AI Agent - Extract & Draft Leads": {
+            "main": [
+                [
+                    {
+                        "node": "Prepare GitHub Content",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Prepare GitHub Content": {
+            "main": [
+                [
+                    {
+                        "node": "GitHub - Get Current SHA",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "GitHub - Get Current SHA": {
+            "main": [
+                [
+                    {
+                        "node": "GitHub - Push data.json",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        }
+    },
+    "active": false,
+    "settings": {
+        "executionOrder": "v1"
+    }
+}

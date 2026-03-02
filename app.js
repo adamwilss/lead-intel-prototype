@@ -325,6 +325,7 @@ function openLead(idx) {
           ${lead.trigger || 'No specific trigger detected.'}
           ${lead.url ? `
             <div style="margin-top:14px;padding-top:14px;border-top:1px solid var(--border);font-size:0.75rem">
+              ${lead.title ? `<div style="font-weight:600;font-size:0.85rem;margin-bottom:6px;color:var(--t1)">${lead.title}</div>` : ''}
               <span style="color:var(--t2)">READ MORE AT</span> 
               <a href="${lead.url}" target="_blank" style="color:var(--blue);text-decoration:none;font-weight:700;margin-left:4px">
                 ${lead.source ? lead.source.toUpperCase() : 'ORIGINAL ARTICLE'} <i data-lucide="external-link" style="width:11px;height:11px;margin-left:2px;vertical-align:-1px"></i>
