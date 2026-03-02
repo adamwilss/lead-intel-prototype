@@ -9,125 +9,14 @@
     "employees": "10,000+",
     "description": "UCLA is facing financial challenges and has halted its ERP project, indicating a need for a more efficient financial management system. With rising compensation and spending, a robust ERP system could help streamline operations and improve financial reporting.",
     "email": "Subject: Transforming UCLA's Financial Management with ERP\n\nDear UCLA Financial Team,\n\nI understand that recent financial pressures have led to a pause in your ERP project. I would love to discuss how our ERP solutions can help streamline your operations and provide the financial oversight you need during this pivotal time. Looking forward to connecting!\n\nBest regards,\n[Your Name]\n[Your Company]\n[Your Contact Information]",
-    "phone": "Hi, is this the finance department at UCLA? I wanted to ask how you're currently managing financial reporting amidst the recent budget challenges."
-  },
-  [
-    {
-      "id": 1,
-      "company": "UCLA",
-      "industry": "Education",
-      "trigger": "paused a costly ERP project",
-      "score": 7.5,
-      "tier": "mid",
-      "employees": "1000-5000",
-      "description": "UCLA is currently facing financial challenges which have led to a halt in their ERP project. With rising costs in compensation and spending, implementing a robust ERP system could streamline operations and enhance financial reporting.",
-      "email": "info@ucla.edu Subject: Transforming UCLA's Financial Management with ERP Solutions Hi UCLA Team, I understand that financial oversight has become a pressing issue, especially with the recent pause on your ERP project. I would love to discuss how our ERP solutions can help UCLA improve efficiency and manage finances more effectively. Looking forward to your response! Best regards, [Your Name] [Your Company] [Your Contact Information]",
-      "phone": "Hi, is this the finance department of UCLA? I wanted to ask how you're currently managing your financial reporting amidst recent challenges."
-    }
-  ],
-  [
-    {
-      "id": 1,
-      "company": "T-Mobile",
-      "industry": "Telecommunications",
-      "trigger": "pivotal transformation to retain customers",
-      "score": 9,
-      "tier": "high",
-      "employees": "50,000+",
-      "description": "T-Mobile is undergoing significant changes to address customer retention challenges and prevent losing market share. This transformation may require an integrated ERP system to streamline operations and enhance customer engagement.",
-      "email": "Subject: Streamline Your Transformation at T-Mobile\n\nHi T-Mobile Team,\n\nI noticed your recent efforts to transform operations and retain customers in a competitive market. I believe our ERP solutions could help streamline your processes and improve customer satisfaction. Can we set up a time to discuss how we can support your goals?\n\nBest regards,\n[Your Name]\n[Your Company]\n[Your Contact Information]",
-      "phone": "How are you currently managing the operational changes as part of your customer retention strategy?"
-    },
-    {
-      "id": 2,
-      "company": "DocuSign",
-      "industry": "Technology",
-      "trigger": "rapid growth with 7,000 employees",
-      "score": 8.5,
-      "tier": "high",
-      "employees": "7,000",
-      "description": "With a significant workforce, DocuSign may require a robust ERP system to manage its operations efficiently and support its ongoing growth. Implementing an ERP could help integrate various functions and improve operational efficiency.",
-      "email": "Subject: Enhance Operational Efficiency at DocuSign\n\nHi DocuSign Team,\n\nGiven your impressive growth to 7,000 employees, I wanted to reach out and discuss how our ERP solutions can help enhance operational efficiency and streamline your processes. Would you be open to a conversation about this?\n\nBest regards,\n[Your Name]\n[Your Company]\n[Your Contact Information]",
-      "phone": "How are you currently handling the operational complexities that come with your rapid growth?"
-    }
-  ],
-  [
-    {
-      "id": 1,
-      "company": "Astronics",
-      "industry": "Aerospace",
-      "trigger": "Strong revenue growth",
-      "score": 9,
-      "tier": "high",
-      "employees": "1000-5000",
-      "description": "Astronics has posted record revenue and improved operations, signaling potential for further investment in technology. Implementing an ERP system could streamline processes and support their ongoing growth and operational efficiency.",
-      "email": "Subject: Streamline Your Growth with ERP Solutions\n\nHi Astronics Team,\n\nCongratulations on your impressive fourth-quarter results! As you continue to scale operations, an ERP system could be pivotal in managing the complexities of your business. I’d love to discuss how our solutions can support your goals.\n\nBest,\n[Your Name]\n[Your Company]\n[Your Contact Information]",
-      "phone": "How are you managing the increased operational complexities with your recent growth?"
-    },
-    {
-      "id": 2,
-      "company": "Resideo Technologies",
-      "industry": "Home Automation",
-      "trigger": "Exceeded financial outlook",
-      "score": 8.5,
-      "tier": "high",
-      "employees": "500-1000",
-      "description": "Resideo Technologies has reported results exceeding their financial outlook, indicating a strong market position. An ERP system could enhance their operational capabilities and support further innovation in home automation.",
-      "email": "Subject: Enhance Your Operational Efficiency at Resideo\n\nHi Resideo Team,\n\nIt's exciting to see your recent success in the market! To build on this momentum, implementing an ERP system could greatly enhance your operational efficiency and scalability. Let’s set up a time to explore this further.\n\nBest,\n[Your Name]\n[Your Company]\n[Your Contact Information]",
-      "phone": "What strategies are you considering to enhance operational efficiency amidst your recent growth?"
-    },
-    {
-      "id": 3,
-      "company": "UFP Technologies",
-      "industry": "Manufacturing",
-      "trigger": "Strong revenue growth",
-      "score": 8,
-      "tier": "high",
-      "employees": "500-1000",
-      "description": "UFP Technologies has highlighted significant revenue growth, suggesting a solid demand for their products. Implementing an ERP system can streamline their supply chain and improve overall productivity.",
-      "email": "Subject: Support Your Growth with an ERP Solution\n\nHi UFP Technologies Team,\n\nCongratulations on your strong revenue performance! As you continue to grow, an ERP system could be key in optimizing your manufacturing processes and enhancing your supply chain management. I’d love to discuss how we can assist you.\n\nBest,\n[Your Name]\n[Your Company]\n[Your Contact Information]",
-      "phone": "How are you planning to manage your increased production demands effectively?"
-    }
-  ],
-  [
-    {
-      "id": 1,
-      "company": "Naboo",
-      "industry": "Event Management",
-      "trigger": "Funding round",
-      "score": 9,
-      "tier": "high",
-      "employees": "100-200",
-      "description": "Naboo has raised $70M to enhance its platform for corporate event planning, indicating a rapid growth trajectory. As they scale operations, an ERP system could help streamline their processes and manage resources efficiently.",
-      "email": "Subject: Streamline Your Operations with ERP Solutions\n\nHi Naboo Team,\n\nCongratulations on your recent funding! As you expand your capabilities in corporate event planning, I believe implementing an ERP system can greatly enhance your operational efficiency and resource management. I'd love to discuss how we can support your growth.\n\nBest,\n[Your Name]",
-      "phone": "Hi, is this the team at Naboo? I'm curious how you're planning to manage your operational growth after the recent funding."
-    },
-    {
-      "id": 2,
-      "company": "Devon Energy",
-      "industry": "Energy",
-      "trigger": "HQ relocation",
-      "score": 8.5,
-      "tier": "high",
-      "employees": "1000-5000",
-      "description": "Devon Energy is relocating its headquarters, indicating significant organizational changes. This transformation may necessitate an ERP system to ensure seamless integration of operations across locations.",
-      "email": "Subject: Optimize Your Operations During Your HQ Transition\n\nHi Devon Energy Team,\n\nI noticed you're moving your headquarters to Houston. This is a significant transition, and an ERP system could help streamline your operations and improve efficiency during this change. Let’s explore how we can assist.\n\nBest,\n[Your Name]",
-      "phone": "Hi, is this Devon Energy? How are you planning to manage the operational challenges of your upcoming headquarters move?"
-    }
-  ],
-  {
-    "company": "",
-    "industry": "",
-    "trigger": "",
-    "score": 0,
-    "tier": "",
-    "employees": 0,
-    "description": "",
-    "email": "",
-    "phone": "",
-    "id": 1772453209080
+    "phone": "Hi, is this the finance department at UCLA? I wanted to ask how you're currently managing financial reporting amidst the recent budget challenges.",
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T12:34:00.648Z"
   },
   {
+    "id": 2,
     "company": null,
     "industry": null,
     "trigger": "none",
@@ -137,6 +26,9 @@
     "description": "No relevant information provided to assess any ERP buying signals. The content lacks details about company activities or industry developments.",
     "email": "Subject: Exploring ERP Solutions for Your Business Needs\nBody: Hi, I noticed there hasn't been any recent updates regarding your company. If you're considering optimizing operations, I'd love to discuss how our ERP solutions can help.",
     "phone": null,
-    "id": 1772453497074
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T12:34:00.648Z"
   }
 ]
