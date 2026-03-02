@@ -88,5 +88,31 @@
       "email": "Subject: Support Your Growth with an ERP Solution\n\nHi UFP Technologies Team,\n\nCongratulations on your strong revenue performance! As you continue to grow, an ERP system could be key in optimizing your manufacturing processes and enhancing your supply chain management. I’d love to discuss how we can assist you.\n\nBest,\n[Your Name]\n[Your Company]\n[Your Contact Information]",
       "phone": "How are you planning to manage your increased production demands effectively?"
     }
+  ],
+  [
+    {
+      "id": 1,
+      "company": "Naboo",
+      "industry": "Event Management",
+      "trigger": "Funding round",
+      "score": 9,
+      "tier": "high",
+      "employees": "100-200",
+      "description": "Naboo has raised $70M to enhance its platform for corporate event planning, indicating a rapid growth trajectory. As they scale operations, an ERP system could help streamline their processes and manage resources efficiently.",
+      "email": "Subject: Streamline Your Operations with ERP Solutions\n\nHi Naboo Team,\n\nCongratulations on your recent funding! As you expand your capabilities in corporate event planning, I believe implementing an ERP system can greatly enhance your operational efficiency and resource management. I'd love to discuss how we can support your growth.\n\nBest,\n[Your Name]",
+      "phone": "Hi, is this the team at Naboo? I'm curious how you're planning to manage your operational growth after the recent funding."
+    },
+    {
+      "id": 2,
+      "company": "Devon Energy",
+      "industry": "Energy",
+      "trigger": "HQ relocation",
+      "score": 8.5,
+      "tier": "high",
+      "employees": "1000-5000",
+      "description": "Devon Energy is relocating its headquarters, indicating significant organizational changes. This transformation may necessitate an ERP system to ensure seamless integration of operations across locations.",
+      "email": "Subject: Optimize Your Operations During Your HQ Transition\n\nHi Devon Energy Team,\n\nI noticed you're moving your headquarters to Houston. This is a significant transition, and an ERP system could help streamline your operations and improve efficiency during this change. Let’s explore how we can assist.\n\nBest,\n[Your Name]",
+      "phone": "Hi, is this Devon Energy? How are you planning to manage the operational challenges of your upcoming headquarters move?"
+    }
   ]
 ]
