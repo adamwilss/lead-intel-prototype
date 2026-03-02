@@ -1184,3 +1184,35 @@ tbody tr:hover {
         transform: rotate(360deg);
     }
 }
+
+/* ── Navigation Buttons (Modal) ── */
+.nav-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--t2);
+    transition: all 0.15s ease;
+    outline: none;
+}
+
+.nav-btn svg {
+    width: 16px;
+    height: 16px;
+}
+
+.nav-btn:hover:not(:disabled) {
+    background: var(--surface-hi);
+    color: var(--t1);
+    border-color: var(--border-focus);
+}
+
+.nav-btn:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}

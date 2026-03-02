@@ -262,43 +262,60 @@ function renderIntegrations() {
 
 // ── Lead detail modal ────────────────────────────────────────────
 // Takes the array INDEX (not the id field) — avoids duplicated-id bugs from n8n
+let currentLeadIdx = 0;
+
 function openLead(idx) {
   const lead = leads[idx];
   if (!lead) return;
+  currentLeadIdx = idx;
+
+  const hasPrev = idx > 0;
+  const hasNext = idx < leads.length - 1;
+
   modalBody.innerHTML = `
     <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:28px;">
       <div>
-        <h2 style="font-size:1.8rem;font-weight:800;letter-spacing:-0.03em;margin-bottom:10px">${lead.company}</h2>
+        <div style="display:flex;align-items:center;gap:16px;margin-bottom:10px">
+          <h2 style="font-size:1.8rem;font-weight:800;letter-spacing:-0.03em;">${lead.company || 'Unknown Company'}</h2>
+          <div style="display:flex;gap:6px">
+            <button class="nav-btn" onclick="openLead(${idx - 1})" ${!hasPrev ? 'disabled' : ''} title="Previous Lead (Left Arrow)">
+              <i data-lucide="chevron-left"></i>
+            </button>
+            <button class="nav-btn" onclick="openLead(${idx + 1})" ${!hasNext ? 'disabled' : ''} title="Next Lead (Right Arrow)">
+              <i data-lucide="chevron-right"></i>
+            </button>
+          </div>
+        </div>
         <div style="display:flex;gap:8px;flex-wrap:wrap">
-          <span class="pill">${lead.industry}</span>
+          ${lead.industry ? `<span class="pill">${lead.industry}</span>` : ''}
           <span class="pill" style="border-color:var(--blue);color:var(--blue)">Priority: ${(lead.tier || 'mid').toUpperCase()}</span>
-          <span class="pill">${lead.employees} employees</span>
+          ${lead.employees ? `<span class="pill">${lead.employees} employees</span>` : ''}
         </div>
       </div>
       <div style="text-align:right;flex-shrink:0">
         <div style="font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--t2);margin-bottom:4px">AI Fit Score</div>
-        <div style="font-size:2.8rem;font-weight:800;letter-spacing:-0.04em;color:var(--blue);line-height:1">${lead.score}</div>
+        <div style="font-size:2.8rem;font-weight:800;letter-spacing:-0.04em;color:var(--blue);line-height:1">${lead.score || '-'}</div>
       </div>
     </div>
 
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:32px">
       <div>
         <div style="font-size:0.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.09em;color:var(--t2);margin-bottom:12px">Analysis Reasoning</div>
-        <p style="line-height:1.65;font-size:0.95rem;color:var(--t1);margin-bottom:24px">${lead.description}</p>
+        <p style="line-height:1.65;font-size:0.95rem;color:var(--t1);margin-bottom:24px">${lead.description || 'No detailed analysis provided.'}</p>
         <div style="font-size:0.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.09em;color:var(--t2);margin-bottom:12px">Growth Signal</div>
         <div style="background:var(--surface);padding:16px;border-radius:11px;border:1px solid var(--border);font-weight:600;font-size:0.9rem">
-          ${lead.trigger}
+          ${lead.trigger || 'No specific trigger detected.'}
         </div>
       </div>
       <div>
         <div style="font-size:0.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.09em;color:var(--t2);margin-bottom:12px">AI Outreach Drafts</div>
         <div style="margin-bottom:20px">
           <div style="font-size:0.8rem;font-weight:600;margin-bottom:8px;color:var(--t1)">📧 Personalized Email</div>
-          <div style="background:var(--bg);padding:16px;border-radius:11px;border:1px solid var(--border);font-size:0.82rem;white-space:pre-wrap;color:var(--t2);line-height:1.6">${lead.outreach_email}</div>
+          <div style="background:var(--bg);padding:16px;border-radius:11px;border:1px solid var(--border);font-size:0.82rem;white-space:pre-wrap;color:var(--t2);line-height:1.6">${lead.outreach_email || 'No email draft available.'}</div>
         </div>
         <div>
           <div style="font-size:0.8rem;font-weight:600;margin-bottom:8px;color:var(--t1)">📞 Phone Opener</div>
-          <div style="background:var(--bg);padding:16px;border-radius:11px;border:1px solid var(--border);font-size:0.82rem;color:var(--t2);line-height:1.6">${lead.call_opener}</div>
+          <div style="background:var(--bg);padding:16px;border-radius:11px;border:1px solid var(--border);font-size:0.82rem;color:var(--t2);line-height:1.6">${lead.call_opener || 'No phone opener available.'}</div>
         </div>
       </div>
     </div>`;
@@ -308,6 +325,19 @@ function openLead(idx) {
 
 if (closeModalBtn) closeModalBtn.onclick = () => { modalOverlay.style.display = 'none'; };
 window.onclick = e => { if (e.target === modalOverlay) modalOverlay.style.display = 'none'; };
+
+// Keyboard navigation for modal
+window.addEventListener('keydown', (e) => {
+  if (modalOverlay.style.display === 'flex') {
+    if (e.key === 'ArrowRight' && currentLeadIdx < leads.length - 1) {
+      openLead(currentLeadIdx + 1);
+    } else if (e.key === 'ArrowLeft' && currentLeadIdx > 0) {
+      openLead(currentLeadIdx - 1);
+    } else if (e.key === 'Escape') {
+      modalOverlay.style.display = 'none';
+    }
+  }
+});
 
 // ── Clear All Leads ───────────────────────────────────────────────
 async function clearLeads() {
