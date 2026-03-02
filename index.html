@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LeadIntel Pro | Enterprise AI Dashboard</title>
+    <script src="theme-init.js"></script>
     <link rel="stylesheet" href="style.css">
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;0,14..32,800;1,14..32,400&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;0,14..32,800&display=swap"
         rel="stylesheet">
     <script src="https://unpkg.com/lucide@latest"></script>
 </head>
@@ -18,43 +19,39 @@
         <!-- ── Sidebar ── -->
         <aside class="sidebar">
             <div class="logo">
-                <img src="logo.png" alt="LeadIntel Logo" class="logo-img">
+                <img src="logo.svg" alt="LeadIntel" class="logo-img">
                 <div class="logo-text">
                     <span class="logo-name">LeadIntel</span>
                     <span class="logo-badge">PRO</span>
                 </div>
             </div>
 
-            <div class="sidebar-section-label">Workspace</div>
+            <p class="sidebar-label">Workspace</p>
             <nav class="nav-links">
                 <div class="nav-item active" data-section="dashboard">
-                    <i data-lucide="layout-dashboard"></i>
-                    <span>Dashboard</span>
+                    <i data-lucide="layout-dashboard"></i><span>Dashboard</span>
                 </div>
                 <div class="nav-item" data-section="all-leads">
-                    <i data-lucide="users"></i>
-                    <span>All Leads</span>
+                    <i data-lucide="users"></i><span>All Leads</span>
                     <span class="nav-badge" id="nav-lead-count">—</span>
                 </div>
                 <div class="nav-item" data-section="analytics">
-                    <i data-lucide="bar-chart-2"></i>
-                    <span>Analytics</span>
+                    <i data-lucide="bar-chart-2"></i><span>Analytics</span>
                 </div>
             </nav>
 
-            <div class="sidebar-section-label" style="margin-top:16px;">System</div>
+            <p class="sidebar-label" style="margin-top:18px;">System</p>
             <nav class="nav-links">
                 <div class="nav-item" data-section="integrations">
-                    <i data-lucide="plug"></i>
-                    <span>Integrations</span>
-                    <span class="nav-status-dot"></span>
+                    <i data-lucide="plug"></i><span>Integrations</span>
+                    <span class="live-dot"></span>
                 </div>
             </nav>
 
             <div class="sidebar-footer">
-                <div class="sidebar-user">
+                <div class="user-chip">
                     <div class="user-avatar">AW</div>
-                    <div class="user-info">
+                    <div>
                         <div class="user-name">Adam Wilson</div>
                         <div class="user-role">ERP Experts</div>
                     </div>
@@ -70,46 +67,55 @@
                 <header class="header">
                     <div>
                         <h1>Intelligence Dashboard</h1>
-                        <p>Real-time growth signals, scored and ranked by AI</p>
+                        <p class="header-sub">Real-time growth signals, scored and ranked by AI</p>
                     </div>
                     <div class="header-actions">
-                        <span class="status-chip">
-                            <span class="status-dot"></span>
-                            Auto-updating daily
-                        </span>
+                        <span class="live-chip"><span class="live-dot"></span>Auto-updating daily</span>
+                        <button class="theme-toggle" id="themeToggle" title="Toggle light/dark mode">
+                            <i data-lucide="sun" id="theme-icon-light"></i>
+                            <i data-lucide="moon" id="theme-icon-dark" style="display:none;"></i>
+                        </button>
                     </div>
                 </header>
 
-                <section class="stats-grid">
-                    <div class="stat-card stat-blue">
-                        <div class="stat-icon">📊</div>
-                        <div class="stat-label">Total Leads</div>
-                        <div class="stat-value" id="stat-total">—</div>
+                <div class="stats-grid">
+                    <div class="stat-card" data-accent="blue">
+                        <div class="stat-icon"><i data-lucide="layers"></i></div>
+                        <div class="stat-body">
+                            <div class="stat-label">Total Leads</div>
+                            <div class="stat-value" id="stat-total">—</div>
+                        </div>
                     </div>
-                    <div class="stat-card stat-green">
-                        <div class="stat-icon">🎯</div>
-                        <div class="stat-label">High Intent</div>
-                        <div class="stat-value" id="stat-high">—</div>
+                    <div class="stat-card" data-accent="green">
+                        <div class="stat-icon"><i data-lucide="target"></i></div>
+                        <div class="stat-body">
+                            <div class="stat-label">High Intent</div>
+                            <div class="stat-value" id="stat-high">—</div>
+                        </div>
                     </div>
-                    <div class="stat-card stat-purple">
-                        <div class="stat-icon">🤖</div>
-                        <div class="stat-label">Avg AI Score</div>
-                        <div class="stat-value" id="stat-avg">—</div>
+                    <div class="stat-card" data-accent="purple">
+                        <div class="stat-icon"><i data-lucide="cpu"></i></div>
+                        <div class="stat-body">
+                            <div class="stat-label">Avg AI Score</div>
+                            <div class="stat-value" id="stat-avg">—</div>
+                        </div>
                     </div>
-                    <div class="stat-card stat-amber">
-                        <div class="stat-icon">🏭</div>
-                        <div class="stat-label">Industries</div>
-                        <div class="stat-value" id="stat-industries">—</div>
+                    <div class="stat-card" data-accent="amber">
+                        <div class="stat-icon"><i data-lucide="briefcase"></i></div>
+                        <div class="stat-body">
+                            <div class="stat-label">Industries</div>
+                            <div class="stat-value" id="stat-industries">—</div>
+                        </div>
                     </div>
-                </section>
+                </div>
 
-                <section class="leads-section">
-                    <div class="section-title">
-                        <span>Recent Discoveries</span>
-                        <span class="section-subtitle">Vetted by AI signal analysis</span>
+                <div class="leads-section">
+                    <div class="section-header">
+                        <div class="section-title">Recent Discoveries</div>
+                        <div class="section-sub">Vetted by AI signal analysis</div>
                     </div>
                     <div class="leads-grid" id="leadsContainer"></div>
-                </section>
+                </div>
             </section>
 
             <!-- ═══ ALL LEADS ═══ -->
@@ -117,14 +123,20 @@
                 <header class="header">
                     <div>
                         <h1>All Leads</h1>
-                        <p>Search, filter and sort your complete lead database</p>
+                        <p class="header-sub">Search, filter and sort your complete lead database</p>
+                    </div>
+                    <div class="header-actions">
+                        <button class="theme-toggle" onclick="document.getElementById('themeToggle').click()">
+                            <i data-lucide="sun" class="theme-icon-light"></i>
+                            <i data-lucide="moon" class="theme-icon-dark"></i>
+                        </button>
                     </div>
                 </header>
-                <div class="table-controls">
-                    <div class="search-wrap">
-                        <i data-lucide="search" style="width:15px;height:15px;color:var(--text-2);flex-shrink:0;"></i>
+                <div class="table-toolbar">
+                    <label class="search-box">
+                        <i data-lucide="search"></i>
                         <input id="lead-search" type="text" placeholder="Search company or industry…">
-                    </div>
+                    </label>
                     <select id="lead-filter-tier">
                         <option value="">All Tiers</option>
                         <option value="high">High Priority</option>
@@ -145,16 +157,15 @@
                                 <th>Company</th>
                                 <th>Industry</th>
                                 <th>Signal</th>
-                                <th style="text-align:center;">Score</th>
-                                <th style="text-align:center;">Priority</th>
+                                <th style="text-align:center">Score</th>
+                                <th style="text-align:center">Priority</th>
                                 <th></th>
                             </tr>
                         </thead>
                         <tbody id="leadsTableBody"></tbody>
                     </table>
-                    <div id="leads-table-empty"
-                        style="display:none;padding:56px;text-align:center;color:var(--text-2);">No leads match your
-                        search.</div>
+                    <div id="leads-table-empty" class="table-empty" style="display:none;">No leads match your search.
+                    </div>
                 </div>
             </section>
 
@@ -163,29 +174,34 @@
                 <header class="header">
                     <div>
                         <h1>Analytics</h1>
-                        <p>Signal quality metrics and pipeline breakdown</p>
+                        <p class="header-sub">Signal quality metrics and pipeline breakdown</p>
+                    </div>
+                    <div class="header-actions">
+                        <button class="theme-toggle" onclick="document.getElementById('themeToggle').click()">
+                            <i data-lucide="sun" class="theme-icon-light"></i>
+                            <i data-lucide="moon" class="theme-icon-dark"></i>
+                        </button>
                     </div>
                 </header>
                 <div class="analytics-grid">
-                    <div class="glass-card">
-                        <div class="glass-card-title">Score Distribution</div>
-                        <div id="score-chart" class="score-chart-bars"></div>
-                        <div class="score-chart-labels">
-                            <span>1</span><span>3</span><span>5</span><span>7</span><span>10</span></div>
-                    </div>
-                    <div class="glass-card">
-                        <div class="glass-card-title">Priority Breakdown</div>
-                        <div id="tier-breakdown" style="display:flex;flex-direction:column;gap:14px;margin-top:8px;">
+                    <div class="panel">
+                        <div class="panel-title">Score Distribution</div>
+                        <div id="score-chart" class="score-bars"></div>
+                        <div class="score-labels">
+                            <span>1</span><span>3</span><span>5</span><span>7</span><span>10</span>
                         </div>
                     </div>
-                    <div class="glass-card">
-                        <div class="glass-card-title">Top Industries</div>
-                        <div id="industry-breakdown"
-                            style="display:flex;flex-direction:column;gap:12px;margin-top:8px;"></div>
+                    <div class="panel">
+                        <div class="panel-title">Priority Breakdown</div>
+                        <div id="tier-breakdown" class="breakdown-list"></div>
                     </div>
-                    <div class="glass-card">
-                        <div class="glass-card-title">Key Metrics</div>
-                        <div id="key-metrics" style="display:flex;flex-direction:column;margin-top:8px;"></div>
+                    <div class="panel">
+                        <div class="panel-title">Top Industries</div>
+                        <div id="industry-breakdown" class="breakdown-list"></div>
+                    </div>
+                    <div class="panel">
+                        <div class="panel-title">Key Metrics</div>
+                        <div id="key-metrics" class="metrics-list"></div>
                     </div>
                 </div>
             </section>
@@ -195,88 +211,96 @@
                 <header class="header">
                     <div>
                         <h1>Integrations</h1>
-                        <p>Connected services powering your intelligence pipeline</p>
+                        <p class="header-sub">Connected services powering your intelligence pipeline</p>
+                    </div>
+                    <div class="header-actions">
+                        <button class="theme-toggle" onclick="document.getElementById('themeToggle').click()">
+                            <i data-lucide="sun" class="theme-icon-light"></i>
+                            <i data-lucide="moon" class="theme-icon-dark"></i>
+                        </button>
                     </div>
                 </header>
                 <div class="integrations-grid">
-                    <div class="integration-card">
-                        <div class="integration-header">
-                            <div class="integration-icon" style="background:linear-gradient(135deg,#ea4b71,#f5a623);">n8
-                            </div>
+
+                    <div class="int-card">
+                        <div class="int-head">
+                            <span class="int-icon" style="background:linear-gradient(135deg,#ea4b71,#f5a623)">n8</span>
                             <div>
-                                <div class="integration-name">n8n Automation</div>
-                                <div class="integration-desc">Workflow orchestration</div>
+                                <div class="int-name">n8n Automation</div>
+                                <div class="int-desc">Workflow orchestration</div>
                             </div>
-                            <span class="status-chip active" style="margin-left:auto;">● Active</span>
+                            <span class="badge-green" style="margin-left:auto">● Active</span>
                         </div>
-                        <div class="integration-rows">
-                            <div class="irow"><span>News Workflow</span><span class="irow-val success">Scheduled
+                        <div class="int-rows">
+                            <div class="int-row"><span>News Workflow</span><span class="val-green">Scheduled
                                     daily</span></div>
-                            <div class="irow"><span>Companies Workflow</span><span class="irow-val muted">Not
+                            <div class="int-row"><span>Companies Workflow</span><span class="val-muted">Not
                                     configured</span></div>
-                            <div class="irow"><span>Last data push</span><span class="irow-val blue"
+                            <div class="int-row"><span>Last data push</span><span class="val-blue"
                                     id="last-push-time">Loading…</span></div>
                         </div>
                     </div>
-                    <div class="integration-card">
-                        <div class="integration-header">
-                            <div class="integration-icon"
-                                style="background:linear-gradient(135deg,#1a73e8,#0d47a1);font-size:0.75rem;">NEWS</div>
+
+                    <div class="int-card">
+                        <div class="int-head">
+                            <span class="int-icon"
+                                style="background:linear-gradient(135deg,#1a73e8,#0d47a1);font-size:.75rem">NEWS</span>
                             <div>
-                                <div class="integration-name">NewsAPI</div>
-                                <div class="integration-desc">Signal data source</div>
+                                <div class="int-name">NewsAPI</div>
+                                <div class="int-desc">Signal data source</div>
                             </div>
-                            <span class="status-chip active" style="margin-left:auto;">● Connected</span>
+                            <span class="badge-green" style="margin-left:auto">● Connected</span>
                         </div>
-                        <div class="integration-rows">
-                            <div class="irow"><span>Plan</span><span class="irow-val">Free (100 req/day)</span></div>
-                            <div class="irow"><span>Query</span><span class="irow-val">ERP / enterprise software</span>
-                            </div>
-                            <div class="irow"><span>Sort</span><span class="irow-val">Published date</span></div>
+                        <div class="int-rows">
+                            <div class="int-row"><span>Plan</span><span>Free (100 req/day)</span></div>
+                            <div class="int-row"><span>Query</span><span>ERP / enterprise software</span></div>
+                            <div class="int-row"><span>Sort</span><span>Published date</span></div>
                         </div>
                     </div>
-                    <div class="integration-card">
-                        <div class="integration-header">
-                            <div class="integration-icon"
-                                style="background:linear-gradient(135deg,#10a37f,#0a5c47);font-size:1.2rem;">🤖</div>
+
+                    <div class="int-card">
+                        <div class="int-head">
+                            <span class="int-icon"
+                                style="background:linear-gradient(135deg,#10a37f,#0a5c47);font-size:1.2rem">🤖</span>
                             <div>
-                                <div class="integration-name">OpenAI GPT-4o mini</div>
-                                <div class="integration-desc">Lead scoring & outreach</div>
+                                <div class="int-name">OpenAI GPT-4o mini</div>
+                                <div class="int-desc">Lead scoring & outreach</div>
                             </div>
-                            <span class="status-chip active" style="margin-left:auto;">● Connected</span>
+                            <span class="badge-green" style="margin-left:auto">● Connected</span>
                         </div>
-                        <div class="integration-rows">
-                            <div class="irow"><span>Model</span><span class="irow-val">gpt-4o-mini</span></div>
-                            <div class="irow"><span>Outputs</span><span class="irow-val">Score · Email · Call
-                                    opener</span></div>
-                            <div class="irow"><span>Threshold</span><span class="irow-val success">≥ 6 / 10</span></div>
+                        <div class="int-rows">
+                            <div class="int-row"><span>Model</span><span>gpt-4o-mini</span></div>
+                            <div class="int-row"><span>Outputs</span><span>Score · Email · Call opener</span></div>
+                            <div class="int-row"><span>Threshold</span><span class="val-green">≥ 6 / 10</span></div>
                         </div>
                     </div>
-                    <div class="integration-card">
-                        <div class="integration-header">
-                            <div class="integration-icon"
-                                style="background:linear-gradient(135deg,#24292f,#444d56);font-size:1.4rem;">🐙</div>
+
+                    <div class="int-card">
+                        <div class="int-head">
+                            <span class="int-icon"
+                                style="background:linear-gradient(135deg,#24292f,#57606a);font-size:1.3rem">🐙</span>
                             <div>
-                                <div class="integration-name">GitHub</div>
-                                <div class="integration-desc">Data store & hosting</div>
+                                <div class="int-name">GitHub</div>
+                                <div class="int-desc">Data store & hosting</div>
                             </div>
-                            <span class="status-chip active" style="margin-left:auto;">● Connected</span>
+                            <span class="badge-green" style="margin-left:auto">● Connected</span>
                         </div>
-                        <div class="integration-rows">
-                            <div class="irow"><span>Repository</span><span
-                                    class="irow-val blue">adamwilss/lead-intel-prototype</span></div>
-                            <div class="irow"><span>File</span><span class="irow-val">data.json</span></div>
-                            <div class="irow"><span>Leads stored</span><span class="irow-val blue"
+                        <div class="int-rows">
+                            <div class="int-row"><span>Repository</span><span
+                                    class="val-blue">adamwilss/lead-intel-prototype</span></div>
+                            <div class="int-row"><span>File</span><span>data.json</span></div>
+                            <div class="int-row"><span>Leads stored</span><span class="val-blue"
                                     id="github-lead-count">—</span></div>
                         </div>
                     </div>
+
                 </div>
             </section>
 
         </main>
     </div>
 
-    <!-- Detail Modal -->
+    <!-- Modal -->
     <div class="modal-overlay" id="modalOverlay">
         <div class="modal-content">
             <button class="close-btn" id="closeModal"><i data-lucide="x"></i></button>

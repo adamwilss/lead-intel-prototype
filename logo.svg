@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#4f46e5"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <!-- Background rounded square -->
+  <rect width="48" height="48" rx="12" fill="url(#bg)"/>
+  <!-- Signal bars (like wifi/signal strength icon) – 3 arcs centered -->
+  <!-- Dot at center-bottom -->
+  <circle cx="24" cy="34" r="3" fill="url(#signal)"/>
+  <!-- Inner arc -->
+  <path d="M17.5 28.5 A9 9 0 0 1 30.5 28.5" stroke="url(#signal)" stroke-width="2.8" stroke-linecap="round" fill="none"/>
+  <!-- Middle arc -->
+  <path d="M13 23.5 A15 15 0 0 1 35 23.5" stroke="url(#signal)" stroke-width="2.8" stroke-linecap="round" fill="none" opacity="0.75"/>
+  <!-- Outer arc -->
+  <path d="M8.5 18.5 A21 21 0 0 1 39.5 18.5" stroke="url(#signal)" stroke-width="2.8" stroke-linecap="round" fill="none" opacity="0.45"/>
+  <!-- Small spark / intelligence dot at top -->
+  <circle cx="30" cy="12" r="2.5" fill="#60a5fa" opacity="0.9"/>
+  <circle cx="35" cy="10" r="1.5" fill="#a78bfa" opacity="0.7"/>
+  <circle cx="37.5" cy="14" r="1" fill="#60a5fa" opacity="0.5"/>
+</svg>
