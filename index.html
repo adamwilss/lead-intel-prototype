@@ -47,14 +47,36 @@
             <header class="header">
                 <div>
                     <h1>Intelligence Dashboard</h1>
-                    <p style="color: var(--text-secondary); margin-top: 4px;">Real-time growth signals for ERP Experts
-                    </p>
+                    <p style="color: var(--text-secondary); margin-top: 4px;">Real-time growth signals for ERP Experts</p>
                 </div>
-                <div class="header-actions">
-                    <button class="pill"
-                        style="background: var(--accent-blue); border: none; font-weight: 600; padding: 10px 20px;">
-                        Refresh Signals
-                    </button>
+
+                <!-- Trigger Buttons -->
+                <div class="header-actions" style="display: flex; flex-direction: column; align-items: flex-end; gap: 10px;">
+                    <div style="display: flex; gap: 10px;">
+                        <!-- Search News -->
+                        <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
+                            <button
+                                id="btn-news"
+                                class="pill"
+                                onclick="triggerWorkflow('news')"
+                                style="background: var(--accent-blue); border: none; font-weight: 600; padding: 10px 20px; cursor: pointer;">
+                                🔍 Search News
+                            </button>
+                            <span id="status-news" style="font-size: 0.75rem; min-height: 1em;"></span>
+                        </div>
+
+                        <!-- Search Known Companies -->
+                        <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
+                            <button
+                                id="btn-companies"
+                                class="pill"
+                                onclick="triggerWorkflow('companies')"
+                                style="background: var(--accent-blue); border: none; font-weight: 600; padding: 10px 20px; cursor: pointer;">
+                                🏢 Search Known Companies
+                            </button>
+                            <span id="status-companies" style="font-size: 0.75rem; min-height: 1em;"></span>
+                        </div>
+                    </div>
                 </div>
             </header>
 
@@ -88,7 +110,7 @@
                     </div>
                 </div>
                 <div class="leads-grid" id="leadsContainer">
-                    <!-- Leads will be injected here via JS -->
+                    <!-- Leads injected by JS -->
                 </div>
             </section>
         </main>
@@ -98,16 +120,12 @@
     <div class="modal-overlay" id="modalOverlay">
         <div class="modal-content">
             <i data-lucide="x" class="close-btn" id="closeModal"></i>
-            <div id="modalBody">
-                <!-- Modal content will be injected here -->
-            </div>
+            <div id="modalBody"></div>
         </div>
     </div>
 
     <script src="app.js"></script>
-    <script>
-        lucide.createIcons();
-    </script>
+    <script>lucide.createIcons();</script>
 </body>
 
 </html>
