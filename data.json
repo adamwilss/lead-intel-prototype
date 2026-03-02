@@ -159,6 +159,22 @@
     "id": 9
   },
   {
+    "company": "Tofoo",
+    "industry": "Food Production",
+    "trigger": "acquisition of a German seitan firm",
+    "score": 8,
+    "tier": "high",
+    "employees": null,
+    "description": "Private-equity-backed Tofoo is adding seitan products to a range centred on tofu and tempeh.",
+    "email": "Subject: Exploring ERP Solutions for Tofoo\n\nI noticed that Tofoo is expanding its product range through the acquisition of Topas, which could introduce operational complexities. I'd love to discuss how ERP solutions can support your growth and integration efforts.\n\nWould you be open to a 15-minute call?\n\nAdam, ERP Experts",
+    "phone": "How are you managing the operational changes from your recent acquisition?",
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T14:42:17.744Z",
+    "id": 10
+  },
+  {
     "company": "Waymo",
     "industry": "Transportation",
     "trigger": "Beginning fully autonomous operations with the 6th-generation Driver, indicating potential for significant operational scale and complexity.",
@@ -172,7 +188,23 @@
     "publishedAt": "2026-02-12T16:10:29Z",
     "source": "Waymo.com",
     "createdAt": "2026-03-02T14:18:01.919Z",
-    "id": 10
+    "id": 11
+  },
+  {
+    "company": "Ukrainian Drone Factory",
+    "industry": "Manufacturing",
+    "trigger": "A new factory was unveiled in the UK dedicated to the production of Unmanned Aerial Systems.",
+    "score": 6,
+    "tier": "mid",
+    "employees": null,
+    "email": "Subject: Exploring ERP Solutions for Your New Facility\n\nI noticed that your new factory dedicated to Unmanned Aerial Systems production has recently opened in the UK. As you scale operations, integrating an efficient ERP system could streamline your processes and support growth.\n\nI'd love to schedule a 15-minute call to discuss how we can assist you in optimizing your operations. \n\nAdam, ERP Experts",
+    "phone": "How are you managing the operational complexities of your new facility?",
+    "url": "https://theaviationist.com/2026/02/27/ukrainian-drone-factory-opens-uk/",
+    "publishedAt": "2026-02-27T19:37:59Z",
+    "source": "Theaviationist.com",
+    "description": null,
+    "createdAt": "2026-03-02T14:42:17.739Z",
+    "id": 12
   },
   {
     "company": "Trellis AI",
@@ -188,7 +220,7 @@
     "publishedAt": "2026-02-25T17:02:12Z",
     "source": "Hacker News",
     "createdAt": "2026-03-02T14:18:01.918Z",
-    "id": 11
+    "id": 13
   },
   {
     "company": "Smithfield Foods",
@@ -204,7 +236,7 @@
     "publishedAt": "2026-02-17T10:32:49Z",
     "source": "Just-food.com",
     "createdAt": "2026-03-02T14:18:01.911Z",
-    "id": 12
+    "id": 14
   },
   {
     "company": "Toyota",
@@ -220,7 +252,7 @@
     "publishedAt": "2026-02-11T21:15:51Z",
     "source": "Yahoo Entertainment",
     "createdAt": "2026-03-02T14:18:01.909Z",
-    "id": 13
+    "id": 15
   },
   {
     "company": "Red Lobster",
@@ -236,7 +268,23 @@
     "publishedAt": "2026-02-26T11:05:32Z",
     "source": "Business Insider",
     "createdAt": "2026-03-02T14:18:01.905Z",
-    "id": 14
+    "id": 16
+  },
+  {
+    "company": "Jewish Content Streamer ChaiFlicks",
+    "industry": "Streaming Media",
+    "trigger": "ChaiFlicks has struck a deal for multiple shows, indicating potential growth and operational complexity.",
+    "score": 3,
+    "tier": "low",
+    "employees": null,
+    "email": "Subject: Exploring ERP Solutions for ChaiFlicks\n\nI noticed that ChaiFlicks has recently expanded its content offerings with a new deal, which may lead to operational complexities. I'd love to discuss how our ERP solutions can help streamline your processes.\n\nAre you available for a quick 15-minute call?\n\nAdam, ERP Experts",
+    "phone": "How are you managing the operational changes due to your recent content expansion?",
+    "url": "http://deadline.com/2026/02/chaiflicks-on-the-spectrum-yes-studios-deal-1236709912/",
+    "publishedAt": "2026-02-05T11:20:35Z",
+    "source": "Deadline",
+    "description": null,
+    "createdAt": "2026-03-02T14:42:17.740Z",
+    "id": 17
   },
   {
     "company": null,
@@ -252,7 +300,23 @@
     "publishedAt": "2026-02-03T10:05:01Z",
     "source": "Business Insider",
     "createdAt": "2026-03-02T14:18:01.916Z",
-    "id": 15
+    "id": 18
+  },
+  {
+    "company": "Netflix",
+    "industry": "Entertainment",
+    "trigger": "Netflix has bagged the U.S. rights to Jack Thorne’s Lord of the Flies TV adaptation.",
+    "score": 1,
+    "tier": "low",
+    "employees": null,
+    "email": "Subject: Exploring ERP Solutions for Netflix\n\nHi there,\n\nI noticed that Netflix is expanding its content library with significant acquisitions like the U.S. rights to Lord of the Flies. This kind of growth can often lead to operational complexities that may benefit from an ERP solution. I’d love to schedule a 15-minute call to discuss how we can support your operational needs.\n\nAdam, ERP Experts",
+    "phone": "How is Netflix managing the operational complexities of its recent acquisitions?",
+    "url": "http://deadline.com/2026/02/netflix-lord-of-the-flies-sony-pictures-television-deals-1236718604/",
+    "publishedAt": "2026-02-13T13:00:00Z",
+    "source": "Deadline",
+    "description": null,
+    "createdAt": "2026-03-02T14:42:17.741Z",
+    "id": 19
   },
   {
     "company": null,
@@ -268,7 +332,23 @@
     "publishedAt": "2026-02-26T16:13:06Z",
     "source": "Endowment.dev",
     "createdAt": "2026-03-02T14:18:01.908Z",
-    "id": 16
+    "id": 20
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": null,
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": null,
+    "email": null,
+    "phone": null,
+    "url": "https://www.aljazeera.com/news/2026/2/26/india-israel-axis-what-are-the-imec-corridor-i2u2-grouping-modi-spoke-of",
+    "publishedAt": "2026-02-26T13:48:20Z",
+    "source": "Al Jazeera English",
+    "createdAt": "2026-03-02T14:42:17.755Z",
+    "id": 21
   },
   {
     "company": null,
@@ -284,7 +364,7 @@
     "publishedAt": "2026-02-26T09:36:01Z",
     "source": "Business Insider",
     "createdAt": "2026-03-02T14:18:01.914Z",
-    "id": 17
+    "id": 22
   },
   {
     "company": null,
@@ -300,7 +380,39 @@
     "publishedAt": "2026-02-22T20:34:00Z",
     "source": "Slashdot.org",
     "createdAt": "2026-03-02T14:18:01.918Z",
-    "id": 18
+    "id": 23
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": null,
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": null,
+    "email": null,
+    "phone": null,
+    "url": "https://www.israelnationalnews.com/news/422759",
+    "publishedAt": "2026-02-21T19:37:57Z",
+    "source": "Israelnationalnews.com",
+    "createdAt": "2026-03-02T14:42:17.748Z",
+    "id": 24
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": null,
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": null,
+    "email": null,
+    "phone": null,
+    "url": "https://www.101greatgoals.com/football/premier-league/west-ham-v-bournemouth-teams-confirmed-starting-teams/",
+    "publishedAt": "2026-02-21T16:26:02Z",
+    "source": "101 Great Goals",
+    "createdAt": "2026-03-02T14:42:17.754Z",
+    "id": 25
   },
   {
     "company": null,
@@ -316,7 +428,7 @@
     "publishedAt": "2026-02-21T00:10:01Z",
     "source": "Wired",
     "createdAt": "2026-03-02T14:18:01.906Z",
-    "id": 19
+    "id": 26
   },
   {
     "company": null,
@@ -332,7 +444,7 @@
     "publishedAt": "2026-02-20T19:10:33Z",
     "source": "Gizmodo.com",
     "createdAt": "2026-03-02T14:18:01.911Z",
-    "id": 20
+    "id": 27
   },
   {
     "company": null,
@@ -348,7 +460,55 @@
     "publishedAt": "2026-02-19T11:04:29Z",
     "source": "The Verge",
     "createdAt": "2026-03-02T14:18:01.917Z",
-    "id": 21
+    "id": 28
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": null,
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "The London-centric security order revealed in Munich Read Full Article at RT.com",
+    "email": null,
+    "phone": null,
+    "url": "https://www.rt.com/news/632751-british-are-sabotaging-peace/",
+    "publishedAt": "2026-02-18T19:45:41Z",
+    "source": "RT",
+    "createdAt": "2026-03-02T14:42:17.750Z",
+    "id": 29
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": null,
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": null,
+    "email": null,
+    "phone": null,
+    "url": "https://www.pharmaceutical-technology.com/news/pharma-companies-venture-further-afield-in-search-of-rd/",
+    "publishedAt": "2026-02-17T16:33:07Z",
+    "source": "Pharmaceutical Technology",
+    "createdAt": "2026-03-02T14:42:17.743Z",
+    "id": 30
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": null,
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": null,
+    "email": null,
+    "phone": null,
+    "url": "http://deadline.com/2026/02/locarno-lunar-sway-us-uk-amp-french-speaking-1236726906/",
+    "publishedAt": "2026-02-17T15:36:37Z",
+    "source": "Deadline",
+    "createdAt": "2026-03-02T14:42:17.737Z",
+    "id": 31
   },
   {
     "company": null,
@@ -364,7 +524,7 @@
     "publishedAt": "2026-02-17T14:45:00Z",
     "source": "Slashdot.org",
     "createdAt": "2026-03-02T14:18:01.912Z",
-    "id": 22
+    "id": 32
   },
   {
     "company": null,
@@ -380,7 +540,39 @@
     "publishedAt": "2026-02-17T09:17:01Z",
     "source": "Business Insider",
     "createdAt": "2026-03-02T14:18:01.907Z",
-    "id": 23
+    "id": 33
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": null,
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": null,
+    "email": null,
+    "phone": null,
+    "url": "https://www.digitalcameraworld.com/news/camera-rumors",
+    "publishedAt": "2026-02-16T16:28:41Z",
+    "source": "Digital Camera World",
+    "createdAt": "2026-03-02T14:42:17.754Z",
+    "id": 34
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": null,
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": null,
+    "email": null,
+    "phone": null,
+    "url": "https://www.just-food.com/news/cerealto-sells-pasta-assets-cerealis/",
+    "publishedAt": "2026-02-16T15:43:50Z",
+    "source": "Just-food.com",
+    "createdAt": "2026-03-02T14:42:17.749Z",
+    "id": 35
   },
   {
     "company": null,
@@ -396,7 +588,7 @@
     "publishedAt": "2026-02-16T11:30:00Z",
     "source": "Wired",
     "createdAt": "2026-03-02T14:18:01.919Z",
-    "id": 24
+    "id": 36
   },
   {
     "company": null,
@@ -412,7 +604,7 @@
     "publishedAt": "2026-02-14T17:52:00Z",
     "source": "Android Central",
     "createdAt": "2026-03-02T14:18:01.913Z",
-    "id": 25
+    "id": 37
   },
   {
     "company": null,
@@ -428,7 +620,39 @@
     "publishedAt": "2026-02-14T11:06:01Z",
     "source": "Business Insider",
     "createdAt": "2026-03-02T14:18:01.913Z",
-    "id": 26
+    "id": 38
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": null,
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": null,
+    "email": null,
+    "phone": null,
+    "url": "https://fortune.com/2026/02/13/rzc-investments-pauses-waltons-walmart/",
+    "publishedAt": "2026-02-13T18:40:54Z",
+    "source": "Fortune",
+    "createdAt": "2026-03-02T14:42:17.752Z",
+    "id": 39
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": null,
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": null,
+    "email": null,
+    "phone": null,
+    "url": "https://bringatrailer.com/listing/1975-aston-martin-v8-series-3/",
+    "publishedAt": "2026-02-13T13:15:02Z",
+    "source": "Bringatrailer.com",
+    "createdAt": "2026-03-02T14:42:17.753Z",
+    "id": 40
   },
   {
     "company": null,
@@ -444,7 +668,87 @@
     "publishedAt": "2026-02-13T10:56:04Z",
     "source": "syracuse.com",
     "createdAt": "2026-03-02T14:18:01.909Z",
-    "id": 27
+    "id": 41
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": null,
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": null,
+    "email": null,
+    "phone": null,
+    "url": "https://mobilesyrup.com/2026/02/12/bell-telus-wholesale-internet-western-canada/",
+    "publishedAt": "2026-02-12T19:01:12Z",
+    "source": "MobileSyrup",
+    "createdAt": "2026-03-02T14:42:17.753Z",
+    "id": 42
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": null,
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "A well-warranted harsh look at the high cost an overly-large and ever-more-extractive finance sector imposes on society as a whole.",
+    "email": null,
+    "phone": null,
+    "url": "https://www.nakedcapitalism.com/2026/02/the-finance-curse-is-killing-britain.html",
+    "publishedAt": "2026-02-11T09:16:22Z",
+    "source": "Nakedcapitalism.com",
+    "createdAt": "2026-03-02T14:42:17.736Z",
+    "id": 43
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": null,
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": null,
+    "email": null,
+    "phone": null,
+    "url": "https://www.aljazeera.com/news/2026/2/10/struggling-to-navigate-the-epstein-files-here-is-a-visual-guide",
+    "publishedAt": "2026-02-10T15:19:10Z",
+    "source": "Al Jazeera English",
+    "createdAt": "2026-03-02T14:42:17.755Z",
+    "id": 44
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": null,
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": null,
+    "email": null,
+    "phone": null,
+    "url": "http://deadline.com/2026/02/heated-rivalry-season-1-finale-viewership-hbo-max-1236713589/",
+    "publishedAt": "2026-02-09T21:00:35Z",
+    "source": "Deadline",
+    "createdAt": "2026-03-02T14:42:17.742Z",
+    "id": 45
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": null,
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": null,
+    "email": null,
+    "phone": null,
+    "url": "https://www.salon.com/2026/02/09/one-year-later-how-trumps-usaid-cuts-are-affecting-the-world/",
+    "publishedAt": "2026-02-09T11:45:38Z",
+    "source": "Salon",
+    "createdAt": "2026-03-02T14:42:17.743Z",
+    "id": 46
   },
   {
     "company": null,
@@ -460,7 +764,39 @@
     "publishedAt": "2026-02-08T23:15:54Z",
     "source": "Nesbitt.io",
     "createdAt": "2026-03-02T14:18:01.910Z",
-    "id": 28
+    "id": 47
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": null,
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": null,
+    "email": null,
+    "phone": null,
+    "url": "http://deadline.com/2026/02/indie-film-box-office-pillion-hamnet-stray-kids-dracula-1236712432/",
+    "publishedAt": "2026-02-08T18:35:37Z",
+    "source": "Deadline",
+    "createdAt": "2026-03-02T14:42:17.751Z",
+    "id": 48
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": null,
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": null,
+    "email": null,
+    "phone": null,
+    "url": "https://www.themarginalian.org/2026/02/06/wollstonecraft-godwin-semmelweis/",
+    "publishedAt": "2026-02-06T18:22:01Z",
+    "source": "Themarginalian.org",
+    "createdAt": "2026-03-02T14:42:17.738Z",
+    "id": 49
   },
   {
     "company": null,
@@ -476,7 +812,71 @@
     "publishedAt": "2026-02-04T21:21:03Z",
     "source": "9to5Mac",
     "createdAt": "2026-03-02T14:18:01.914Z",
-    "id": 29
+    "id": 50
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": null,
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": null,
+    "email": null,
+    "phone": null,
+    "url": "http://deadline.com/2026/02/palestine-film-fund-inaugural-round-first-recipients-2026-1236707619/",
+    "publishedAt": "2026-02-04T07:00:00Z",
+    "source": "Deadline",
+    "createdAt": "2026-03-02T14:42:17.752Z",
+    "id": 51
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": null,
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": null,
+    "email": null,
+    "phone": null,
+    "url": "https://www.channelnewsasia.com/business/chinas-factory-activity-expansion-accelerates-in-january-private-pmi-shows-5899991",
+    "publishedAt": "2026-02-02T02:31:33Z",
+    "source": "CNA",
+    "createdAt": "2026-03-02T14:42:17.752Z",
+    "id": 52
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": null,
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": null,
+    "email": null,
+    "phone": null,
+    "url": "https://indianexpress.com/article/cities/chandigarh/pm-civil-terminal-halwara-airport-mann-kartar-singh-sarabha-10508313/",
+    "publishedAt": "2026-02-02T00:42:57Z",
+    "source": "The Indian Express",
+    "createdAt": "2026-03-02T14:42:17.756Z",
+    "id": 53
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": null,
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": null,
+    "email": null,
+    "phone": null,
+    "url": "https://harpers.org/archive/2026/02/another-london-situationists-hari-kunzru/",
+    "publishedAt": "2026-02-01T19:32:41Z",
+    "source": "Harpers.org",
+    "createdAt": "2026-03-02T14:42:17.748Z",
+    "id": 54
   },
   {
     "company": null,
@@ -492,7 +892,7 @@
     "publishedAt": "2026-02-01T11:54:01Z",
     "source": "Business Insider",
     "createdAt": "2026-03-02T14:18:01.910Z",
-    "id": 30
+    "id": 55
   },
   {
     "company": null,
@@ -508,10 +908,10 @@
     "publishedAt": "2026-02-01T10:00:01Z",
     "source": "Business Insider",
     "createdAt": "2026-03-02T14:18:01.908Z",
-    "id": 31
+    "id": 56
   },
   {
-    "id": 32,
+    "id": 57,
     "company": null,
     "industry": null,
     "trigger": "none",
