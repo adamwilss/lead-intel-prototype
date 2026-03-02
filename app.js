@@ -294,11 +294,11 @@ function openLead(idx) {
         <div style="font-size:0.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.09em;color:var(--t2);margin-bottom:12px">AI Outreach Drafts</div>
         <div style="margin-bottom:20px">
           <div style="font-size:0.8rem;font-weight:600;margin-bottom:8px;color:var(--t1)">📧 Personalized Email</div>
-          <div style="background:var(--bg);padding:16px;border-radius:11px;border:1px solid var(--border);font-size:0.82rem;white-space:pre-wrap;color:var(--t2);line-height:1.6">${lead.email}</div>
+          <div style="background:var(--bg);padding:16px;border-radius:11px;border:1px solid var(--border);font-size:0.82rem;white-space:pre-wrap;color:var(--t2);line-height:1.6">${lead.outreach_email}</div>
         </div>
         <div>
           <div style="font-size:0.8rem;font-weight:600;margin-bottom:8px;color:var(--t1)">📞 Phone Opener</div>
-          <div style="background:var(--bg);padding:16px;border-radius:11px;border:1px solid var(--border);font-size:0.82rem;color:var(--t2);line-height:1.6">"${lead.phone}"</div>
+          <div style="background:var(--bg);padding:16px;border-radius:11px;border:1px solid var(--border);font-size:0.82rem;color:var(--t2);line-height:1.6">${lead.call_opener}</div>
         </div>
       </div>
     </div>`;
