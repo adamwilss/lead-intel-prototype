@@ -305,6 +305,14 @@ function openLead(idx) {
         <div style="font-size:0.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.09em;color:var(--t2);margin-bottom:12px">Growth Signal</div>
         <div style="background:var(--surface);padding:16px;border-radius:11px;border:1px solid var(--border);font-weight:600;font-size:0.9rem">
           ${lead.trigger || 'No specific trigger detected.'}
+          ${lead.url ? `
+            <div style="margin-top:14px;padding-top:14px;border-top:1px solid var(--border);font-size:0.75rem">
+              <span style="color:var(--t2)">READ MORE AT</span> 
+              <a href="${lead.url}" target="_blank" style="color:var(--blue);text-decoration:none;font-weight:700;margin-left:4px">
+                ${lead.source ? lead.source.toUpperCase() : 'ORIGINAL ARTICLE'} <i data-lucide="external-link" style="width:11px;height:11px;margin-left:2px;vertical-align:-1px"></i>
+              </a>
+            </div>
+          ` : ''}
         </div>
       </div>
       <div>
