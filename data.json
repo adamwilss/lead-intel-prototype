@@ -840,11 +840,27 @@
     "description": null,
     "email": null,
     "phone": null,
+    "url": "https://www.just-food.com/news/the-tofoo-co-snaps-up-german-seitan-firm-topas/",
+    "publishedAt": "2026-02-02T11:56:31Z",
+    "source": "Just-food.com",
+    "createdAt": "2026-03-02T14:49:46.861Z",
+    "id": 52
+  },
+  {
+    "company": null,
+    "industry": null,
+    "trigger": null,
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": null,
+    "email": null,
+    "phone": null,
     "url": "https://www.channelnewsasia.com/business/chinas-factory-activity-expansion-accelerates-in-january-private-pmi-shows-5899991",
     "publishedAt": "2026-02-02T02:31:33Z",
     "source": "CNA",
     "createdAt": "2026-03-02T14:42:17.752Z",
-    "id": 52
+    "id": 53
   },
   {
     "company": null,
@@ -860,7 +876,7 @@
     "publishedAt": "2026-02-02T00:42:57Z",
     "source": "The Indian Express",
     "createdAt": "2026-03-02T14:42:17.756Z",
-    "id": 53
+    "id": 54
   },
   {
     "company": null,
@@ -876,7 +892,7 @@
     "publishedAt": "2026-02-01T19:32:41Z",
     "source": "Harpers.org",
     "createdAt": "2026-03-02T14:42:17.748Z",
-    "id": 54
+    "id": 55
   },
   {
     "company": null,
@@ -892,7 +908,7 @@
     "publishedAt": "2026-02-01T11:54:01Z",
     "source": "Business Insider",
     "createdAt": "2026-03-02T14:18:01.910Z",
-    "id": 55
+    "id": 56
   },
   {
     "company": null,
@@ -908,10 +924,10 @@
     "publishedAt": "2026-02-01T10:00:01Z",
     "source": "Business Insider",
     "createdAt": "2026-03-02T14:18:01.908Z",
-    "id": 56
+    "id": 57
   },
   {
-    "id": 57,
+    "id": 58,
     "company": null,
     "industry": null,
     "trigger": "none",
