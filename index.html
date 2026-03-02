@@ -141,7 +141,16 @@
                         <i data-lucide="search"></i>
                         <input id="lead-search" type="text" placeholder="Search company or industry…">
                     </label>
-                    <select id="lead-filter-tier">
+                    </label>
+                    <select id="lead-filter-score" title="Filter by Minimum AI Score">
+                        <option value="all">All Scores</option>
+                        <option value="1">Score 1+</option>
+                        <option value="3">Score 3+</option>
+                        <option value="5">Score 5+</option>
+                        <option value="7">Score 7+</option>
+                        <option value="9">Score 9+</option>
+                    </select>
+                    <select id="lead-filter-tier" title="Filter by AI Priority">
                         <option value="">All Tiers</option>
                         <option value="high">High Priority</option>
                         <option value="mid">Mid Priority</option>

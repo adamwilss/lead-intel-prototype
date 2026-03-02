@@ -1216,3 +1216,35 @@ tbody tr:hover {
     opacity: 0.3;
     cursor: not-allowed;
 }
+
+.nav-btn.modal-nav-left,
+.nav-btn.modal-nav-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--bg);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+[data-theme="light"] .nav-btn.modal-nav-left,
+[data-theme="light"] .nav-btn.modal-nav-right {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.nav-btn.modal-nav-left {
+    left: 12px;
+}
+
+.nav-btn.modal-nav-right {
+    right: 12px;
+}
+
+.nav-btn.modal-nav-left svg,
+.nav-btn.modal-nav-right svg {
+    width: 20px;
+    height: 20px;
+}

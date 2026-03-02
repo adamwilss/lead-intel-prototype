@@ -83,13 +83,24 @@ function set(id, val) { const el = document.getElementById(id); if (el) el.textC
 // ── Dashboard lead cards ─────────────────────────────────────────
 function renderLeads() {
   if (!leadsContainer) return;
-  if (!leads.length) {
+
+  // Dashboard explicitly hides leads that have no score (null/undefined)
+  const dashboardLeads = leads.filter(l => l.score != null);
+
+  if (!dashboardLeads.length) {
     leadsContainer.innerHTML =
-      `<p style="padding:40px;color:var(--t2)">No leads yet — n8n will populate this automatically.</p>`;
+      `<p style="padding:40px;color:var(--t2)">No scored leads yet — AI will populate this automatically.</p>`;
     return;
   }
-  leadsContainer.innerHTML = leads.map((lead, i) => `
-    <div class="lead-card ${lead.tier || 'mid'} animate-in" style="animation-delay:${i * 0.08}s" onclick="openLead(${i})">
+
+  // Notice we use the original leads index (stored on each object or found)
+  // But to keep it simple and maintain index, we map with the global index
+  // since dashboardLeads is a subset.
+  leadsContainer.innerHTML = dashboardLeads.map((lead, displayIdx) => {
+    // find true index in the main leads array for the modal
+    const trueIdx = leads.findIndex(l => l.id === lead.id || l === lead);
+    return `
+    <div class="lead-card ${lead.tier || 'mid'} animate-in" style="animation-delay:${displayIdx * 0.08}s" onclick="openLead(${trueIdx})">
       <div class="lead-header">
         <div>
           <div class="company-name">${lead.company}</div>
@@ -102,7 +113,8 @@ function renderLeads() {
         <span class="pill">Vetted by AI</span>
         <i data-lucide="chevron-right" style="width:15px;color:var(--t2)"></i>
       </div>
-    </div>`).join('');
+    </div>`;
+  }).join('');
   lucide.createIcons();
 }
 
@@ -110,15 +122,21 @@ function renderLeads() {
 function renderLeadsTable() {
   const q = (document.getElementById('lead-search')?.value || '').toLowerCase();
   const tier = document.getElementById('lead-filter-tier')?.value || '';
+  const minScore = document.getElementById('lead-filter-score')?.value || 'all';
   const sort = document.getElementById('lead-sort')?.value || 'score-desc';
 
   // Carry the original leads-array index so openLead always gets the right item
   let rows = leads
     .map((l, idx) => ({ ...l, _idx: idx }))
-    .filter(l =>
-      (!q || l.company.toLowerCase().includes(q) || l.industry.toLowerCase().includes(q)) &&
-      (!tier || l.tier === tier)
-    );
+    .filter(l => {
+      if (q && !l.company.toLowerCase().includes(q) && !(l.industry || '').toLowerCase().includes(q)) return false;
+      if (tier && l.tier !== tier) return false;
+      if (minScore !== 'all') {
+        if (l.score == null) return false;
+        if (+l.score < +minScore) return false;
+      }
+      return true;
+    });
 
   rows.sort((a, b) => {
     if (sort === 'score-desc') return b.score - a.score;
@@ -158,7 +176,7 @@ function renderLeadsTable() {
 
 // Wire table controls
 setTimeout(() => {
-  ['lead-search', 'lead-filter-tier', 'lead-sort'].forEach(id => {
+  ['lead-search', 'lead-filter-tier', 'lead-filter-score', 'lead-sort'].forEach(id => {
     const el = document.getElementById(id);
     if (el) { el.addEventListener('input', renderLeadsTable); el.addEventListener('change', renderLeadsTable); }
   });
@@ -273,18 +291,18 @@ function openLead(idx) {
   const hasNext = idx < leads.length - 1;
 
   modalBody.innerHTML = `
-    <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:28px;">
+    <!-- Modal Navigation Arrows positioned on the sides -->
+    <button class="nav-btn modal-nav-left" onclick="openLead(${idx - 1})" ${!hasPrev ? 'disabled' : ''} title="Previous Lead (Left Arrow)">
+      <i data-lucide="chevron-left"></i>
+    </button>
+    <button class="nav-btn modal-nav-right" onclick="openLead(${idx + 1})" ${!hasNext ? 'disabled' : ''} title="Next Lead (Right Arrow)">
+      <i data-lucide="chevron-right"></i>
+    </button>
+
+    <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:28px;padding:0 20px;">
       <div>
-        <div style="display:flex;align-items:center;gap:16px;margin-bottom:10px">
+        <div style="margin-bottom:10px">
           <h2 style="font-size:1.8rem;font-weight:800;letter-spacing:-0.03em;">${lead.company || 'Unknown Company'}</h2>
-          <div style="display:flex;gap:6px">
-            <button class="nav-btn" onclick="openLead(${idx - 1})" ${!hasPrev ? 'disabled' : ''} title="Previous Lead (Left Arrow)">
-              <i data-lucide="chevron-left"></i>
-            </button>
-            <button class="nav-btn" onclick="openLead(${idx + 1})" ${!hasNext ? 'disabled' : ''} title="Next Lead (Right Arrow)">
-              <i data-lucide="chevron-right"></i>
-            </button>
-          </div>
         </div>
         <div style="display:flex;gap:8px;flex-wrap:wrap">
           ${lead.industry ? `<span class="pill">${lead.industry}</span>` : ''}
@@ -298,7 +316,7 @@ function openLead(idx) {
       </div>
     </div>
 
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:32px">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:32px;padding:0 20px;">
       <div>
         <div style="font-size:0.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.09em;color:var(--t2);margin-bottom:12px">Analysis Reasoning</div>
         <p style="line-height:1.65;font-size:0.95rem;color:var(--t1);margin-bottom:24px">${lead.description || 'No detailed analysis provided.'}</p>
