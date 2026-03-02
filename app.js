@@ -89,7 +89,7 @@ function renderLeads() {
     return;
   }
   leadsContainer.innerHTML = leads.map((lead, i) => `
-    <div class="lead-card ${lead.tier || 'mid'} animate-in" style="animation-delay:${i * 0.08}s" onclick="openLead(${lead.id})">
+    <div class="lead-card ${lead.tier || 'mid'} animate-in" style="animation-delay:${i * 0.08}s" onclick="openLead(${i})">
       <div class="lead-header">
         <div>
           <div class="company-name">${lead.company}</div>
@@ -112,10 +112,13 @@ function renderLeadsTable() {
   const tier = document.getElementById('lead-filter-tier')?.value || '';
   const sort = document.getElementById('lead-sort')?.value || 'score-desc';
 
-  let rows = leads.filter(l =>
-    (!q || l.company.toLowerCase().includes(q) || l.industry.toLowerCase().includes(q)) &&
-    (!tier || l.tier === tier)
-  );
+  // Carry the original leads-array index so openLead always gets the right item
+  let rows = leads
+    .map((l, idx) => ({ ...l, _idx: idx }))
+    .filter(l =>
+      (!q || l.company.toLowerCase().includes(q) || l.industry.toLowerCase().includes(q)) &&
+      (!tier || l.tier === tier)
+    );
 
   rows.sort((a, b) => {
     if (sort === 'score-desc') return b.score - a.score;
@@ -140,7 +143,7 @@ function renderLeadsTable() {
   const accent = { high: 'var(--green)', mid: 'var(--amber)', low: 'var(--t2)' };
 
   tbody.innerHTML = rows.map(l => `
-    <tr onclick="openLead(${l.id}); showSection('dashboard')">
+    <tr onclick="openLead(${l._idx}); showSection('dashboard')">
       <td style="font-weight:600">${l.company}</td>
       <td style="color:var(--t2)">${l.industry}</td>
       <td style="color:var(--t2);max-width:240px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${l.trigger}</td>
@@ -258,8 +261,9 @@ function renderIntegrations() {
 }
 
 // ── Lead detail modal ────────────────────────────────────────────
-function openLead(id) {
-  const lead = leads.find(l => l.id === id);
+// Takes the array INDEX (not the id field) — avoids duplicated-id bugs from n8n
+function openLead(idx) {
+  const lead = leads[idx];
   if (!lead) return;
   modalBody.innerHTML = `
     <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:28px;">
