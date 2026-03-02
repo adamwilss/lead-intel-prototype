@@ -50,5 +50,43 @@
       "email": "Subject: Enhance Operational Efficiency at DocuSign\n\nHi DocuSign Team,\n\nGiven your impressive growth to 7,000 employees, I wanted to reach out and discuss how our ERP solutions can help enhance operational efficiency and streamline your processes. Would you be open to a conversation about this?\n\nBest regards,\n[Your Name]\n[Your Company]\n[Your Contact Information]",
       "phone": "How are you currently handling the operational complexities that come with your rapid growth?"
     }
+  ],
+  [
+    {
+      "id": 1,
+      "company": "Astronics",
+      "industry": "Aerospace",
+      "trigger": "Strong revenue growth",
+      "score": 9,
+      "tier": "high",
+      "employees": "1000-5000",
+      "description": "Astronics has posted record revenue and improved operations, signaling potential for further investment in technology. Implementing an ERP system could streamline processes and support their ongoing growth and operational efficiency.",
+      "email": "Subject: Streamline Your Growth with ERP Solutions\n\nHi Astronics Team,\n\nCongratulations on your impressive fourth-quarter results! As you continue to scale operations, an ERP system could be pivotal in managing the complexities of your business. I’d love to discuss how our solutions can support your goals.\n\nBest,\n[Your Name]\n[Your Company]\n[Your Contact Information]",
+      "phone": "How are you managing the increased operational complexities with your recent growth?"
+    },
+    {
+      "id": 2,
+      "company": "Resideo Technologies",
+      "industry": "Home Automation",
+      "trigger": "Exceeded financial outlook",
+      "score": 8.5,
+      "tier": "high",
+      "employees": "500-1000",
+      "description": "Resideo Technologies has reported results exceeding their financial outlook, indicating a strong market position. An ERP system could enhance their operational capabilities and support further innovation in home automation.",
+      "email": "Subject: Enhance Your Operational Efficiency at Resideo\n\nHi Resideo Team,\n\nIt's exciting to see your recent success in the market! To build on this momentum, implementing an ERP system could greatly enhance your operational efficiency and scalability. Let’s set up a time to explore this further.\n\nBest,\n[Your Name]\n[Your Company]\n[Your Contact Information]",
+      "phone": "What strategies are you considering to enhance operational efficiency amidst your recent growth?"
+    },
+    {
+      "id": 3,
+      "company": "UFP Technologies",
+      "industry": "Manufacturing",
+      "trigger": "Strong revenue growth",
+      "score": 8,
+      "tier": "high",
+      "employees": "500-1000",
+      "description": "UFP Technologies has highlighted significant revenue growth, suggesting a solid demand for their products. Implementing an ERP system can streamline their supply chain and improve overall productivity.",
+      "email": "Subject: Support Your Growth with an ERP Solution\n\nHi UFP Technologies Team,\n\nCongratulations on your strong revenue performance! As you continue to grow, an ERP system could be key in optimizing your manufacturing processes and enhancing your supply chain management. I’d love to discuss how we can assist you.\n\nBest,\n[Your Name]\n[Your Company]\n[Your Contact Information]",
+      "phone": "How are you planning to manage your increased production demands effectively?"
+    }
   ]
 ]
