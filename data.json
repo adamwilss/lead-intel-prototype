@@ -1,5 +1,21 @@
 [
   {
+    "company": "Jewish Content Streamer ChaiFlicks",
+    "industry": "Media",
+    "trigger": "Acquisition of content for streaming services.",
+    "score": 3,
+    "tier": "low",
+    "employees": null,
+    "description": "EXCLUSIVE: Jewish content streamer ChaiFlicks has struck a deal for a trio of shows from Israel-based distributor Yes Studios. The package comprises comedy-drama On the Spectrum, The Chef Season 2 and supermarket mockumentary Checkout Season 5.",
+    "email": null,
+    "phone": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T15:33:58.240Z",
+    "id": 1
+  },
+  {
     "company": null,
     "industry": null,
     "trigger": null,
@@ -13,7 +29,7 @@
     "publishedAt": "2026-02-27T19:37:59Z",
     "source": "Theaviationist.com",
     "createdAt": "2026-03-02T15:14:07.115Z",
-    "id": 1
+    "id": 2
   },
   {
     "company": null,
@@ -29,7 +45,7 @@
     "publishedAt": "2026-02-26T13:48:20Z",
     "source": "Al Jazeera English",
     "createdAt": "2026-03-02T15:14:07.126Z",
-    "id": 2
+    "id": 3
   },
   {
     "company": null,
@@ -45,7 +61,7 @@
     "publishedAt": "2026-02-21T19:37:57Z",
     "source": "Israelnationalnews.com",
     "createdAt": "2026-03-02T15:14:07.120Z",
-    "id": 3
+    "id": 4
   },
   {
     "company": null,
@@ -61,7 +77,7 @@
     "publishedAt": "2026-02-21T16:26:02Z",
     "source": "101 Great Goals",
     "createdAt": "2026-03-02T15:14:07.125Z",
-    "id": 4
+    "id": 5
   },
   {
     "company": null,
@@ -77,7 +93,7 @@
     "publishedAt": "2026-02-18T19:45:41Z",
     "source": "RT",
     "createdAt": "2026-03-02T15:14:07.121Z",
-    "id": 5
+    "id": 6
   },
   {
     "company": null,
@@ -93,7 +109,7 @@
     "publishedAt": "2026-02-17T16:33:07Z",
     "source": "Pharmaceutical Technology",
     "createdAt": "2026-03-02T15:14:07.117Z",
-    "id": 6
+    "id": 7
   },
   {
     "company": null,
@@ -109,7 +125,7 @@
     "publishedAt": "2026-02-17T15:36:37Z",
     "source": "Deadline",
     "createdAt": "2026-03-02T15:14:07.114Z",
-    "id": 7
+    "id": 8
   },
   {
     "company": null,
@@ -125,7 +141,7 @@
     "publishedAt": "2026-02-16T16:28:41Z",
     "source": "Digital Camera World",
     "createdAt": "2026-03-02T15:14:07.125Z",
-    "id": 8
+    "id": 9
   },
   {
     "company": null,
@@ -141,7 +157,7 @@
     "publishedAt": "2026-02-16T15:43:50Z",
     "source": "Just-food.com",
     "createdAt": "2026-03-02T15:14:07.120Z",
-    "id": 9
+    "id": 10
   },
   {
     "company": null,
@@ -157,7 +173,7 @@
     "publishedAt": "2026-02-13T18:40:54Z",
     "source": "Fortune",
     "createdAt": "2026-03-02T15:14:07.123Z",
-    "id": 10
+    "id": 11
   },
   {
     "company": null,
@@ -173,7 +189,7 @@
     "publishedAt": "2026-02-13T13:15:02Z",
     "source": "Bringatrailer.com",
     "createdAt": "2026-03-02T15:14:07.123Z",
-    "id": 11
+    "id": 12
   },
   {
     "company": null,
@@ -189,7 +205,7 @@
     "publishedAt": "2026-02-13T13:00:00Z",
     "source": "Deadline",
     "createdAt": "2026-03-02T15:14:07.116Z",
-    "id": 12
+    "id": 13
   },
   {
     "company": null,
@@ -205,7 +221,7 @@
     "publishedAt": "2026-02-12T19:01:12Z",
     "source": "MobileSyrup",
     "createdAt": "2026-03-02T15:14:07.124Z",
-    "id": 13
+    "id": 14
   },
   {
     "company": null,
@@ -221,7 +237,7 @@
     "publishedAt": "2026-02-11T09:16:22Z",
     "source": "Nakedcapitalism.com",
     "createdAt": "2026-03-02T15:14:07.114Z",
-    "id": 14
+    "id": 15
   },
   {
     "company": null,
@@ -237,7 +253,7 @@
     "publishedAt": "2026-02-10T15:19:10Z",
     "source": "Al Jazeera English",
     "createdAt": "2026-03-02T15:14:07.126Z",
-    "id": 15
+    "id": 16
   },
   {
     "company": null,
@@ -253,7 +269,7 @@
     "publishedAt": "2026-02-09T21:00:35Z",
     "source": "Deadline",
     "createdAt": "2026-03-02T15:14:07.117Z",
-    "id": 16
+    "id": 17
   },
   {
     "company": null,
@@ -269,7 +285,7 @@
     "publishedAt": "2026-02-09T11:45:38Z",
     "source": "Salon",
     "createdAt": "2026-03-02T15:14:07.118Z",
-    "id": 17
+    "id": 18
   },
   {
     "company": null,
@@ -285,7 +301,7 @@
     "publishedAt": "2026-02-08T18:35:37Z",
     "source": "Deadline",
     "createdAt": "2026-03-02T15:14:07.121Z",
-    "id": 18
+    "id": 19
   },
   {
     "company": null,
@@ -301,7 +317,7 @@
     "publishedAt": "2026-02-06T18:22:01Z",
     "source": "Themarginalian.org",
     "createdAt": "2026-03-02T15:14:07.115Z",
-    "id": 19
+    "id": 20
   },
   {
     "company": null,
@@ -317,7 +333,7 @@
     "publishedAt": "2026-02-05T11:20:35Z",
     "source": "Deadline",
     "createdAt": "2026-03-02T15:14:07.116Z",
-    "id": 20
+    "id": 21
   },
   {
     "company": null,
@@ -333,7 +349,7 @@
     "publishedAt": "2026-02-04T07:00:00Z",
     "source": "Deadline",
     "createdAt": "2026-03-02T15:14:07.123Z",
-    "id": 21
+    "id": 22
   },
   {
     "company": null,
@@ -349,7 +365,7 @@
     "publishedAt": "2026-02-02T11:56:31Z",
     "source": "Just-food.com",
     "createdAt": "2026-03-02T15:14:07.118Z",
-    "id": 22
+    "id": 23
   },
   {
     "company": null,
@@ -365,7 +381,7 @@
     "publishedAt": "2026-02-02T02:31:33Z",
     "source": "CNA",
     "createdAt": "2026-03-02T15:14:07.122Z",
-    "id": 23
+    "id": 24
   },
   {
     "company": null,
@@ -381,7 +397,7 @@
     "publishedAt": "2026-02-02T00:42:57Z",
     "source": "The Indian Express",
     "createdAt": "2026-03-02T15:14:07.127Z",
-    "id": 24
+    "id": 25
   },
   {
     "company": null,
@@ -397,6 +413,22 @@
     "publishedAt": "2026-02-01T19:32:41Z",
     "source": "Harpers.org",
     "createdAt": "2026-03-02T15:14:07.120Z",
-    "id": 25
+    "id": 26
+  },
+  {
+    "company": "Ukrainian Drone Factory",
+    "industry": null,
+    "trigger": "A new factory was unveiled in the UK dedicated to the production of Unmanned Aerial Systems.",
+    "score": 0,
+    "tier": "low",
+    "employees": null,
+    "description": "A new factory was unveiled in the UK dedicated to the production of Unmanned Aerial Systems for the Ukrainian Armed Forces. As the fourth anniversary of the Russian invasion of Ukraine took place, a new factory was unveiled in the UK dedicated to the producti…",
+    "email": null,
+    "phone": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T15:33:58.240Z",
+    "id": 27
   }
 ]
