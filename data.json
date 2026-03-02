@@ -16,7 +16,23 @@
     "id": 1
   },
   {
-    "id": 2,
+    "company": "Eddie Bauers retail operator",
+    "industry": "Retail",
+    "trigger": "Eddie Bauer's retail operator has filed for Chapter 11 bankruptcy, indicating significant operational challenges.",
+    "score": 9,
+    "tier": "high",
+    "employees": null,
+    "description": "Eddie Bauer retail and outlet stores in the United States and Canada will remain open for now as the company begins shutting down certain stores.",
+    "email": "Subject: Let's Discuss Your ERP Needs\n\nI noticed that Eddie Bauer's retail operator has filed for Chapter 11 bankruptcy, which may lead to operational complexities. I would love to discuss how ERP solutions can help streamline your processes during this transition.\n\nCan we schedule a 15-minute call to explore this further?\n\nAdam, ERP Experts",
+    "phone": "How are you managing your operations during this challenging time?",
+    "url": "https://www.businessinsider.com/eddie-bauer-chapter-11-bankruptcy-protection-retail-stores-2026-2",
+    "publishedAt": "2026-02-09T13:20:29Z",
+    "source": "Business Insider",
+    "createdAt": "2026-03-02T14:23:13.040Z",
+    "id": 2
+  },
+  {
+    "id": 3,
     "company": "UCLA",
     "industry": "Education",
     "trigger": "paused a costly ERP project",
@@ -32,6 +48,22 @@
     "createdAt": "2026-03-02T12:34:00.648Z"
   },
   {
+    "company": "Anthropic",
+    "industry": "Artificial Intelligence",
+    "trigger": "Anthropic raised $30B in Series G funding, indicating significant operational scale complexity.",
+    "score": 9,
+    "tier": "high",
+    "employees": null,
+    "description": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+    "email": "Subject: Exploring ERP Solutions for Anthropic\n\nWith your recent $30B funding round, I believe there are opportunities to optimize your operational processes as you scale. I'd love to discuss how ERP solutions can support your growth.\n\nCan we schedule a 15-minute call to explore this further? \n\nAdam, ERP Experts",
+    "phone": "How are you managing operational complexities with your recent funding?",
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-02T14:23:13.053Z",
+    "id": 4
+  },
+  {
     "company": "Naboo",
     "industry": "Event Planning",
     "trigger": "Funding round to expand operational capabilities and scale",
@@ -45,7 +77,7 @@
     "publishedAt": "2026-02-10T20:08:49Z",
     "source": "The Next Web",
     "createdAt": "2026-03-02T14:18:01.907Z",
-    "id": 3
+    "id": 5
   },
   {
     "company": "Beast Industries",
@@ -76,7 +108,7 @@
       "git": "https://api.github.com/repos/adamwilss/lead-intel-prototype/git/blobs/be83fbc1758f077065c3dc08c57766c068951a76",
       "html": "https://github.com/adamwilss/lead-intel-prototype/blob/main/data.json"
     },
-    "id": 4
+    "id": 6
   },
   {
     "company": "Beast Industries",
@@ -92,23 +124,7 @@
     "publishedAt": "2026-02-09T22:14:13Z",
     "source": "The Verge",
     "createdAt": "2026-03-02T14:18:01.903Z",
-    "id": 5
-  },
-  {
-    "company": "Eddie Bauer",
-    "industry": "Retail",
-    "trigger": "Chapter 11 bankruptcy filing and potential store closures",
-    "score": 8,
-    "tier": "high",
-    "employees": null,
-    "description": "Eddie Bauer retail and outlet stores in the United States and Canada will remain open for now as the company begins shutting down certain stores.",
-    "email": null,
-    "phone": null,
-    "url": "https://www.businessinsider.com/eddie-bauer-chapter-11-bankruptcy-protection-retail-stores-2026-2",
-    "publishedAt": "2026-02-09T13:20:29Z",
-    "source": "Business Insider",
-    "createdAt": "2026-03-02T14:18:01.904Z",
-    "id": 6
+    "id": 7
   },
   {
     "company": "Gruve",
@@ -124,7 +140,23 @@
     "publishedAt": "2026-02-03T10:00:01Z",
     "source": "Business Insider",
     "createdAt": "2026-03-02T14:18:01.904Z",
-    "id": 7
+    "id": 8
+  },
+  {
+    "company": "Devon Energy",
+    "industry": "Energy",
+    "trigger": "merger with Coterra Energy and moving headquarters",
+    "score": 8,
+    "tier": "high",
+    "employees": null,
+    "description": "Devon Energy announced Monday it is set to move its headquarters to Houston following its merger with Coterra Energy.",
+    "email": "Subject: Exploring ERP Solutions for Your Upcoming Changes\n\nWith your recent merger and headquarters relocation, I wanted to reach out to discuss how ERP solutions can streamline your operations during this transition. \n\nCould we schedule a 15-minute call to explore this further? \n\nAdam, ERP Experts",
+    "phone": "How are you planning to manage operational changes post-merger?",
+    "url": "https://www.oklahoman.com/story/business/employment/2026/02/02/devon-coterra-merger-devon-energy-moving-headquarters-houston-from-oklahoma-city/88472969007/",
+    "publishedAt": "2026-02-02T14:19:46Z",
+    "source": "Oklahoman.com",
+    "createdAt": "2026-03-02T14:23:13.048Z",
+    "id": 9
   },
   {
     "company": "Waymo",
@@ -140,7 +172,7 @@
     "publishedAt": "2026-02-12T16:10:29Z",
     "source": "Waymo.com",
     "createdAt": "2026-03-02T14:18:01.919Z",
-    "id": 8
+    "id": 10
   },
   {
     "company": "Trellis AI",
@@ -156,7 +188,7 @@
     "publishedAt": "2026-02-25T17:02:12Z",
     "source": "Hacker News",
     "createdAt": "2026-03-02T14:18:01.918Z",
-    "id": 9
+    "id": 11
   },
   {
     "company": "Smithfield Foods",
@@ -172,7 +204,7 @@
     "publishedAt": "2026-02-17T10:32:49Z",
     "source": "Just-food.com",
     "createdAt": "2026-03-02T14:18:01.911Z",
-    "id": 10
+    "id": 12
   },
   {
     "company": "Toyota",
@@ -188,23 +220,7 @@
     "publishedAt": "2026-02-11T21:15:51Z",
     "source": "Yahoo Entertainment",
     "createdAt": "2026-03-02T14:18:01.909Z",
-    "id": 11
-  },
-  {
-    "company": "Devon Energy",
-    "industry": "Energy",
-    "trigger": "Headquarters relocation following merger",
-    "score": 6,
-    "tier": "mid",
-    "employees": null,
-    "description": "Devon Energy announced Monday it is set to move its headquarters to Houston following its merger with Coterra Energy.",
-    "email": null,
-    "phone": null,
-    "url": "https://www.oklahoman.com/story/business/employment/2026/02/02/devon-coterra-merger-devon-energy-moving-headquarters-houston-from-oklahoma-city/88472969007/",
-    "publishedAt": "2026-02-02T14:19:46Z",
-    "source": "Oklahoman.com",
-    "createdAt": "2026-03-02T14:18:01.912Z",
-    "id": 12
+    "id": 13
   },
   {
     "company": "Red Lobster",
@@ -220,7 +236,7 @@
     "publishedAt": "2026-02-26T11:05:32Z",
     "source": "Business Insider",
     "createdAt": "2026-03-02T14:18:01.905Z",
-    "id": 13
+    "id": 14
   },
   {
     "company": null,
@@ -236,7 +252,7 @@
     "publishedAt": "2026-02-03T10:05:01Z",
     "source": "Business Insider",
     "createdAt": "2026-03-02T14:18:01.916Z",
-    "id": 14
+    "id": 15
   },
   {
     "company": null,
@@ -252,7 +268,7 @@
     "publishedAt": "2026-02-26T16:13:06Z",
     "source": "Endowment.dev",
     "createdAt": "2026-03-02T14:18:01.908Z",
-    "id": 15
+    "id": 16
   },
   {
     "company": null,
@@ -268,7 +284,7 @@
     "publishedAt": "2026-02-26T09:36:01Z",
     "source": "Business Insider",
     "createdAt": "2026-03-02T14:18:01.914Z",
-    "id": 16
+    "id": 17
   },
   {
     "company": null,
@@ -284,7 +300,7 @@
     "publishedAt": "2026-02-22T20:34:00Z",
     "source": "Slashdot.org",
     "createdAt": "2026-03-02T14:18:01.918Z",
-    "id": 17
+    "id": 18
   },
   {
     "company": null,
@@ -300,7 +316,7 @@
     "publishedAt": "2026-02-21T00:10:01Z",
     "source": "Wired",
     "createdAt": "2026-03-02T14:18:01.906Z",
-    "id": 18
+    "id": 19
   },
   {
     "company": null,
@@ -316,7 +332,7 @@
     "publishedAt": "2026-02-20T19:10:33Z",
     "source": "Gizmodo.com",
     "createdAt": "2026-03-02T14:18:01.911Z",
-    "id": 19
+    "id": 20
   },
   {
     "company": null,
@@ -332,7 +348,7 @@
     "publishedAt": "2026-02-19T11:04:29Z",
     "source": "The Verge",
     "createdAt": "2026-03-02T14:18:01.917Z",
-    "id": 20
+    "id": 21
   },
   {
     "company": null,
@@ -348,7 +364,7 @@
     "publishedAt": "2026-02-17T14:45:00Z",
     "source": "Slashdot.org",
     "createdAt": "2026-03-02T14:18:01.912Z",
-    "id": 21
+    "id": 22
   },
   {
     "company": null,
@@ -364,7 +380,7 @@
     "publishedAt": "2026-02-17T09:17:01Z",
     "source": "Business Insider",
     "createdAt": "2026-03-02T14:18:01.907Z",
-    "id": 22
+    "id": 23
   },
   {
     "company": null,
@@ -380,7 +396,7 @@
     "publishedAt": "2026-02-16T11:30:00Z",
     "source": "Wired",
     "createdAt": "2026-03-02T14:18:01.919Z",
-    "id": 23
+    "id": 24
   },
   {
     "company": null,
@@ -396,7 +412,7 @@
     "publishedAt": "2026-02-14T17:52:00Z",
     "source": "Android Central",
     "createdAt": "2026-03-02T14:18:01.913Z",
-    "id": 24
+    "id": 25
   },
   {
     "company": null,
@@ -412,7 +428,7 @@
     "publishedAt": "2026-02-14T11:06:01Z",
     "source": "Business Insider",
     "createdAt": "2026-03-02T14:18:01.913Z",
-    "id": 25
+    "id": 26
   },
   {
     "company": null,
@@ -428,7 +444,7 @@
     "publishedAt": "2026-02-13T10:56:04Z",
     "source": "syracuse.com",
     "createdAt": "2026-03-02T14:18:01.909Z",
-    "id": 26
+    "id": 27
   },
   {
     "company": null,
@@ -444,7 +460,7 @@
     "publishedAt": "2026-02-08T23:15:54Z",
     "source": "Nesbitt.io",
     "createdAt": "2026-03-02T14:18:01.910Z",
-    "id": 27
+    "id": 28
   },
   {
     "company": null,
@@ -460,7 +476,7 @@
     "publishedAt": "2026-02-04T21:21:03Z",
     "source": "9to5Mac",
     "createdAt": "2026-03-02T14:18:01.914Z",
-    "id": 28
+    "id": 29
   },
   {
     "company": null,
@@ -476,7 +492,7 @@
     "publishedAt": "2026-02-01T11:54:01Z",
     "source": "Business Insider",
     "createdAt": "2026-03-02T14:18:01.910Z",
-    "id": 29
+    "id": 30
   },
   {
     "company": null,
@@ -492,10 +508,10 @@
     "publishedAt": "2026-02-01T10:00:01Z",
     "source": "Business Insider",
     "createdAt": "2026-03-02T14:18:01.908Z",
-    "id": 30
+    "id": 31
   },
   {
-    "id": 31,
+    "id": 32,
     "company": null,
     "industry": null,
     "trigger": "none",
