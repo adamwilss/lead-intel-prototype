@@ -114,5 +114,17 @@
       "email": "Subject: Optimize Your Operations During Your HQ Transition\n\nHi Devon Energy Team,\n\nI noticed you're moving your headquarters to Houston. This is a significant transition, and an ERP system could help streamline your operations and improve efficiency during this change. Let’s explore how we can assist.\n\nBest,\n[Your Name]",
       "phone": "Hi, is this Devon Energy? How are you planning to manage the operational challenges of your upcoming headquarters move?"
     }
-  ]
+  ],
+  {
+    "company": "",
+    "industry": "",
+    "trigger": "",
+    "score": 0,
+    "tier": "",
+    "employees": 0,
+    "description": "",
+    "email": "",
+    "phone": "",
+    "id": 1772453209080
+  }
 ]
