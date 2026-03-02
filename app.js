@@ -309,6 +309,91 @@ function openLead(idx) {
 if (closeModalBtn) closeModalBtn.onclick = () => { modalOverlay.style.display = 'none'; };
 window.onclick = e => { if (e.target === modalOverlay) modalOverlay.style.display = 'none'; };
 
+// ── Clear All Leads ───────────────────────────────────────────────
+async function clearLeads() {
+  if (!confirm('Clear all leads from data.json? This cannot be undone.')) return;
+
+  const btn = document.getElementById('clearLeadsBtn');
+  const originalHTML = btn.innerHTML;
+
+  btn.disabled = true;
+  btn.innerHTML = '<i data-lucide="loader-2" style="animation:spin 1s linear infinite"></i> Clearing…';
+  lucide.createIcons();
+
+  try {
+    const OWNER = 'adamwilss';
+    const REPO = 'lead-intel-prototype';
+    const FILE = 'data.json';
+    const TOKEN = localStorage.getItem('gh-token');
+
+    if (!TOKEN) {
+      // Prompt for token once and store in localStorage
+      const t = prompt(
+        'Enter your GitHub Personal Access Token to push changes.\n' +
+        '(It will be stored locally in your browser only.)'
+      );
+      if (!t) { resetBtn(); return; }
+      localStorage.setItem('gh-token', t.trim());
+      return clearLeads(); // retry with token
+    }
+
+    const headers = {
+      Authorization: `Bearer ${TOKEN}`,
+      Accept: 'application/vnd.github+json',
+      'Content-Type': 'application/json',
+    };
+
+    // Get current SHA
+    const getRes = await fetch(
+      `https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE}`,
+      { headers }
+    );
+    if (!getRes.ok) throw new Error(`GitHub GET failed: ${getRes.status}`);
+    const { sha } = await getRes.json();
+
+    // Push [] as base64
+    const empty64 = btoa('[]');
+    const putRes = await fetch(
+      `https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE}`,
+      {
+        method: 'PUT',
+        headers,
+        body: JSON.stringify({ message: 'chore: clear all leads', content: empty64, sha }),
+      }
+    );
+    if (!putRes.ok) throw new Error(`GitHub PUT failed: ${putRes.status}`);
+
+    // Update UI immediately
+    leads = [];
+    renderLeads();
+    updateStats();
+    btn.innerHTML = '<i data-lucide="check"></i> Cleared';
+    lucide.createIcons();
+    setTimeout(() => { btn.innerHTML = originalHTML; btn.disabled = false; lucide.createIcons(); }, 2000);
+
+  } catch (err) {
+    console.error('Clear failed:', err);
+    // Token might be invalid — clear it so user can re-enter
+    if (err.message.includes('401') || err.message.includes('403')) {
+      localStorage.removeItem('gh-token');
+      alert('GitHub token was invalid or expired. It has been cleared — try again.');
+    } else {
+      alert('Failed to clear leads: ' + err.message);
+    }
+    resetBtn();
+  }
+
+  function resetBtn() {
+    btn.innerHTML = originalHTML;
+    btn.disabled = false;
+    lucide.createIcons();
+  }
+}
+
 // ── Boot ─────────────────────────────────────────────────────────
 loadData();
 initTheme();
+
+const clearBtn = document.getElementById('clearLeadsBtn');
+if (clearBtn) clearBtn.addEventListener('click', clearLeads);
+

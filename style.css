@@ -1128,3 +1128,59 @@ tbody tr:hover {
     opacity: 0;
     animation: fade-up 0.36s ease-out forwards;
 }
+
+/* ── Clear button ── */
+.clear-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 14px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    outline: none;
+    white-space: nowrap;
+    background: rgba(239, 68, 68, 0.1);
+    border: 1px solid rgba(239, 68, 68, 0.3);
+    color: #f87171;
+    transition: all 0.15s ease;
+}
+
+.clear-btn svg {
+    width: 14px;
+    height: 14px;
+}
+
+.clear-btn:hover:not(:disabled) {
+    background: rgba(239, 68, 68, 0.18);
+    border-color: rgba(239, 68, 68, 0.5);
+    color: #fca5a5;
+}
+
+.clear-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+[data-theme="light"] .clear-btn {
+    background: rgba(220, 38, 38, 0.07);
+    border-color: rgba(220, 38, 38, 0.2);
+    color: #dc2626;
+}
+
+[data-theme="light"] .clear-btn:hover:not(:disabled) {
+    background: rgba(220, 38, 38, 0.12);
+    border-color: rgba(220, 38, 38, 0.35);
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
