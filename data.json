@@ -1,1 +1,73 @@
-[]
+[
+  {
+    "company": "Ukrainian Drone Factory",
+    "industry": "Manufacturing",
+    "trigger": "new facility",
+    "score": 7,
+    "tier": "mid",
+    "employees": 0,
+    "description": "A new factory was unveiled in the UK dedicated to the production of Unmanned Aerial Systems for the Ukrainian Armed Forces.",
+    "outreach_email": {
+      "subject": "Exploring ERP Solutions for Your New Facility",
+      "body": "I noticed that your new factory dedicated to the production of Unmanned Aerial Systems has recently opened in the UK. This significant expansion could benefit from streamlined operations and efficient resource management through an ERP system.\n\nWe specialize in helping manufacturing companies like yours optimize their processes. Would you be open to a 15-minute call to discuss how we can support your operational needs?",
+      "signOff": "ERP Experts Team"
+    },
+    "call_opener": "How is the new factory impacting your operational needs?",
+    "url": "https://theaviationist.com/2026/02/27/ukrainian-drone-factory-opens-uk/",
+    "publishedAt": "2026-02-27T19:37:59Z",
+    "source": "Theaviationist.com",
+    "createdAt": "2026-03-03T11:11:50.398Z",
+    "id": 1
+  },
+  {
+    "company": "Firecell",
+    "industry": "Engineering",
+    "trigger": "merger",
+    "score": 7,
+    "tier": "mid",
+    "employees": 0,
+    "description": "Hot on the heels of the Accelleran merger, purpose-built private 5G connectivity company unveils radio portfolio integration to give system integrators faster, more affordable deployment route across industrial, enterprise sites",
+    "outreach_email": {
+      "subject": "Exploring ERP Solutions for Your Recent Merger",
+      "body": "Hi there,\n\nI noticed that Firecell has recently undergone a merger with Accelleran, which often brings about the need for streamlined operations and integrated systems. As you look to enhance your deployment capabilities, I believe our ERP solutions could support your growth and operational efficiency. Would you be open to a quick 15-minute call to discuss this further?\n\nBest regards,\nERP Experts Team"
+    },
+    "call_opener": "How is the merger with Accelleran impacting your operational needs?",
+    "url": "https://www.computerweekly.com/news/366639431/Firecell-CloudRANAI-collaborate-to-cut-cost-and-complexity-of-private-5G",
+    "publishedAt": "2026-02-26T09:28:00Z",
+    "source": "ComputerWeekly.com",
+    "createdAt": "2026-03-03T11:11:50.398Z",
+    "id": 2
+  },
+  {
+    "company": "Flux",
+    "industry": "Engineering",
+    "trigger": "funding round",
+    "score": 5,
+    "tier": "low",
+    "employees": 0,
+    "description": "Matthias Wagner’s Flux, built to vibe code electronics, has raised $37 million from 8VC, Bain Capital Ventures, Liquid 2 Ventures, and Outsiders Fund.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": "https://fortune.com/2026/02/27/exclusive-flux-backed-8vc-raises-37-million-vibe-code-electronics/",
+    "publishedAt": "2026-02-27T09:54:56Z",
+    "source": "Fortune",
+    "createdAt": "2026-03-03T11:11:50.398Z",
+    "id": 3
+  },
+  {
+    "company": "VINCI",
+    "industry": "Construction",
+    "trigger": "financial maneuver indicating potential growth or restructuring",
+    "score": 5,
+    "tier": "low",
+    "employees": null,
+    "description": "VINCI announces the successful issue of €500m of bonds exchangeable for ordinary shares of Groupe ADP due 2031",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": "https://www.globenewswire.com/news-release/2026/02/25/3244812/0/en/VINCI-announces-the-successful-issue-of-500m-of-bonds-exchangeable-for-ordinary-shares-of-Groupe-ADP-due-2031.html",
+    "publishedAt": "2026-02-25T16:30:00Z",
+    "source": "GlobeNewswire",
+    "createdAt": "2026-03-03T11:11:50.398Z",
+    "id": 4
+  }
+]
