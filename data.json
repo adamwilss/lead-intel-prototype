@@ -240,6 +240,22 @@
     "id": 15
   },
   {
+    "company": "Cerealto",
+    "industry": null,
+    "trigger": "Cerealto sells its pasta assets to focus on core snacking and breakfast categories.",
+    "score": 5,
+    "tier": "low",
+    "employees": null,
+    "description": "Cerealto sells pasta assets to Cerealis as part of its strategy to concentrate on its core snacking and breakfast categories.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-03T10:23:55.920Z",
+    "id": 16
+  },
+  {
     "company": "Britain",
     "industry": "Finance",
     "trigger": "A critical examination of the negative impacts of an oversized finance sector on British society.",
@@ -253,7 +269,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 16
+    "id": 17
   },
   {
     "company": "London bakery",
@@ -269,7 +285,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 17
+    "id": 18
   },
   {
     "company": "Aston Martin Lagonda, Inc.",
@@ -285,7 +301,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 18
+    "id": 19
   },
   {
     "company": null,
@@ -301,7 +317,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 19
+    "id": 20
   },
   {
     "company": "Netflix",
@@ -317,7 +333,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 20
+    "id": 21
   },
   {
     "company": null,
@@ -333,7 +349,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 21
+    "id": 22
   },
   {
     "company": null,
@@ -349,7 +365,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 22
+    "id": 23
   },
   {
     "company": "West Ham",
@@ -365,7 +381,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 23
+    "id": 24
   },
   {
     "company": null,
@@ -381,7 +397,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 24
+    "id": 25
   },
   {
     "company": null,
@@ -397,6 +413,6 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 25
+    "id": 26
   }
 ]
