@@ -1,5 +1,21 @@
 [
   {
+    "company": "Marzetti",
+    "industry": null,
+    "trigger": "Marzetti has acquired Bachan for $400 million to enhance its sauces portfolio.",
+    "score": 9,
+    "tier": "high",
+    "employees": null,
+    "description": "Marzetti has bolstered its sauces portfolio with the acquisition of Bachan for $400 million, expected to close by the end of June.",
+    "outreach_email": "Subject: Enhancing Your ERP Strategy\n\nWith Marzetti's recent acquisition of Bachan for $400 million to enhance your sauces portfolio, it may be an opportune time to evaluate your ERP systems to support this growth. I would love to discuss how we can assist you in optimizing your processes during this transition.\n\nWould you be available for a 15-minute call?\n\nERP Experts Team",
+    "call_opener": "How are you planning to integrate your new acquisition into your existing operations?",
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-03T10:35:11.228Z",
+    "id": 1
+  },
+  {
     "company": "Ukrainian Drone Factory",
     "industry": null,
     "trigger": "A new factory dedicated to the production of Unmanned Aerial Systems for the Ukrainian Armed Forces was unveiled in the UK.",
@@ -13,7 +29,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 1
+    "id": 2
   },
   {
     "company": "Jewish Content Streamer ChaiFlicks",
@@ -29,7 +45,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 2
+    "id": 3
   },
   {
     "company": "The Tofoo Co",
@@ -45,7 +61,55 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 3
+    "id": 4
+  },
+  {
+    "company": "Smithfield Foods",
+    "industry": null,
+    "trigger": "Smithfield Foods plans to replace its South Dakota plant with an estimated investment of $1.3bn over three years.",
+    "score": 8,
+    "tier": "high",
+    "employees": null,
+    "description": "Smithfield Foods, owned by China's WH Group, has announced plans to replace its South Dakota plant with a significant investment.",
+    "outreach_email": "Subject: Exploring ERP Solutions for Smithfield Foods\n\nWith your recent announcement regarding the $1.3bn investment to replace the South Dakota plant, it seems like a pivotal time for Smithfield Foods to consider ERP solutions that can streamline operations and enhance efficiency. \n\nI would love to schedule a 15-minute call to discuss how we can support your initiatives during this transition.\n\nERP Experts Team",
+    "call_opener": "What ERP challenges are you anticipating with the new plant investment?",
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-03T10:35:11.228Z",
+    "id": 5
+  },
+  {
+    "company": "The Fini Company",
+    "industry": null,
+    "trigger": "The Fini Company acquires German confectionery firm Tri D’Aix to strengthen its growth.",
+    "score": 8,
+    "tier": "high",
+    "employees": null,
+    "description": "The Fini Company buys German confectionery firm Tri D’Aix. The Fini Company said it “sees this acquisition as a way to strengthen Tri D’Aix and support its continued growth”.",
+    "outreach_email": "Subject: Exploring ERP Solutions for Your Recent Acquisition\n\nI noticed that The Fini Company has recently acquired Tri D’Aix to bolster its growth. This kind of strategic move often necessitates robust ERP solutions to integrate operations efficiently.\n\nI’d love to schedule a quick 15-minute call to discuss how we can support your ERP needs during this transition.\n\nERP Experts Team",
+    "call_opener": "How are you planning to integrate Tri D’Aix into your existing operations?",
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-03T10:35:11.228Z",
+    "id": 6
+  },
+  {
+    "company": "The Tofoo Co",
+    "industry": null,
+    "trigger": "The Tofoo Co has acquired the German seitan firm Topas to expand its product range.",
+    "score": 8,
+    "tier": "high",
+    "employees": null,
+    "description": "The Tofoo Co is adding seitan products to its range centred on tofu and tempeh through the acquisition of German firm Topas.",
+    "outreach_email": "Subject: Exploring ERP Solutions for Your Expansion\n\nWith The Tofoo Co's recent acquisition of Topas to expand your product range, this could be a pivotal moment for your operations. I would love to discuss how our ERP solutions can support your growth during this transition.\n\nCould we schedule a 15-minute call to explore this further?\n\nERP Experts Team",
+    "call_opener": "How is the integration of the new product line going so far?",
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-03T10:35:11.228Z",
+    "id": 7
   },
   {
     "company": "Locarno Supported LGBTQIA+ Dark Comedy ‘Lunar Sway’",
@@ -61,7 +125,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 4
+    "id": 8
   },
   {
     "company": "Warner Bros. Discovery",
@@ -77,7 +141,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 5
+    "id": 9
   },
   {
     "company": "UK",
@@ -93,7 +157,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 6
+    "id": 10
   },
   {
     "company": "USAID",
@@ -109,7 +173,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 7
+    "id": 11
   },
   {
     "company": "Cerealto",
@@ -125,7 +189,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 8
+    "id": 12
   },
   {
     "company": "Bleecker Street",
@@ -141,7 +205,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 9
+    "id": 13
   },
   {
     "company": "China",
@@ -157,7 +221,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 10
+    "id": 14
   },
   {
     "company": "Palestine Film Institute",
@@ -173,7 +237,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 11
+    "id": 15
   },
   {
     "company": "RZC Investments",
@@ -189,7 +253,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 12
+    "id": 16
   },
   {
     "company": "Bell",
@@ -205,7 +269,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 13
+    "id": 17
   },
   {
     "company": "India",
@@ -221,7 +285,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 14
+    "id": 18
   },
   {
     "company": "Halwara airport",
@@ -237,7 +301,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 15
+    "id": 19
   },
   {
     "company": "Cerealto",
@@ -253,7 +317,55 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T10:23:55.920Z",
-    "id": 16
+    "id": 20
+  },
+  {
+    "company": "Hazeldenes",
+    "industry": null,
+    "trigger": "Hazeldenes is restoring production in a phased manner following a cyberattack.",
+    "score": 5,
+    "tier": "low",
+    "employees": null,
+    "description": "Australia chicken processor Hazeldenes is restoring production in a phased manner after being hit by a cyberattack last week.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-03T10:35:11.228Z",
+    "id": 21
+  },
+  {
+    "company": "Freshpet",
+    "industry": null,
+    "trigger": "Freshpet's CEO announced that the company missed the expected 2025 sales pace, leading to a reevaluation of sales growth targets.",
+    "score": 5,
+    "tier": "low",
+    "employees": null,
+    "description": "Freshpet's sales growth has slowed dramatically, prompting the CEO to adjust growth expectations while maintaining targets for 2027.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-03T10:35:11.228Z",
+    "id": 22
+  },
+  {
+    "company": "Refresco",
+    "industry": null,
+    "trigger": "Refresco has acquired a business in the US plant-based milks market.",
+    "score": 5,
+    "tier": "low",
+    "employees": null,
+    "description": "Refresco has swooped for a business managing to ride out a bumpy US plant-based milks market.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": null,
+    "publishedAt": null,
+    "source": null,
+    "createdAt": "2026-03-03T10:35:11.228Z",
+    "id": 23
   },
   {
     "company": "Britain",
@@ -269,7 +381,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 17
+    "id": 24
   },
   {
     "company": "London bakery",
@@ -285,7 +397,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 18
+    "id": 25
   },
   {
     "company": "Aston Martin Lagonda, Inc.",
@@ -301,7 +413,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 19
+    "id": 26
   },
   {
     "company": null,
@@ -317,7 +429,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 20
+    "id": 27
   },
   {
     "company": "Netflix",
@@ -333,7 +445,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 21
+    "id": 28
   },
   {
     "company": null,
@@ -349,7 +461,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 22
+    "id": 29
   },
   {
     "company": null,
@@ -365,7 +477,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 23
+    "id": 30
   },
   {
     "company": "West Ham",
@@ -381,7 +493,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 24
+    "id": 31
   },
   {
     "company": null,
@@ -397,7 +509,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 25
+    "id": 32
   },
   {
     "company": null,
@@ -413,6 +525,6 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T08:56:03.259Z",
-    "id": 26
+    "id": 33
   }
 ]
