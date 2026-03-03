@@ -587,9 +587,11 @@ body {
 .section-header {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
+    gap: 12px;
     margin-bottom: 16px;
     padding-top: 4px;
+    flex-wrap: wrap;
 }
 
 .section-title {
@@ -601,6 +603,25 @@ body {
 .section-sub {
     font-size: 0.77rem;
     color: var(--t2);
+}
+
+/* Dashboard filter bar */
+.dash-filter-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.dash-filter-bar .search-box {
+    flex: 1;
+    min-width: 160px;
+    max-width: 240px;
+}
+
+.dash-filter-bar select {
+    padding: 7px 12px;
+    font-size: 0.8rem;
 }
 
 .leads-grid {

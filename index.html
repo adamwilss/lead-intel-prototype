@@ -115,8 +115,37 @@
 
                 <div class="leads-section">
                     <div class="section-header">
-                        <div class="section-title">Recent Discoveries</div>
-                        <div class="section-sub">Vetted by AI signal analysis</div>
+                        <div>
+                            <div class="section-title">Recent Discoveries <span id="dash-count-badge" class="nav-badge"
+                                    style="margin-left:8px;"></span></div>
+                            <div class="section-sub">Vetted by AI signal analysis</div>
+                        </div>
+                        <div class="dash-filter-bar">
+                            <label class="search-box">
+                                <i data-lucide="search"></i>
+                                <input id="dash-search" type="text" placeholder="Search…">
+                            </label>
+                            <select id="dash-filter-tier" title="Filter by Priority">
+                                <option value="">All Tiers</option>
+                                <option value="high">High</option>
+                                <option value="mid">Mid</option>
+                                <option value="low">Low</option>
+                            </select>
+                            <select id="dash-filter-score" title="Minimum AI Score">
+                                <option value="all">All Scores</option>
+                                <option value="9">Score 9+</option>
+                                <option value="8">Score 8+</option>
+                                <option value="7">Score 7+</option>
+                                <option value="6">Score 6+</option>
+                                <option value="5">Score 5+</option>
+                            </select>
+                            <select id="dash-sort" title="Sort">
+                                <option value="score-desc">Score ↓</option>
+                                <option value="score-asc">Score ↑</option>
+                                <option value="company-asc">A→Z</option>
+                                <option value="company-desc">Z→A</option>
+                            </select>
+                        </div>
                     </div>
                     <div class="leads-grid" id="leadsContainer"></div>
                 </div>

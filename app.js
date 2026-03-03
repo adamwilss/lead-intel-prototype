@@ -84,23 +84,43 @@ function set(id, val) { const el = document.getElementById(id); if (el) el.textC
 function renderLeads() {
   if (!leadsContainer) return;
 
-  // Dashboard explicitly hides leads that have no score (null/undefined)
-  const dashboardLeads = leads.filter(l => l.score != null);
+  const q = (document.getElementById('dash-search')?.value || '').toLowerCase();
+  const tier = document.getElementById('dash-filter-tier')?.value || '';
+  const minScore = document.getElementById('dash-filter-score')?.value || 'all';
+  const sort = document.getElementById('dash-sort')?.value || 'score-desc';
 
-  if (!dashboardLeads.length) {
+  // Start from scored leads only
+  let visible = leads
+    .map((l, idx) => ({ ...l, _idx: idx }))
+    .filter(l => {
+      if (l.score == null) return false;
+      if (q && !l.company.toLowerCase().includes(q) &&
+        !(l.industry || '').toLowerCase().includes(q)) return false;
+      if (tier && l.tier !== tier) return false;
+      if (minScore !== 'all' && +l.score < +minScore) return false;
+      return true;
+    });
+
+  visible.sort((a, b) => {
+    if (sort === 'score-desc') return b.score - a.score;
+    if (sort === 'score-asc') return a.score - b.score;
+    if (sort === 'company-asc') return a.company.localeCompare(b.company);
+    if (sort === 'company-desc') return b.company.localeCompare(a.company);
+    return 0;
+  });
+
+  // Update count badge
+  const badge = document.getElementById('dash-count-badge');
+  if (badge) badge.textContent = visible.length || '';
+
+  if (!visible.length) {
     leadsContainer.innerHTML =
-      `<p style="padding:40px;color:var(--t2)">No scored leads yet — AI will populate this automatically.</p>`;
+      `<p style="padding:40px;color:var(--t2)">No leads match the current filters.</p>`;
     return;
   }
 
-  // Notice we use the original leads index (stored on each object or found)
-  // But to keep it simple and maintain index, we map with the global index
-  // since dashboardLeads is a subset.
-  leadsContainer.innerHTML = dashboardLeads.map((lead, displayIdx) => {
-    // find true index in the main leads array for the modal
-    const trueIdx = leads.findIndex(l => l.id === lead.id || l === lead);
-    return `
-    <div class="lead-card ${lead.tier || 'mid'} animate-in" style="animation-delay:${displayIdx * 0.08}s" onclick="openLead(${trueIdx})">
+  leadsContainer.innerHTML = visible.map((lead, displayIdx) => `
+    <div class="lead-card ${lead.tier || 'mid'} animate-in" style="animation-delay:${displayIdx * 0.08}s" onclick="openLead(${lead._idx})">
       <div class="lead-header">
         <div>
           <div class="company-name">${lead.company}</div>
@@ -113,8 +133,7 @@ function renderLeads() {
         <span class="pill">Vetted by AI</span>
         <i data-lucide="chevron-right" style="width:15px;color:var(--t2)"></i>
       </div>
-    </div>`;
-  }).join('');
+    </div>`).join('');
   lucide.createIcons();
 }
 
@@ -174,11 +193,16 @@ function renderLeadsTable() {
   lucide.createIcons();
 }
 
-// Wire table controls
+// Wire table controls (All Leads section)
 setTimeout(() => {
   ['lead-search', 'lead-filter-tier', 'lead-filter-score', 'lead-sort'].forEach(id => {
     const el = document.getElementById(id);
     if (el) { el.addEventListener('input', renderLeadsTable); el.addEventListener('change', renderLeadsTable); }
+  });
+  // Wire dashboard filter controls
+  ['dash-search', 'dash-filter-tier', 'dash-filter-score', 'dash-sort'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) { el.addEventListener('input', renderLeads); el.addEventListener('change', renderLeads); }
   });
 }, 100);
 
