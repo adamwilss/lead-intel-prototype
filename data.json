@@ -144,6 +144,92 @@
     "id": 9
   },
   {
+    "company": "Ukrainian Drone Factory",
+    "industry": "Manufacturing",
+    "trigger": "new facility",
+    "score": 7,
+    "tier": "mid",
+    "employees": 0,
+    "description": "A new factory was unveiled in the UK dedicated to the production of Unmanned Aerial Systems for the Ukrainian Armed Forces.",
+    "outreach_email": {
+      "subject": "Exploring ERP Solutions for Your New Facility",
+      "body": "I noticed that your new factory dedicated to Unmanned Aerial Systems production has recently opened in the UK. As you ramp up operations, implementing an ERP system could streamline your processes and enhance efficiency. \n\nWould you be open to a 15-minute call to discuss how ERP Experts can support your operational needs during this exciting time? \nBest regards, ERP Experts Team"
+    },
+    "call_opener": "How is the new factory impacting your operational needs?",
+    "url": "https://theaviationist.com/2026/02/27/ukrainian-drone-factory-opens-uk/",
+    "publishedAt": "2026-02-27T19:37:59Z",
+    "source": "Theaviationist.com",
+    "createdAt": "2026-03-03T11:10:12.889Z",
+    "id": 10
+  },
+  {
+    "company": "Firecell",
+    "industry": "Engineering",
+    "trigger": "merger",
+    "score": 7,
+    "tier": "mid",
+    "employees": 0,
+    "description": "Hot on the heels of the Accelleran merger, purpose-built private 5G connectivity company unveils radio portfolio integration to give system integrators faster, more affordable deployment route across industrial, enterprise sites",
+    "outreach_email": {
+      "subject": "Exploring ERP Solutions for Your Recent Merger",
+      "body": "Hi there,\n\nI noticed that Firecell has recently undergone a merger with Accelleran, which likely brings new operational challenges and opportunities. At ERP Experts, we specialize in helping companies like yours streamline processes and enhance efficiency during such transitions. I would love to schedule a quick 15-minute call to discuss how we can support your ERP needs during this exciting time.\n\nBest regards,\nERP Experts Team"
+    },
+    "call_opener": "How is the merger with Accelleran impacting your operational needs?",
+    "url": "https://www.computerweekly.com/news/366639431/Firecell-CloudRANAI-collaborate-to-cut-cost-and-complexity-of-private-5G",
+    "publishedAt": "2026-02-26T09:28:00Z",
+    "source": "ComputerWeekly.com",
+    "createdAt": "2026-03-03T11:10:12.889Z",
+    "id": 11
+  },
+  {
+    "company": "Flux",
+    "industry": "Engineering",
+    "trigger": "funding round",
+    "score": 5,
+    "tier": "low",
+    "employees": 0,
+    "description": "Matthias Wagner’s Flux, built to vibe code electronics, has raised $37 million from 8VC, Bain Capital Ventures, Liquid 2 Ventures, and Outsiders Fund.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": "https://fortune.com/2026/02/27/exclusive-flux-backed-8vc-raises-37-million-vibe-code-electronics/",
+    "publishedAt": "2026-02-27T09:54:56Z",
+    "source": "Fortune",
+    "createdAt": "2026-03-03T11:10:12.889Z",
+    "id": 12
+  },
+  {
+    "company": "Banijay",
+    "industry": "Distribution",
+    "trigger": "expansion into European markets",
+    "score": 5,
+    "tier": "low",
+    "employees": 0,
+    "description": "Banijay wants to bring some Fear Factor to Europe. The revival of the NBC show, which launched on Fox last year hosted by Johnny Knoxville, has achieved stellar ratings in the U.S. and the distributor used its London TV Screenings event yesterday to talk up European versions.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": "http://deadline.com/2026/02/fear-factor-european-versions-banijay-season-2-fox-1236735786/",
+    "publishedAt": "2026-02-26T09:58:24Z",
+    "source": "Deadline",
+    "createdAt": "2026-03-03T11:10:12.889Z",
+    "id": 13
+  },
+  {
+    "company": "VINCI",
+    "industry": "Construction",
+    "trigger": "financial maneuver indicating potential expansion or restructuring",
+    "score": 5,
+    "tier": "low",
+    "employees": null,
+    "description": "VINCI announces the successful issue of €500m of bonds exchangeable for ordinary shares of Groupe ADP due 2031",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": "https://www.globenewswire.com/news-release/2026/02/25/3244812/0/en/VINCI-announces-the-successful-issue-of-500m-of-bonds-exchangeable-for-ordinary-shares-of-Groupe-ADP-due-2031.html",
+    "publishedAt": "2026-02-25T16:30:00Z",
+    "source": "GlobeNewswire",
+    "createdAt": "2026-03-03T11:10:12.889Z",
+    "id": 14
+  },
+  {
     "company": "Hazeldenes",
     "industry": null,
     "trigger": "Hazeldenes is restoring production in a phased manner following a cyberattack.",
@@ -157,7 +243,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T10:44:51.404Z",
-    "id": 10
+    "id": 15
   },
   {
     "company": "Freshpet",
@@ -173,7 +259,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T10:44:51.404Z",
-    "id": 11
+    "id": 16
   },
   {
     "company": "Cerealto",
@@ -189,7 +275,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T10:44:51.404Z",
-    "id": 12
+    "id": 17
   },
   {
     "company": "Refresco",
@@ -205,7 +291,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T10:44:51.404Z",
-    "id": 13
+    "id": 18
   },
   {
     "company": "holiday homes",
@@ -221,7 +307,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T10:56:40.895Z",
-    "id": 14
+    "id": 19
   },
   {
     "company": "Towards Packaging",
@@ -237,7 +323,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T10:56:40.895Z",
-    "id": 15
+    "id": 20
   },
   {
     "company": "Warner Bros. Discovery",
@@ -253,7 +339,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T10:56:40.895Z",
-    "id": 16
+    "id": 21
   },
   {
     "company": "TMR Global Resources",
@@ -269,7 +355,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T10:56:40.895Z",
-    "id": 17
+    "id": 22
   },
   {
     "company": "Seagate",
@@ -285,7 +371,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T10:56:40.895Z",
-    "id": 18
+    "id": 23
   },
   {
     "company": "Cloud Infrastructure",
@@ -301,7 +387,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T10:56:40.895Z",
-    "id": 19
+    "id": 24
   },
   {
     "company": "Marrel",
@@ -317,7 +403,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T10:56:40.895Z",
-    "id": 20
+    "id": 25
   },
   {
     "company": "Atlas Copco",
@@ -333,7 +419,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T10:56:40.895Z",
-    "id": 21
+    "id": 26
   },
   {
     "company": "Caterpillar",
@@ -349,7 +435,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T10:56:40.895Z",
-    "id": 22
+    "id": 27
   },
   {
     "company": "Banijay",
@@ -365,7 +451,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T10:56:40.895Z",
-    "id": 23
+    "id": 28
   },
   {
     "company": "Firecell",
@@ -381,7 +467,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T10:56:40.895Z",
-    "id": 24
+    "id": 29
   },
   {
     "company": "Neste",
@@ -397,7 +483,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T10:56:40.895Z",
-    "id": 25
+    "id": 30
   },
   {
     "company": "Precedence Research",
@@ -413,7 +499,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T10:56:40.895Z",
-    "id": 26
+    "id": 31
   },
   {
     "company": "Fnac Darty",
@@ -429,7 +515,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T10:56:40.895Z",
-    "id": 27
+    "id": 32
   },
   {
     "company": "Cold Chain Logistics",
@@ -445,7 +531,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T10:56:40.895Z",
-    "id": 28
+    "id": 33
   },
   {
     "company": "Green Hydrogen",
@@ -461,7 +547,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T10:56:40.895Z",
-    "id": 29
+    "id": 34
   },
   {
     "company": "Specialty Adhesives & Sealants Market",
@@ -477,7 +563,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T10:56:40.895Z",
-    "id": 30
+    "id": 35
   },
   {
     "company": "Flotek",
@@ -493,7 +579,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T10:56:40.895Z",
-    "id": 31
+    "id": 36
   },
   {
     "company": "UPSC Essentials | Daily subject-wise quiz",
@@ -509,7 +595,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T10:56:40.895Z",
-    "id": 32
+    "id": 37
   },
   {
     "company": "China Articles",
@@ -525,7 +611,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T10:56:40.895Z",
-    "id": 33
+    "id": 38
   },
   {
     "company": null,
@@ -541,7 +627,7 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T10:56:40.895Z",
-    "id": 34
+    "id": 39
   },
   {
     "company": null,
@@ -557,6 +643,6 @@
     "publishedAt": null,
     "source": null,
     "createdAt": "2026-03-03T10:56:40.895Z",
-    "id": 35
+    "id": 40
   }
 ]
