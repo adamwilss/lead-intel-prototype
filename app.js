@@ -80,13 +80,23 @@ function updateStats() {
 
 function set(id, val) { const el = document.getElementById(id); if (el) el.textContent = val; }
 
+// ── Pill filter helper ───────────────────────────────────────
+function setPillFilter(groupId, btn) {
+  document.querySelectorAll(`#${groupId} .filter-pill`).forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+}
+
+function getPillValue(groupId) {
+  return document.querySelector(`#${groupId} .filter-pill.active`)?.dataset.value ?? '';
+}
+
 // ── Dashboard lead cards ─────────────────────────────────────────
 function renderLeads() {
   if (!leadsContainer) return;
 
   const q = (document.getElementById('dash-search')?.value || '').toLowerCase();
-  const tier = document.getElementById('dash-filter-tier')?.value || '';
-  const minScore = document.getElementById('dash-filter-score')?.value || 'all';
+  const tier = getPillValue('dash-tier-group');
+  const minScore = getPillValue('dash-score-group') || 'all';
   const sort = document.getElementById('dash-sort')?.value || 'score-desc';
 
   // Start from scored leads only
@@ -193,16 +203,11 @@ function renderLeadsTable() {
   lucide.createIcons();
 }
 
-// Wire table controls (All Leads section)
+// Wire table controls (All Leads section only — dashboard pills use inline onclick)
 setTimeout(() => {
   ['lead-search', 'lead-filter-tier', 'lead-filter-score', 'lead-sort'].forEach(id => {
     const el = document.getElementById(id);
     if (el) { el.addEventListener('input', renderLeadsTable); el.addEventListener('change', renderLeadsTable); }
-  });
-  // Wire dashboard filter controls
-  ['dash-search', 'dash-filter-tier', 'dash-filter-score', 'dash-sort'].forEach(id => {
-    const el = document.getElementById(id);
-    if (el) { el.addEventListener('input', renderLeads); el.addEventListener('change', renderLeads); }
   });
 }, 100);
 

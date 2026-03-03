@@ -616,12 +616,49 @@ body {
 .dash-filter-bar .search-box {
     flex: 1;
     min-width: 160px;
-    max-width: 240px;
+    max-width: 220px;
 }
 
 .dash-filter-bar select {
     padding: 7px 12px;
     font-size: 0.8rem;
+}
+
+/* Pill button filter groups */
+.filter-pill-group {
+    display: flex;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.filter-pill {
+    background: transparent;
+    border: none;
+    border-right: 1px solid var(--border);
+    color: var(--t2);
+    font-size: 0.76rem;
+    font-weight: 600;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-family: inherit;
+    transition: background 0.15s, color 0.15s;
+    white-space: nowrap;
+}
+
+.filter-pill:last-child {
+    border-right: none;
+}
+
+.filter-pill:hover {
+    background: var(--surface-hi);
+    color: var(--t1);
+}
+
+.filter-pill.active {
+    background: var(--blue-bg);
+    color: var(--blue);
 }
 
 .leads-grid {
