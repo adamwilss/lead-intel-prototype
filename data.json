@@ -1,1 +1,103 @@
-[{"company":"McSweeney's","industry":"Other","employees":null,"score":0,"tier":"low","trigger":"No relevant news found","description":"","outreach_email":"","call_opener":"","title":"","url":"","source":""},{"company":"McSweeney's","industry":"Other","employees":null,"score":0,"tier":"low","trigger":"No relevant news found","description":"No relevant news found.","outreach_email":"","call_opener":"","title":"","url":"","source":""},{"company":"","industry":"Other","employees":null,"score":0,"tier":"mid","trigger":"","description":"","outreach_email":"","call_opener":"","title":"","url":"","source":""},{"company":"McSweeney's","industry":"Other","employees":null,"score":0,"tier":"low","trigger":"No relevant news found","description":"No relevant news found.","outreach_email":"","call_opener":"","title":"","url":"","source":""},{"company":"McSweeney's","industry":"Other","employees":null,"score":0,"tier":"low","trigger":"No relevant news found","description":"","outreach_email":"","call_opener":"","title":"","url":"","source":""},{"company":"","industry":"Other","employees":null,"score":0,"tier":"mid","trigger":"","description":"","outreach_email":"","call_opener":"","title":"","url":"","source":""},{"company":"","industry":"Other","employees":null,"score":0,"tier":"low","trigger":"","description":"","outreach_email":"","call_opener":"","title":"","url":"","source":""},{"company":"McSweeney's","industry":"Other","employees":null,"score":0,"tier":"low","trigger":"No relevant news found","description":"No relevant news found.","outreach_email":"","call_opener":"","title":"","url":"","source":""},{"company":"McSweeney’s","industry":"Other","employees":null,"score":0,"tier":"low","trigger":"No relevant news found","description":"","outreach_email":"","call_opener":"","title":"","url":"","source":""},{"company":"","industry":"Other","employees":null,"score":0,"tier":"low","trigger":"","description":"","outreach_email":"","call_opener":"","title":"","url":"","source":""}]
+[
+  {
+    "company": "Energy Technology & Control Limited (ETC)",
+    "industry": "Energy",
+    "trigger": "acquisition",
+    "score": 9,
+    "tier": "high",
+    "employees": 0,
+    "description": "ETC is a global leader in combustion controls and technology for industrial applications.",
+    "outreach_email": {
+      "subject": "Let's Discuss Your Recent Acquisition",
+      "body": "Hi there,\n\nI noticed that Fireye has recently acquired Energy Technology & Control Limited. This acquisition could present significant operational changes and opportunities for your team. I would love to schedule a 15-minute call to discuss how ERP solutions can support your integration and growth strategies.\n\nBest regards,\nERP Experts Team"
+    },
+    "call_opener": "How is the integration process going after the acquisition?",
+    "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/fireye-acquires-energy-technology-control",
+    "publishedAt": "2026-03-02T13:15:46Z",
+    "source": "Financial Post",
+    "createdAt": "2026-03-05T12:04:50.644Z",
+    "id": 1
+  },
+  {
+    "company": "Ukrainian Drone Factory",
+    "industry": "Manufacturing",
+    "trigger": "new facility",
+    "score": 7,
+    "tier": "mid",
+    "employees": 0,
+    "description": "A new factory was unveiled in the UK dedicated to the production of Unmanned Aerial Systems for the Ukrainian Armed Forces.",
+    "outreach_email": {
+      "subject": "Exploring ERP Solutions for Your New Facility",
+      "body": "I noticed that you recently opened a new factory in the UK focused on producing Unmanned Aerial Systems. This significant expansion could benefit from an integrated ERP solution to streamline your operations and enhance efficiency.\n\nWe would love to discuss how our ERP solutions can support your growth and operational needs. Would you be open to a 15-minute call to explore this further?",
+      "signOff": "ERP Experts Team"
+    },
+    "call_opener": "How is the new factory impacting your operational processes?",
+    "url": "https://theaviationist.com/2026/02/27/ukrainian-drone-factory-opens-uk/",
+    "publishedAt": "2026-02-27T19:37:59Z",
+    "source": "Theaviationist.com",
+    "createdAt": "2026-03-05T12:04:50.644Z",
+    "id": 2
+  },
+  {
+    "company": "Macfarlane",
+    "industry": "Packaging",
+    "trigger": "profitability tumbles amid tough market",
+    "score": 5,
+    "tier": "low",
+    "employees": 0,
+    "description": "The UK-based packaging company’s group revenue rose 11% year-on-year to £300.8m.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": "https://www.packaging-gateway.com/news/macfarlane-2025-profitability-tumbles/",
+    "publishedAt": "2026-03-02T11:56:09Z",
+    "source": "Packaging-gateway.com",
+    "createdAt": "2026-03-05T12:04:50.644Z",
+    "id": 3
+  },
+  {
+    "company": "Flux",
+    "industry": "Engineering",
+    "trigger": "funding round",
+    "score": 5,
+    "tier": "low",
+    "employees": 0,
+    "description": "Matthias Wagner’s Flux, built to vibe code electronics, has raised $37 million from 8VC, Bain Capital Ventures, Liquid 2 Ventures, and Outsiders Fund.",
+    "outreach_email": null,
+    "call_opener": null,
+    "url": "https://fortune.com/2026/02/27/exclusive-flux-backed-8vc-raises-37-million-vibe-code-electronics/",
+    "publishedAt": "2026-02-27T09:54:56Z",
+    "source": "Fortune",
+    "createdAt": "2026-03-05T12:04:50.644Z",
+    "id": 4
+  },
+  {
+    "company": "McSweeney's",
+    "industry": "Other",
+    "employees": null,
+    "score": 0,
+    "tier": "low",
+    "trigger": "No relevant news found",
+    "description": "No relevant news found.",
+    "outreach_email": "",
+    "call_opener": "",
+    "title": "",
+    "url": "",
+    "source": "",
+    "id": 5
+  },
+  {
+    "company": "McSweeney’s",
+    "industry": "Other",
+    "employees": null,
+    "score": 0,
+    "tier": "low",
+    "trigger": "No relevant news found",
+    "description": "",
+    "outreach_email": "",
+    "call_opener": "",
+    "title": "",
+    "url": "",
+    "source": "",
+    "id": 6
+  }
+]
