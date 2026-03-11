@@ -1,1 +1,30 @@
-[{"company":"McSweeney's","industry":"Other","employees":null,"score":0,"tier":"low","trigger":"No relevant news found","description":"No relevant news found.","outreach_email":"","call_opener":"","title":"","url":"","source":""},{"company":"N/A","industry":"Other","employees":"N/A","score":0,"tier":"low","trigger":"N/A","description":"N/A","outreach_email":"","call_opener":"","title":"","url":"N/A","source":"Mcsweeneys.net"},{"company":"McSweeney's","industry":"Other","employees":null,"score":0,"tier":"low","trigger":"No relevant news found","description":"","outreach_email":"","call_opener":"","title":"","url":"","source":""},{"company":"","industry":"Other","employees":null,"score":0,"tier":"mid","trigger":"","description":"","outreach_email":"","call_opener":"","title":"","url":"","source":""},{"company":"N/A","industry":"Other","employees":"N/A","score":0,"tier":"low","trigger":"N/A","description":"N/A","outreach_email":"","call_opener":"","title":"","url":"N/A","source":"McSweeneys.net"},{"company":"","industry":"Other","employees":null,"score":0,"tier":"low","trigger":"","description":"","outreach_email":"","call_opener":"","title":"","url":"","source":""},{"company":"McSweeney's","industry":"Other","employees":null,"score":0,"tier":"low","trigger":"No relevant news found","description":"","outreach_email":"","call_opener":"","title":"","url":"","source":""},{"company":"McSweeney's","industry":"Other","employees":null,"score":0,"tier":"low","trigger":"No relevant news found","description":"No relevant news found.","outreach_email":"","call_opener":"","title":"","url":"","source":""},{"company":"McSweeney's","industry":"Other","employees":null,"score":0,"tier":"low","trigger":"No relevant news found","description":"No relevant news found.","outreach_email":"","call_opener":"","title":"","url":"","source":""},{"company":"","industry":"Other","employees":null,"score":0,"tier":"low","trigger":"","description":"","outreach_email":"","call_opener":"","title":"","url":"","source":""}]
+[
+  {
+    "company": "Friendship Bridge",
+    "url": null,
+    "industry": "Other",
+    "employees": null,
+    "hq_location": null,
+    "description": null,
+    "trigger": null,
+    "trigger_date": null,
+    "trigger_source": null,
+    "score": 1,
+    "score_reason": null,
+    "tier": "low",
+    "primary_contact_name": null,
+    "primary_contact_title": null,
+    "primary_contact_email": null,
+    "primary_contact_phone": null,
+    "primary_contact_linkedin": null,
+    "all_emails": null,
+    "all_phones": null,
+    "pain_points": null,
+    "email_subject": null,
+    "outreach_email": null,
+    "call_opener": null,
+    "source": null,
+    "publishedAt": null,
+    "enriched_at": "2026-03-11T09:22:41.046Z"
+  }
+]
