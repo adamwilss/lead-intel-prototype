@@ -31,7 +31,7 @@ const closeModalBtn = document.getElementById('closeModal');
 const modalBody = document.getElementById('modalBody');
 
 // ── Navigation ───────────────────────────────────────────────────
-const SECTIONS = ['dashboard', 'all-leads', 'analytics', 'integrations'];
+const SECTIONS = ['dashboard', 'all-leads', 'saved', 'analytics', 'integrations'];
 
 function showSection(name) {
   SECTIONS.forEach(s => {
@@ -42,6 +42,7 @@ function showSection(name) {
     el.classList.toggle('active', el.dataset.section === name);
   });
   if (name === 'all-leads') renderLeadsTable();
+  if (name === 'saved') renderSavedLeads();
   if (name === 'analytics') renderAnalytics();
   if (name === 'integrations') renderIntegrations();
 }
@@ -58,6 +59,7 @@ async function loadData() {
     leads = Array.isArray(raw) ? raw.flat(Infinity).filter(l => l && l.company) : [];
     renderLeads();
     updateStats();
+    updateStarredCount();
   } catch (err) {
     console.error('Error loading leads:', err);
     if (leadsContainer) leadsContainer.innerHTML =
@@ -79,6 +81,58 @@ function updateStats() {
 }
 
 function set(id, val) { const el = document.getElementById(id); if (el) el.textContent = val; }
+
+// ── HTML attribute escaping helper ───────────────────────────────
+function htmlAttr(s) { return (s || '').replace(/&/g, '&amp;').replace(/"/g, '&quot;'); }
+
+// ── Score badge colour helper ─────────────────────────────────────
+function scoreBadgeStyle(s) {
+  const n = +s;
+  if (n >= 8) return 'background:var(--green-bg);color:var(--green);border-color:rgba(52,211,153,0.25)';
+  if (n >= 6) return 'background:var(--amber-bg);color:var(--amber);border-color:rgba(251,191,36,0.25)';
+  return '';
+}
+
+// ── Saved / Starred leads (localStorage) ─────────────────────────
+function getStarred() {
+  try { return JSON.parse(localStorage.getItem('li-starred') || '[]'); } catch (e) { return []; }
+}
+function saveStarredList(arr) { localStorage.setItem('li-starred', JSON.stringify(arr)); }
+function isStarred(company) { return getStarred().some(l => l.company === company); }
+function updateStarredCount() { const n = getStarred().length; set('nav-saved-count', n || ''); }
+
+function toggleStar(company, event) {
+  if (event) { event.stopPropagation(); event.preventDefault(); }
+  const list = getStarred();
+  const idx = list.findIndex(l => l.company === company);
+  const willBeStarred = idx === -1;
+  if (!willBeStarred) {
+    list.splice(idx, 1);
+  } else {
+    const lead = leads.find(l => l.company === company);
+    if (lead) list.unshift({ ...lead, _savedAt: new Date().toISOString() });
+  }
+  saveStarredList(list);
+
+  // Update all star buttons for this company (cards + modal) without re-rendering
+  document.querySelectorAll('.star-btn[data-company]').forEach(btn => {
+    if (btn.dataset.company === company) {
+      btn.classList.toggle('starred', willBeStarred);
+      btn.title = willBeStarred ? 'Remove from saved' : 'Save lead';
+      const span = btn.querySelector('span');
+      if (span) span.textContent = willBeStarred ? 'Saved' : 'Save';
+    }
+  });
+  // Update card is-starred border
+  document.querySelectorAll('.lead-card[data-company]').forEach(card => {
+    if (card.dataset.company === company) card.classList.toggle('is-starred', willBeStarred);
+  });
+
+  updateStarredCount();
+  // Refresh saved section if it's currently visible
+  const savedSection = document.getElementById('section-saved');
+  if (savedSection && savedSection.style.display !== 'none') renderSavedLeads();
+}
 
 // ── Pill filter helper ───────────────────────────────────────
 function setPillFilter(groupId, btn) {
@@ -130,13 +184,16 @@ function renderLeads() {
   }
 
   leadsContainer.innerHTML = visible.map((lead, displayIdx) => `
-    <div class="lead-card ${lead.tier || 'mid'} animate-in" style="animation-delay:${displayIdx * 0.08}s" onclick="openLead(${lead._idx})">
+    <div class="lead-card ${lead.tier || 'mid'} animate-in${isStarred(lead.company) ? ' is-starred' : ''}" data-company="${htmlAttr(lead.company)}" style="animation-delay:${displayIdx * 0.08}s" onclick="openLead(${lead._idx})">
       <div class="lead-header">
         <div>
           <div class="company-name">${lead.company}</div>
-          <div class="lead-meta">${lead.industry} · ${lead.employees} employees</div>
+          <div class="lead-meta">${lead.industry || '—'} · ${lead.employees || '—'} employees</div>
         </div>
-        <div class="score-badge">${lead.score}</div>
+        <div style="display:flex;align-items:flex-start;gap:6px;flex-shrink:0">
+          <button class="star-btn${isStarred(lead.company) ? ' starred' : ''}" data-company="${htmlAttr(lead.company)}" onclick="toggleStar(${JSON.stringify(lead.company)},event)" title="${isStarred(lead.company) ? 'Remove from saved' : 'Save lead'}"><i data-lucide="star"></i></button>
+          <div class="score-badge" style="${scoreBadgeStyle(lead.score)}">${lead.score}</div>
+        </div>
       </div>
       <div class="lead-tagline"><strong>Signal:</strong> ${lead.trigger}</div>
       <div class="lead-footer">
@@ -190,16 +247,69 @@ function renderLeadsTable() {
   const accent = { high: 'var(--green)', mid: 'var(--amber)', low: 'var(--t2)' };
 
   tbody.innerHTML = rows.map(l => `
-    <tr onclick="openLead(${l._idx}); showSection('dashboard')">
-      <td style="font-weight:600">${l.company}</td>
+    <tr onclick="openLead(${l._idx}); showSection('dashboard')" style="${isStarred(l.company) ? 'background:rgba(251,191,36,0.03)' : ''}">
+      <td style="font-weight:600">
+        ${l.company}
+      </td>
       <td style="color:var(--t2)">${l.industry}</td>
       <td style="color:var(--t2);max-width:240px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${l.trigger}</td>
-      <td style="text-align:center;font-weight:800;font-size:1.05rem;color:var(--blue)">${l.score}</td>
+      <td style="text-align:center">
+        <span style="font-weight:800;font-size:1.05rem;${scoreBadgeStyle(l.score) ? `padding:3px 8px;border-radius:7px;${scoreBadgeStyle(l.score)}` : 'color:var(--t2)'}">${l.score}</span>
+      </td>
       <td style="text-align:center">
         <span class="pill" style="border-color:${accent[l.tier || 'mid']};color:${accent[l.tier || 'mid']}">${(l.tier || 'mid').toUpperCase()}</span>
       </td>
-      <td style="text-align:center"><i data-lucide="chevron-right" style="width:15px;color:var(--t2)"></i></td>
+      <td style="text-align:center;white-space:nowrap">
+        <button class="star-btn${isStarred(l.company) ? ' starred' : ''}" data-company="${htmlAttr(l.company)}" onclick="toggleStar(${JSON.stringify(l.company)},event)" title="${isStarred(l.company) ? 'Remove from saved' : 'Save lead'}" style="margin-right:6px"><i data-lucide="star"></i></button>
+        <i data-lucide="chevron-right" style="width:15px;color:var(--t2);vertical-align:middle"></i>
+      </td>
     </tr>`).join('');
+  lucide.createIcons();
+}
+
+// ── Saved leads section ───────────────────────────────────────────
+function renderSavedLeads() {
+  const container = document.getElementById('savedContainer');
+  if (!container) return;
+  const saved = getStarred();
+
+  const badge = document.getElementById('saved-count-badge');
+  if (badge) badge.textContent = saved.length || '';
+
+  if (!saved.length) {
+    container.innerHTML = `
+      <div style="grid-column:1/-1;padding:60px 40px;text-align:center;color:var(--t2)">
+        <div style="font-size:2.2rem;margin-bottom:14px;opacity:0.4">★</div>
+        <div style="font-weight:700;font-size:0.95rem;margin-bottom:6px;color:var(--t1)">No saved leads yet</div>
+        <div style="font-size:0.83rem">Click the ★ on any lead card to save it here — even after data.json refreshes</div>
+      </div>`;
+    return;
+  }
+
+  container.innerHTML = saved.map((lead, displayIdx) => {
+    const currentIdx = leads.findIndex(l => l.company === lead.company);
+    const isStale = currentIdx === -1;
+    const clickAttr = isStale ? '' : `onclick="openLead(${currentIdx})"`;
+    const savedDate = lead._savedAt ? new Date(lead._savedAt).toLocaleDateString('en-GB', { day:'numeric', month:'short' }) : '';
+    return `
+      <div class="lead-card ${lead.tier || 'mid'} animate-in is-starred" data-company="${htmlAttr(lead.company)}" style="animation-delay:${displayIdx * 0.08}s${isStale ? ';opacity:0.6' : ''}" ${clickAttr}>
+        <div class="lead-header">
+          <div>
+            <div class="company-name">${lead.company}${isStale ? ' <span style="font-size:0.65rem;color:var(--amber);font-weight:600;margin-left:4px">stale</span>' : ''}</div>
+            <div class="lead-meta">${lead.industry || '—'} · ${lead.employees || '—'} employees</div>
+          </div>
+          <div style="display:flex;align-items:flex-start;gap:6px;flex-shrink:0">
+            <button class="star-btn starred" data-company="${htmlAttr(lead.company)}" onclick="toggleStar(${JSON.stringify(lead.company)},event)" title="Remove from saved"><i data-lucide="star"></i></button>
+            <div class="score-badge" style="${scoreBadgeStyle(lead.score)}">${lead.score}</div>
+          </div>
+        </div>
+        <div class="lead-tagline"><strong>Signal:</strong> ${lead.trigger}</div>
+        <div class="lead-footer">
+          <span class="pill" style="border-color:var(--amber);color:var(--amber)">★ Saved${savedDate ? ' · ' + savedDate : ''}</span>
+          ${isStale ? '<span style="font-size:0.72rem;color:var(--amber)">Not in current data</span>' : '<i data-lucide="chevron-right" style="width:15px;color:var(--t2)"></i>'}
+        </div>
+      </div>`;
+  }).join('');
   lucide.createIcons();
 }
 
@@ -330,8 +440,9 @@ function openLead(idx) {
 
     <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:28px;padding:0 20px;">
       <div>
-        <div style="margin-bottom:10px">
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:10px;flex-wrap:wrap">
           <h2 style="font-size:1.8rem;font-weight:800;letter-spacing:-0.03em;">${lead.company || 'Unknown Company'}</h2>
+          <button id="modal-star-btn" class="star-btn${isStarred(lead.company) ? ' starred' : ''}" data-company="${htmlAttr(lead.company)}" onclick="toggleStar(${JSON.stringify(lead.company)},event)" style="padding:6px 12px;border-radius:9px" title="${isStarred(lead.company) ? 'Remove from saved' : 'Save lead'}"><i data-lucide="star"></i><span style="font-size:0.75rem;font-weight:600;margin-left:4px">${isStarred(lead.company) ? 'Saved' : 'Save'}</span></button>
         </div>
         <div style="display:flex;gap:8px;flex-wrap:wrap">
           ${lead.industry ? `<span class="pill">${lead.industry}</span>` : ''}

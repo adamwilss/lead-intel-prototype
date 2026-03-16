@@ -1306,3 +1306,51 @@ tbody tr:hover {
     width: 20px;
     height: 20px;
 }
+
+/* ── Star / Save button ────────────────────────────────────────── */
+.star-btn {
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 4px 7px;
+    cursor: pointer;
+    color: var(--t2);
+    font-family: inherit;
+    transition: all 0.15s ease;
+    outline: none;
+    flex-shrink: 0;
+    line-height: 1;
+}
+
+.star-btn svg {
+    width: 13px;
+    height: 13px;
+    transition: fill 0.15s ease, color 0.15s ease;
+}
+
+.star-btn:hover {
+    background: var(--amber-bg);
+    border-color: rgba(251, 191, 36, 0.35);
+    color: var(--amber);
+}
+
+.star-btn.starred {
+    background: var(--amber-bg);
+    border-color: rgba(251, 191, 36, 0.35);
+    color: var(--amber);
+}
+
+.star-btn.starred svg {
+    fill: var(--amber);
+}
+
+/* ── Starred card modifier ─────────────────────────────────────── */
+.lead-card.is-starred {
+    border-color: rgba(251, 191, 36, 0.22);
+}
+
+[data-theme="dark"] .lead-card.is-starred {
+    box-shadow: 0 0 0 1px rgba(251, 191, 36, 0.1) inset;
+}

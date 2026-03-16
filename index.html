@@ -35,6 +35,10 @@
                     <i data-lucide="users"></i><span>All Leads</span>
                     <span class="nav-badge" id="nav-lead-count">—</span>
                 </div>
+                <div class="nav-item" data-section="saved">
+                    <i data-lucide="star"></i><span>Saved</span>
+                    <span class="nav-badge" id="nav-saved-count"></span>
+                </div>
                 <div class="nav-item" data-section="analytics">
                     <i data-lucide="bar-chart-2"></i><span>Analytics</span>
                 </div>
@@ -210,13 +214,38 @@
                                 <th>Signal</th>
                                 <th style="text-align:center">Score</th>
                                 <th style="text-align:center">Priority</th>
-                                <th></th>
+                                <th style="text-align:center">Actions</th>
                             </tr>
                         </thead>
                         <tbody id="leadsTableBody"></tbody>
                     </table>
                     <div id="leads-table-empty" class="table-empty" style="display:none;">No leads match your search.
                     </div>
+                </div>
+            </section>
+
+            <!-- ═══ SAVED ═══ -->
+            <section id="section-saved" style="display:none;">
+                <header class="header">
+                    <div>
+                        <h1>Saved Leads</h1>
+                        <p class="header-sub">Bookmarked leads — persisted even when data refreshes</p>
+                    </div>
+                    <div class="header-actions">
+                        <button class="theme-toggle" onclick="document.getElementById('themeToggle').click()">
+                            <i data-lucide="sun" class="theme-icon-light"></i>
+                            <i data-lucide="moon" class="theme-icon-dark"></i>
+                        </button>
+                    </div>
+                </header>
+                <div class="leads-section">
+                    <div class="section-header">
+                        <div>
+                            <div class="section-title">Saved Leads <span id="saved-count-badge" class="nav-badge" style="margin-left:8px;"></span></div>
+                            <div class="section-sub">Leads you've starred — stored locally, survives data.json refreshes</div>
+                        </div>
+                    </div>
+                    <div class="leads-grid" id="savedContainer"></div>
                 </div>
             </section>
 
