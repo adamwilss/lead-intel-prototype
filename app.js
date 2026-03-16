@@ -191,7 +191,7 @@ function renderLeads() {
           <div class="lead-meta">${lead.industry || '—'} · ${lead.employees || '—'} employees</div>
         </div>
         <div style="display:flex;align-items:flex-start;gap:6px;flex-shrink:0">
-          <button class="star-btn${isStarred(lead.company) ? ' starred' : ''}" data-company="${htmlAttr(lead.company)}" onclick="toggleStar(${JSON.stringify(lead.company)},event)" title="${isStarred(lead.company) ? 'Remove from saved' : 'Save lead'}"><i data-lucide="star"></i></button>
+          <button class="star-btn${isStarred(lead.company) ? ' starred' : ''}" data-company="${htmlAttr(lead.company)}" title="${isStarred(lead.company) ? 'Remove from saved' : 'Save lead'}"><i data-lucide="star"></i></button>
           <div class="score-badge" style="${scoreBadgeStyle(lead.score)}">${lead.score}</div>
         </div>
       </div>
@@ -260,7 +260,7 @@ function renderLeadsTable() {
         <span class="pill" style="border-color:${accent[l.tier || 'mid']};color:${accent[l.tier || 'mid']}">${(l.tier || 'mid').toUpperCase()}</span>
       </td>
       <td style="text-align:center;white-space:nowrap">
-        <button class="star-btn${isStarred(l.company) ? ' starred' : ''}" data-company="${htmlAttr(l.company)}" onclick="toggleStar(${JSON.stringify(l.company)},event)" title="${isStarred(l.company) ? 'Remove from saved' : 'Save lead'}" style="margin-right:6px"><i data-lucide="star"></i></button>
+        <button class="star-btn${isStarred(l.company) ? ' starred' : ''}" data-company="${htmlAttr(l.company)}" title="${isStarred(l.company) ? 'Remove from saved' : 'Save lead'}" style="margin-right:6px"><i data-lucide="star"></i></button>
         <i data-lucide="chevron-right" style="width:15px;color:var(--t2);vertical-align:middle"></i>
       </td>
     </tr>`).join('');
@@ -299,7 +299,7 @@ function renderSavedLeads() {
             <div class="lead-meta">${lead.industry || '—'} · ${lead.employees || '—'} employees</div>
           </div>
           <div style="display:flex;align-items:flex-start;gap:6px;flex-shrink:0">
-            <button class="star-btn starred" data-company="${htmlAttr(lead.company)}" onclick="toggleStar(${JSON.stringify(lead.company)},event)" title="Remove from saved"><i data-lucide="star"></i></button>
+            <button class="star-btn starred" data-company="${htmlAttr(lead.company)}" title="Remove from saved"><i data-lucide="star"></i></button>
             <div class="score-badge" style="${scoreBadgeStyle(lead.score)}">${lead.score}</div>
           </div>
         </div>
@@ -442,7 +442,7 @@ function openLead(idx) {
       <div>
         <div style="display:flex;align-items:center;gap:12px;margin-bottom:10px;flex-wrap:wrap">
           <h2 style="font-size:1.8rem;font-weight:800;letter-spacing:-0.03em;">${lead.company || 'Unknown Company'}</h2>
-          <button id="modal-star-btn" class="star-btn${isStarred(lead.company) ? ' starred' : ''}" data-company="${htmlAttr(lead.company)}" onclick="toggleStar(${JSON.stringify(lead.company)},event)" style="padding:6px 12px;border-radius:9px" title="${isStarred(lead.company) ? 'Remove from saved' : 'Save lead'}"><i data-lucide="star"></i><span style="font-size:0.75rem;font-weight:600;margin-left:4px">${isStarred(lead.company) ? 'Saved' : 'Save'}</span></button>
+          <button id="modal-star-btn" class="star-btn${isStarred(lead.company) ? ' starred' : ''}" data-company="${htmlAttr(lead.company)}" style="padding:6px 12px;border-radius:9px" title="${isStarred(lead.company) ? 'Remove from saved' : 'Save lead'}"><i data-lucide="star"></i><span style="font-size:0.75rem;font-weight:600;margin-left:4px">${isStarred(lead.company) ? 'Saved' : 'Save'}</span></button>
         </div>
         <div style="display:flex;gap:8px;flex-wrap:wrap">
           ${lead.industry ? `<span class="pill">${lead.industry}</span>` : ''}
@@ -586,6 +586,14 @@ async function clearLeads() {
     lucide.createIcons();
   }
 }
+
+// ── Star button delegation (capture phase so it fires before card onclick) ──
+document.addEventListener('click', function(e) {
+  const btn = e.target.closest('.star-btn');
+  if (!btn || !btn.dataset.company) return;
+  e.stopPropagation();
+  toggleStar(btn.dataset.company, e);
+}, true);
 
 // ── Boot ─────────────────────────────────────────────────────────
 loadData();
