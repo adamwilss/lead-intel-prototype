@@ -242,7 +242,25 @@
                     <div class="section-header">
                         <div>
                             <div class="section-title">Saved Leads <span id="saved-count-badge" class="nav-badge" style="margin-left:8px;"></span></div>
-                            <div class="section-sub">Leads you've starred — stored locally, survives data.json refreshes</div>
+                            <div class="section-sub">Stored locally — survives data.json refreshes</div>
+                        </div>
+                        <div class="dash-filter-bar">
+                            <label class="search-box">
+                                <i data-lucide="search"></i>
+                                <input id="saved-search" type="text" placeholder="Search…" oninput="renderSavedLeads()">
+                            </label>
+                            <div class="filter-pill-group" id="saved-tier-group">
+                                <button class="filter-pill active" data-value="" onclick="setPillFilter('saved-tier-group',this);renderSavedLeads()">All</button>
+                                <button class="filter-pill" data-value="high" onclick="setPillFilter('saved-tier-group',this);renderSavedLeads()">High</button>
+                                <button class="filter-pill" data-value="mid" onclick="setPillFilter('saved-tier-group',this);renderSavedLeads()">Mid</button>
+                                <button class="filter-pill" data-value="low" onclick="setPillFilter('saved-tier-group',this);renderSavedLeads()">Low</button>
+                            </div>
+                            <select id="saved-sort" onchange="renderSavedLeads()">
+                                <option value="saved-desc">Recently Saved</option>
+                                <option value="score-desc">Score ↓</option>
+                                <option value="score-asc">Score ↑</option>
+                                <option value="company-asc">A→Z</option>
+                            </select>
                         </div>
                     </div>
                     <div class="leads-grid" id="savedContainer"></div>

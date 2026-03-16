@@ -94,6 +94,13 @@ function scoreBadgeStyle(s) {
 }
 
 // ── Saved / Starred leads (localStorage) ─────────────────────────
+const SAVE_FIELDS = ['company','industry','employees','tier','score','trigger','description','outreach_email','call_opener','url','title','source'];
+function trimLead(lead) {
+  const out = { _savedAt: new Date().toISOString() };
+  SAVE_FIELDS.forEach(k => { if (lead[k] != null) out[k] = lead[k]; });
+  return out;
+}
+
 function getStarred() {
   try { return JSON.parse(localStorage.getItem('li-starred') || '[]'); } catch (e) { return []; }
 }
@@ -110,7 +117,7 @@ function toggleStar(company, event) {
     list.splice(idx, 1);
   } else {
     const lead = leads.find(l => l.company === company);
-    if (lead) list.unshift({ ...lead, _savedAt: new Date().toISOString() });
+    if (lead) list.unshift(trimLead(lead));
   }
   saveStarredList(list);
 
@@ -271,42 +278,60 @@ function renderLeadsTable() {
 function renderSavedLeads() {
   const container = document.getElementById('savedContainer');
   if (!container) return;
-  const saved = getStarred();
+
+  const q    = (document.getElementById('saved-search')?.value || '').toLowerCase();
+  const tier = getPillValue('saved-tier-group');
+  const sort = document.getElementById('saved-sort')?.value || 'saved-desc';
+
+  const allSaved = getStarred();
+  let visible = allSaved.filter(lead => {
+    if (q && !lead.company.toLowerCase().includes(q) && !(lead.industry || '').toLowerCase().includes(q)) return false;
+    if (tier && lead.tier !== tier) return false;
+    return true;
+  });
+
+  if (sort === 'score-desc') visible.sort((a, b) => b.score - a.score);
+  else if (sort === 'score-asc') visible.sort((a, b) => a.score - b.score);
+  else if (sort === 'company-asc') visible.sort((a, b) => a.company.localeCompare(b.company));
+  // 'saved-desc' keeps unshift order (most recent first)
 
   const badge = document.getElementById('saved-count-badge');
-  if (badge) badge.textContent = saved.length || '';
+  if (badge) badge.textContent = allSaved.length || '';
 
-  if (!saved.length) {
+  if (!allSaved.length) {
     container.innerHTML = `
       <div style="grid-column:1/-1;padding:60px 40px;text-align:center;color:var(--t2)">
         <div style="font-size:2.2rem;margin-bottom:14px;opacity:0.4">★</div>
         <div style="font-weight:700;font-size:0.95rem;margin-bottom:6px;color:var(--t1)">No saved leads yet</div>
-        <div style="font-size:0.83rem">Click the ★ on any lead card to save it here — even after data.json refreshes</div>
+        <div style="font-size:0.83rem">Click the ★ on any lead card to save it here — survives data.json refreshes</div>
       </div>`;
     return;
   }
 
-  container.innerHTML = saved.map((lead, displayIdx) => {
-    const currentIdx = leads.findIndex(l => l.company === lead.company);
-    const isStale = currentIdx === -1;
-    const clickAttr = isStale ? '' : `onclick="openLead(${currentIdx})"`;
+  if (!visible.length) {
+    container.innerHTML = `<div style="grid-column:1/-1;padding:40px;text-align:center;color:var(--t2);font-size:0.85rem">No saved leads match your filters.</div>`;
+    return;
+  }
+
+  container.innerHTML = visible.map((lead, displayIdx) => {
+    const isStale = leads.findIndex(l => l.company === lead.company) === -1;
     const savedDate = lead._savedAt ? new Date(lead._savedAt).toLocaleDateString('en-GB', { day:'numeric', month:'short' }) : '';
     return `
-      <div class="lead-card ${lead.tier || 'mid'} animate-in is-starred" data-company="${htmlAttr(lead.company)}" style="animation-delay:${displayIdx * 0.08}s${isStale ? ';opacity:0.6' : ''}" ${clickAttr}>
+      <div class="lead-card ${lead.tier || 'mid'} animate-in is-starred" data-saved-company="${htmlAttr(lead.company)}" style="cursor:pointer;animation-delay:${displayIdx * 0.05}s${isStale ? ';opacity:0.72' : ''}">
         <div class="lead-header">
           <div>
             <div class="company-name">${lead.company}${isStale ? ' <span style="font-size:0.65rem;color:var(--amber);font-weight:600;margin-left:4px">stale</span>' : ''}</div>
             <div class="lead-meta">${lead.industry || '—'} · ${lead.employees || '—'} employees</div>
           </div>
           <div style="display:flex;align-items:flex-start;gap:6px;flex-shrink:0">
-            <button class="star-btn starred" data-company="${htmlAttr(lead.company)}" title="Remove from saved"><i data-lucide="star"></i></button>
+            <button class="star-btn starred" data-company="${htmlAttr(lead.company)}" title="Remove from saved" style="padding:4px 8px;font-size:0.7rem;gap:4px"><i data-lucide="x" style="width:11px;height:11px"></i><span style="font-weight:600">Remove</span></button>
             <div class="score-badge" style="${scoreBadgeStyle(lead.score)}">${lead.score}</div>
           </div>
         </div>
         <div class="lead-tagline"><strong>Signal:</strong> ${lead.trigger}</div>
         <div class="lead-footer">
           <span class="pill" style="border-color:var(--amber);color:var(--amber)">★ Saved${savedDate ? ' · ' + savedDate : ''}</span>
-          ${isStale ? '<span style="font-size:0.72rem;color:var(--amber)">Not in current data</span>' : '<i data-lucide="chevron-right" style="width:15px;color:var(--t2)"></i>'}
+          <i data-lucide="chevron-right" style="width:15px;color:var(--t2)"></i>
         </div>
       </div>`;
   }).join('');
@@ -418,16 +443,24 @@ function renderIntegrations() {
 }
 
 // ── Lead detail modal ────────────────────────────────────────────
-// Takes the array INDEX (not the id field) — avoids duplicated-id bugs from n8n
+// Takes array index OR a full lead object (e.g. stale saved leads)
 let currentLeadIdx = 0;
 
-function openLead(idx) {
-  const lead = leads[idx];
-  if (!lead) return;
-  currentLeadIdx = idx;
+function openLead(idxOrLead) {
+  let lead, idx;
+  if (typeof idxOrLead === 'object' && idxOrLead !== null) {
+    lead = idxOrLead;
+    idx = leads.findIndex(l => l.company === lead.company);
+    currentLeadIdx = idx; // -1 if stale, keyboard nav disabled
+  } else {
+    idx = idxOrLead;
+    lead = leads[idx];
+    if (!lead) return;
+    currentLeadIdx = idx;
+  }
 
   const hasPrev = idx > 0;
-  const hasNext = idx < leads.length - 1;
+  const hasNext = idx !== -1 && idx < leads.length - 1;
 
   modalBody.innerHTML = `
     <!-- Modal Navigation Arrows positioned on the sides -->
@@ -586,6 +619,17 @@ async function clearLeads() {
     lucide.createIcons();
   }
 }
+
+// ── Saved card click delegation ───────────────────────────────────
+document.addEventListener('click', function(e) {
+  if (e.target.closest('.star-btn')) return; // handled separately
+  const card = e.target.closest('[data-saved-company]');
+  if (!card) return;
+  const company = card.dataset.savedCompany;
+  const saved = getStarred();
+  const lead = saved.find(l => l.company === company);
+  if (lead) openLead(lead);
+});
 
 // ── Star button delegation (capture phase so it fires before card onclick) ──
 document.addEventListener('click', function(e) {
